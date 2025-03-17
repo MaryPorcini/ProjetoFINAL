@@ -1,0 +1,52 @@
+{
+    "filmes": [
+      {
+        "titulo": "Eduardo & Mônica",
+        "imagem": "static/images/eduardo e monica.jfif",
+        "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
+        "data_lancamento": "2022-01-06",
+        "avaliacao": 3.6,
+        "generos": ["Drama", "Romance", "Comédia"]
+      },
+      {
+        "titulo": "Elementos",
+        "imagem": "static/images/elemental.jpg",
+        "sinopse": "Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Até que tudo muda para Gota e Faísca.",
+        "data_lancamento": "2023-06-22",
+        "avaliacao": 4.1,
+        "generos": ["Ficção Científica", "Comédia"]
+      },
+      {
+        "titulo": "Chocolate",
+        "imagem": "static/images/chocolat_2016.jpg",
+        "sinopse": "Chocolat é um filme de 2016 dirigido por Roschdy ZZem sobre o palhaço Chocolat, que torna-se, em 1886, o primeiro artista negro da cena francesa.",
+        "data_lancamento": "2016-07-21",
+        "avaliacao": 3.8,
+        "generos": ["Drama"]
+      },
+      {
+        "titulo": "Pânico 5",
+        "imagem": "static/images/panico 5.jpg",
+        "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
+        "data_lancamento": "2022-01-13",
+        "avaliacao": 4.1,
+        "generos": ["Terror"]
+      },      
+      {
+        "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
+        "imagem": "static/images/piratas do caribe- navegando.jfif",
+        "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
+        "data_lancamento": "2011-05-07",
+        "avaliacao": 3.8,
+        "generos": ["Aventura", "Ação", "Fantasia"]
+      },      
+      {
+        "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
+        "imagem": "static/images/indiana jones.jpg",
+        "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
+        "data_lancamento": "2008-05-18",
+        "avaliacao": 4.1,
+        "generos": ["Aventura", "Ação"]
+      }
+    ]
+  }
