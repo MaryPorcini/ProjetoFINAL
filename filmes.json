@@ -2,7 +2,7 @@
     "filmes": [
       {
         "titulo": "Eduardo & Mônica",
-        "imagem": "static/images/eduardo e monica.jfif",
+        "imagem": "static/images/eduardo_e_monica.jfif",
         "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
         "data_lancamento": "2022-01-06",
         "avaliacao": 3.6,
@@ -26,7 +26,7 @@
       },
       {
         "titulo": "Pânico 5",
-        "imagem": "static/images/panico 5.jpg",
+        "imagem": "static/images/panico_5.jpg",
         "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
         "data_lancamento": "2022-01-13",
         "avaliacao": 4.1,
@@ -34,7 +34,7 @@
       },      
       {
         "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas do caribe- navegando.jfif",
+        "imagem": "static/images/piratas_do_caribe_navegando.jfif",
         "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
         "data_lancamento": "2011-05-07",
         "avaliacao": 3.8,
@@ -42,7 +42,7 @@
       },      
       {
         "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
-        "imagem": "static/images/indiana jones.jpg",
+        "imagem": "static/images/indiana_jones.jpg",
         "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
         "data_lancamento": "2008-05-18",
         "avaliacao": 4.1,
