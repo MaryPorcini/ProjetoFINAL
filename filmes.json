@@ -1,52 +1,657 @@
 {
     "filmes": [
       {
-        "titulo": "Eduardo & Mônica",
-        "imagem": "static/images/eduardo e monica.jfif",
-        "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
-        "data_lancamento": "2022-01-06",
+        "titulo": "A autopsia de Jane Doe",
+        "imagem": "static/images/a_autopsia_de_jane_doe.jpg",
+        "sinopse": "Dois legistas, pai e filho, realizam a autópsia de um corpo desconhecido, Jane Doe. Durante o exame, eles descobrem mistérios e fenômenos sobrenaturais, que os levam a uma investigação assustadora sobre a identidade da mulher e os eventos que a cercam.",
+        "data_lancamento": "2016-12-21",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"]
+      
+      },
+      {
+       "titulo": "A Bruxa de blair",
+        "imagem": "static/images/a_bruxa_de_blair.jpg",
+        "sinopse": "Um grupo de cineastas se aventura em uma floresta no estado de Maryland para filmar um documentário sobre a lenda da Bruxa de Blair. Durante a gravação, eles se perdem e começam a vivenciar eventos inexplicáveis e aterradores, levando-os a questionar se estão sendo caçados por uma entidade sobrenatural ou se a lenda é real.",
+        "data_lancamento": "1999-10-22",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Mistério", "Suspense"]
+      
+      },
+      {
+      "titulo": "A Bruxa",
+        "imagem": "static/images/a_bruxa.jpg",
+        "sinopse": "Uma família puritana do século XVII se muda para uma fazenda isolada, onde começam a enfrentar forças sobrenaturais. A filha mais velha, Thomasin, é acusada de bruxaria enquanto a tensão e o medo crescem entre eles.",
+        "data_lancamento": "2015-02-19",
+        "avaliacao": 4.2,
+        "generos": ["Terror", "Drama", "Suspense"]
+      
+      },
+      {
+      "titulo": "A Casa de Cera",
+        "imagem": "static/images/a_casa_de_cera.webp",
+        "sinopse": "Um grupo de amigos fica preso em uma cidade deserta, onde descobrem uma casa feita de cera e logo percebem que as figuras de cera são na verdade pessoas transformadas em monstros.",
+        "data_lancamento": "2005-05-06",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+     
+      },
+      {
+      "titulo": "A Freira",
+        "imagem": "static/images/a_freira.webp",
+        "sinopse": "Um padre e uma noviça investigam a morte misteriosa de uma freira em um convento na Romênia e enfrentam forças demoníacas, tentando impedir que uma entidade maligna se liberte.",
+        "data_lancamento": "2018-09-06",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Mistério", "Sobrenatural"] 
+     
+      },
+      {
+      "titulo": "A Ilha",
+        "imagem": "static/images/a_ilha.jpg",
+        "sinopse": "Em um futuro distópico, um homem descobre que vive em uma instalação onde é mantido para ter seus órgãos retirados. Ele foge e busca descobrir a verdade sobre o mundo exterior.",
+        "data_lancamento": "2005-07-22",
+        "avaliacao": 3.8,
+        "generos": ["Ficção Científica", "Mistério", "Ação"] 
+      
+      },
+      {
+      "titulo": "A Maldição da chorona",
+        "imagem": "static/images/a_maldicao_de_chorona.jpg",
+        "sinopse": "Em 1970, uma assistente social e seus filhos se tornam alvo de uma entidade sobrenatural, de chorona, uma mulher que, segundo a lenda, matou seus filhos e agora vaga à procura de novas vítimas. A família luta para sobreviver enquanto enfrentam a força maligna que os persegue.",
+        "data_lancamento": "2019-04-18",
+        "avaliacao": 2.9,
+        "generos": ["Terror", "Mistério", "Sobrenatural"] 
+      
+      },
+      {
+      "titulo": "A Maldição de chucky",
+        "imagem": "static/images/a_maldicao_de_chucky.jpg",
+        "sinopse": "Nica, uma jovem paraplégica, recebe um boneco chamado Chucky como presente de aniversário. Quando uma série de assassinatos começa a acontecer na casa de sua família, Nica descobre que o boneco é possuído por um espírito maligno, e ela precisa lutar pela sobrevivência enquanto Chucky continua sua onda de terror.",
+        "data_lancamento": "2013-09-24",
+        "avaliacao": 3.4,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+      
+      },
+      {
+      "titulo": "A Mulher de preto",
+        "imagem": "static/images/a_mulher_de_preto.jpg",
+        "sinopse": "Arthur Kipps, um jovem advogado, é enviado para a remoção de documentos de uma casa isolada. Lá, ele encontra uma misteriosa mulher vestida de preto, cujo espírito vingativo ameaça a vida dos moradores da região.",
+        "data_lancamento": "2012-02-10",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "A Noite dos mortos vivos ",
+        "imagem": "static/images/a_noite_dos_mortos_vivos.jpg",
+        "sinopse": "Um grupo de pessoas fica preso em uma casa isolada enquanto hordas de mortos-vivos atacam o local. Eles devem lutar pela sobrevivência enquanto enfrentam os horrores do apocalipse zumbi.",
+        "data_lancamento": "1990-10-1",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "A Noiva de chucky",
+        "imagem": "static/images/a_noiva_de_chucky.jpg",
+        "sinopse": "Após ser trazido de volta à vida, o boneco Chucky encontra sua alma gêmea, Tiffany, que também se torna um boneco assassino. Juntos, eles embarcam em uma jornada de terror, levando um casal de jovens como reféns enquanto tentam transferir suas almas para corpos humanos.",
+        "data_lancamento": "2012-10-16",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Comédia"] 
+
+      },
+      {
+      "titulo": "A Noiva de frankenstein",
+        "imagem": "static/images/a_noiva_de_frankenstein.jpg",
+        "sinopse": "Após a criação de seu monstro, o Dr. Frankenstein é forçado a criar uma noiva para ele. Quando a criatura a conhece, ela rejeita-o, levando a eventos trágicos e caóticos que culminam em uma tragédia irreversível.",
+        "data_lancamento": "1980-04-21",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Fantasia", "Comédia"] 
+
+      },
+      {
+      "titulo": "A Sombra do medo",
+        "imagem": "static/images/a_sombra_do_medo.jpeg",
+        "sinopse": "Após a morte de seu marido, a protagonista começa a ser assombrada por visões e eventos estranhos que a fazem questionar sua sanidade. Conforme ela investiga, descobre segredos sombrios ligados a seu passado e à sua casa, enfrentando o medo de algo que a persegue.",
+        "data_lancamento": "2007-01-12",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "A Visita",
+        "imagem": "static/images/a_visita.jpg",
+        "sinopse": "Dois irmãos vão passar um fim de semana na casa dos avós, mas logo começam a perceber comportamentos estranhos e perturbadores dos idosos. À medida que os eventos se tornam mais bizarros e aterrorizantes, os irmãos tentam descobrir o que está acontecendo.",
+        "data_lancamento": "2015-09-11",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Anabelle",
+        "imagem": "static/images/anabelle.jpg",
+        "sinopse": "Baseado em eventos reais, o filme segue uma boneca possuída, Annabelle, que começa a causar uma série de incidentes assustadores e violentos na vida de um casal. Quando a boneca é adquirida por eles, forças sobrenaturais começam a se manifestar, colocando suas vidas em risco.",
+        "data_lancamento": "2014-10-03",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Anticristo",
+        "imagem": "static/images/anticristo.jpg",
+        "sinopse": "Após a morte trágica de seu filho, um casal se isola em uma cabana na floresta para lidar com a dor. No entanto, à medida que enfrentam o luto, o ambiente selvagem e suas próprias obsessões os levam a uma espiral de sofrimento e terror, com eventos macabros e psicológicos que desafiam a sanidade.",
+        "data_lancamento": "2009-05-29",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Drama"] 
+
+      },
+      {
+      "titulo": "Brinquedo Assasino 3",
+        "imagem": "static/images/brinquedo_assasino_3.jpg",
+        "sinopse": "Andy Barclay, agora adolescente, é enviado para um internato militar. No entanto, o boneco Chucky, que possui a alma de um assassino, consegue chegar até ele novamente, causando mais mortes e terror enquanto tenta transferir sua alma para o corpo de Andy.",
+        "data_lancamento": "2010-08-30",
+         "avaliacao": 2.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Brinquedo Assasino 2",
+        "imagem": "static/images/brinquedo_assasino.jpg",
+        "sinopse": "Após sobreviver ao ataque de Chucky, o boneco assassino, Andy Barclay é internado em uma instituição para crianças. Mas Chucky, agora reparado, persegue novamente Andy, tentando transferir sua alma para o corpo dele, enquanto deixa um rastro de mortes por onde passa.",
+        "data_lancamento": "2008-11-09",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Cemitério Maltido",
+        "imagem": "static/images/cemiterio_maldito.jpg",
+        "sinopse": "Após se mudar com sua família para uma casa em uma área remota, Louis Creed descobre um cemitério secreto próximo, onde animais de estimação são enterrados. Quando tragédias começam a ocorrer, ele é atraído para um poder sombrio que promete trazer entes queridos de volta, mas com consequências terríveis.",
+        "data_lancamento": "2019-04-21",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Corra",
+        "imagem": "static/images/corra.jpg",
+        "sinopse": "Chris, um jovem afro-americano, vai passar o fim de semana na casa dos pais de sua namorada branca. À medida que o final de semana avança, ele começa a perceber comportamentos estranhos e inquietantes, descobrindo um segredo perturbador por trás das intenções da família dela.",
+        "data_lancamento": "2017-02-24",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Garota Exemplar",
+        "imagem": "static/images/garota_exemplar.jpg",
+        "sinopse": "Nick Dunne se torna o principal suspeito do desaparecimento de sua esposa, Amy. À medida que a investigação avança, segredos do relacionamento deles são revelados, e a história toma reviravoltas inesperadas, levando a um jogo psicológico de manipulação e mentira.",
+        "data_lancamento": "2014-10-03",
+        "avaliacao": 4.5,
+        "generos": ["Suspense", "Mistério", "Drama"] 
+
+      },
+      {
+      "titulo": "Halloween",
+        "imagem": "static/images/halloween.jpg",
+        "sinopse": "A história segue Michael Myers, um psicopata que, após matar sua irmã quando era criança, é internado em uma instituição mental. Anos depois, ele escapa e retorna à sua cidade natal, Haddonfield, onde começa a perseguir e matar jovens, incluindo Laurie Strode, enquanto tenta completar sua missão mortal.",
+        "data_lancamento": "1997-10-25",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "Hereditário",
+        "imagem": "static/images/hereditario.jpg",
+        "sinopse": "Após a morte da matriarca da família, a família Graham começa a desvendar segredos sombrios e aterrorizantes sobre suas origens. Com eventos paranormais e trágicos, eles descobrem que estão sendo consumidos por um destino fatal e uma presença maligna que se passa de geração em geração.",
+        "data_lancamento": "2018-06-08",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Suspense", "Drama"] 
+      
+      },
+      {
+      "titulo": "Invocação do Mal 3",
+        "imagem": "static/images/invocacao_do_mal_3.jpg",
+        "sinopse": "Baseado em eventos reais, este filme segue os investigadores paranormais Ed e Lorraine Warren enquanto eles defendem Arne Johnson, acusado de assassinato, alegando que foi possuído por um demônio no momento do crime. Os Warrens enfrentam uma batalha sobrenatural para provar a possessão e desvendar um antigo mal.",
+        "data_lancamento": "2021-06-12",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Drama"] 
+     
+      },
+      {
+      "titulo": "It",
+        "imagem": "static/images/it.jpg",
+        "sinopse": "Baseado no livro de Stephen King, o filme segue um grupo de crianças em Derry, Maine, que se unem para enfrentar uma entidade maligna que assume a forma de um palhaço chamado Pennywise. A criatura, que retorna a cada 27 anos, se alimenta do medo e das vulnerabilidades das crianças.",
+        "data_lancamento": "2017-09-08",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+       
+      },
+      {
+      "titulo": "Megan",
+        "imagem": "static/images/megan.png",
+        "sinopse": "Uma engenheira de robôs cria M3GAN, uma inteligência artificial em forma de boneca projetada para ser a amiga perfeita para sua sobrinha, Cady. No entanto, M3GAN desenvolve um comportamento obsessivo e violento, protegendo Cady a todo custo, o que leva a consequências terríveis.",
+        "data_lancamento": "2023-01-06",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Ficção Científica", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Babadook",
+        "imagem": "static/images/o_babadook.jpg",
+        "sinopse": "Após a morte do marido, Amelia luta para cuidar de seu filho, Samuel, que tem medo de um monstro chamado Babadook. Quando um livro misterioso sobre o tal monstro aparece em sua casa, coisas estranhas começam a acontecer, e Amelia começa a duvidar de sua própria sanidade enquanto o mal se aproxima.",
+        "data_lancamento": "2014-05-22",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Chamado 2",
+        "imagem": "static/images/o_chamado_2.jpg",
+        "sinopse": "Após sobreviver ao primeiro filme, Rachel Keller luta com os traumas do que aconteceu. Quando sua filha, Aidan, começa a ser afetada pela maldição da fita de vídeo, Rachel tenta descobrir uma maneira de quebrar o ciclo e salvar a vida de Aidan, enquanto enfrenta forças sobrenaturais cada vez mais perigosas.",
+        "data_lancamento": "2005-11-04",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Chamado 3",
+        "imagem": "static/images/o_chamado_3.jpg",
+        "sinopse": "A história segue a jovem Julia, que está lidando com a morte de sua mãe e as consequências de uma vida marcada pela maldição da fita de vídeo. Ao descobrir que sua amiga assistiu à fita amaldiçoada, ela tenta salvar sua amiga e a si mesma antes que o ciclo de mortes comece novamente.",
+        "data_lancamento": "2017-02-03",
+        "avaliacao": 2.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+        
+      },
+      {
+      "titulo": "O Chamado",
+        "imagem": "static/images/o_chamado.jpg",
+        "sinopse": "Uma jornalista chamada Rachel Keller investiga uma fita de vídeo amaldiçoada, que causa a morte de quem a assiste após sete dias. Ao assistir à fita, Rachel descobre que a morte está se aproximando e tenta desvendar o mistério por trás da maldição para salvar sua vida e a de seu filho.",
+        "data_lancamento": "2002-10-18",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+ 
+      },
+      {
+      "titulo": "O Circulo",
+        "imagem": "static/images/o_circulo.jpg",
+        "sinopse": "Após assistir a uma fita de vídeo amaldiçoada, uma mulher chamada Rachel e outros personagens enfrentam uma série de eventos sobrenaturais enquanto tentam descobrir a origem da maldição que está ligada à fita. À medida que o mistério se desenrola, eles descobrem uma conexão terrível entre o passado e o futuro das vítimas.",
+        "data_lancamento": "2002-10-18",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Convidado",
+        "imagem": "static/images/o_convidado.jpeg",
+        "sinopse": "David, um homem carismático, aparece na casa de uma família alegando ser amigo do filho caçula, que morreu em combate. Ele começa a se infiltrar na vida deles, mas sua presença aparentemente amigável logo revela um comportamento violento e manipulador, à medida que segredos obscuros sobre seu passado começam a ser revelados.",
+        "data_lancamento": "2014-09-17",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Culpado",
+        "imagem": "static/images/o_culpado.webp",
+        "sinopse": "Neste thriller psicológico, um operador de central de emergência, que trabalha em um centro de chamadas de emergência, recebe uma ligação de uma mulher sequestrada. Enquanto tenta desesperadamente salvar a mulher, ele percebe que nada é o que parece, e sua própria vida começa a se desmoronar enquanto ele se envolve profundamente no caso.",
+        "data_lancamento": "2018-09-28",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Drama", "Suspense"] 
+      
+      },
+      {
+      "titulo": "O Culto",
+        "imagem": "static/images/o_culto.jpg",
+        "sinopse": "Quando uma jovem se muda para uma nova cidade com sua família, ela se envolve com um grupo misterioso e aparentemente inofensivo, mas logo descobre que o culto liderado por uma figura carismática tem intenções sombrias e perigosas. Ela começa a lutar para escapar das garras do culto antes que seja tarde demais.",
+        "data_lancamento": "2019-08-15",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Mistério", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Diabo de cada dia",
+        "imagem": "static/images/o_diabo_de_cada_dia.webp",
+        "sinopse": "Ambientado em uma pequena cidade rural dos Estados Unidos, o filme acompanha várias personagens cujas vidas se cruzam de forma trágica e violenta, incluindo um jovem marcado por um passado sombrio e uma série de assassinatos e abusos cometidos por pessoas aparentemente comuns. O filme explora os horrores humanos e a luta pela sobrevivência em um mundo implacável.",
+        "data_lancamento": "2020-09-16",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Drama", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Enigma de outro mundo",
+        "imagem": "static/images/o_enigma_de_outro_mundo.jpg",
+        "sinopse": "Um grupo de cientistas e pesquisadores em uma estação remota na Antártida descobrem uma entidade alienígena capaz de se disfarçar como qualquer ser vivo. À medida que o medo e a desconfiança crescem, o grupo luta para sobreviver enquanto tentam descobrir quem é humano e quem é a criatura disfarçada.",
+        "data_lancamento": "1987-07-25",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Ficção Científica", "Suspense"]
+        
+      },
+      {
+      "titulo": "O Exorcismo de Emily rose",
+        "imagem": "static/images/o_exorcismo_de_emily_rose.jpg",
+        "sinopse": "Baseado em eventos reais, o filme segue o julgamento de um padre acusado de negligência após realizar um exorcismo em Emily Rose, uma jovem que morreu durante o processo. O caso se torna uma batalha entre a fé religiosa e a explicação científica, enquanto o advogado de defesa tenta provar que Emily foi vítima de forças sobrenaturais.",
+        "data_lancamento": "2005-09-09",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Drama", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Exorcista",
+        "imagem": "static/images/o_exorcista_.webp",
+        "sinopse": "Quando uma jovem chamada Regan começa a exibir comportamentos estranhos e violentos, sua mãe busca ajuda médica, mas os médicos não conseguem encontrar explicações. Desesperada, ela recorre a um padre, que acredita que a menina está possuída por um demônio. Juntos, eles tentam realizar um exorcismo para salvar Regan.",
+        "data_lancamento": "1990-12-26",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Ficção Científica", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Fantasma da opera",
+        "imagem": "static/images/o_fantasma_da_opera.webp",
+        "sinopse": "A história acompanha Christine Daaé, uma jovem e talentosa cantora no teatro de ópera de Paris, que se vê atraída por dois homens: o enigmático e misterioso fantasma que vive nos subterrâneos do teatro e o atraente visconde Raoul. Enquanto a obsessão do fantasma por Christine se intensifica, ele começa a causar caos e perigo ao redor dela.",
+        "data_lancamento": "2004-12-22",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Romance", "Mistério", "Musical"] 
+
+      },
+      {
+      "titulo": "O Filho de chucky",
+        "imagem": "static/images/o_filho_de_chucky.jpg",
+        "sinopse": "Chucky e Tiffany, os bonecos assassinos, agora têm um filho, Glen, que está tentando entender sua verdadeira identidade. Enquanto Chucky e Tiffany tentam transmitir suas almas para corpos humanos, o filho deles se vê dividido entre seguir os passos violentos de seus pais ou tentar viver uma vida normal.",
+        "data_lancamento": "2004-11-12",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Comédia", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Grito",
+        "imagem": "static/images/o_grito.webp ",
+        "sinopse": "Quando uma jovem americana chamada Karen, trabalhando como cuidadora no Japão, é chamada para uma casa marcada por uma tragédia, ela acaba se envolvendo com uma maldição sobrenatural. Aqueles que entram na casa se tornam vítimas de um espírito vingativo, cujos gritos e aparições levam a morte. Karen tenta desvendar o mistério por trás da maldição enquanto luta para sobreviver.",
+        "data_lancamento": "2004-10-22",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Ficção Científica", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Homem da palha",
+        "imagem": "static/images/o_homem_da_palha.jpg",
+        "sinopse": "Um policial investiga o desaparecimento de uma jovem na ilha de Summerisle, onde a população segue rituais pagãos. Ao chegar lá, ele descobre que a ilha é dominada por práticas antigas e encontra resistência enquanto tenta descobrir a verdade sobre o desaparecimento, se deparando com uma misteriosa figura central, o Homem da Palha",
+        "data_lancamento": "1973-12-06",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Homem das sombras",
+        "imagem": "static/images/o_homem_das_sombras.jpg",
+        "sinopse": "Um escritor que perdeu sua esposa e filha em um trágico acidente se muda para uma casa isolada para tentar superar a dor. Lá, ele começa a descobrir que o lugar é assombrado por uma entidade misteriosa, o Homem das Sombras, que se alimenta de suas angústias e medos mais profundos. Ele tenta desvendar o mistério e confrontar essa presença sombria.",
+        "data_lancamento": "2012-10-05",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Homem duplicado",
+        "imagem": "static/images/o_homem_duplicado.jpg",
+        "sinopse": "O filme segue um professor de história, que leva uma vida tranquila até descobrir que tem um sósia idêntico, um ator de filmes bizarros. Obcecado pela semelhança, ele começa a investigar a vida do homem, mergulhando em uma jornada perturbadora de identidade e obsessão, questionando a natureza de sua própria existência.",
+        "data_lancamento": "2013-05-17",
+        "avaliacao": 3.5,
+        "generos": ["Drama", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Hospede",
+        "imagem": "static/images/o_hospede.jpg",
+        "sinopse": "Quando David, um misterioso veterano de guerra, aparece na casa de um casal após a morte de seu filho, ele se apresenta como um amigo do falecido. À medida que David se aproxima da família, segredos sombrios do seu passado começam a emergir, e ele revela intenções que ameaçam destruir a vida deles.",
+        "data_lancamento": "2015-11-18",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Hospedeiro",
+        "imagem": "static/images/o_hospedeiro.jpg",
+        "sinopse": "Um monstro mutante emerge do rio Han, em Seul, e começa a atacar a cidade. Quando a filha de um homem simples é sequestrada pela criatura, sua família se une para tentar resgatá-la, enfrentando o monstro e a resposta governamental, enquanto lidam com suas próprias limitações e medos.",
+        "data_lancamento": "2006-06-27",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Drama", "Ficção Científica"] 
+
+      },
+      {
+      "titulo": "O Jogo",
+        "imagem": "static/images/o_jogo.jpg",
+        "sinopse": "Nicholas Van Orton, um rico e bem-sucedido empresário, recebe de seu irmão um convite para participar de um jogo misterioso e altamente personalizado. À medida que o jogo se desenrola, Nicholas começa a perder o controle sobre sua própria vida, sem saber se está sendo manipulado ou se está sendo levado à loucura. A linha entre realidade e ilusão se torna cada vez mais tênue.",
+        "data_lancamento": "1977-10-12",
+        "avaliacao": 4.0,
+        "generos": ["Drama", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Labirinto do fauno",
+        "imagem": "static/images/o_labirinto_do_fauno.jpg",
+        "sinopse": "Ambientado na Espanha pós-Guerra Civil, o filme segue a jovem Ofelia, que, junto com sua mãe, se muda para o campo onde seu padrasto, um oficial cruel do exército franquista, a espera. Ofelia descobre um labirinto misterioso e conhece um fauno que a apresenta a uma série de desafios místicos, com a promessa de que ela é a reencarnação de uma princesa perdida. O filme mistura fantasia e realidade, explorando temas de escapismo e resistência.",
+        "data_lancamento": "2006-10-11",
+        "avaliacao": 4.5,
+        "generos": ["Terror", "Drama", "Fantasia"] 
+
+      },
+      {
+      "titulo": "O Massacre da serra elétrica",
+        "imagem": "static/images/o_massacre_da_serra_eletrica.jpg",
+        "sinopse": "Um grupo de amigos viaja para o interior do Texas e acaba encontrando a casa de uma família excêntrica e aterrorizante, liderada por Leatherface, um assassino que usa uma máscara feita de pele humana e empunha uma serra elétrica. Os jovens se tornam suas vítimas, e eles precisam lutar pela sobrevivência enquanto tentam escapar de um dos serial killers mais cruéis do cinema.",
+        "data_lancamento": "1986-10-11",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Mistério da rua 7",
+        "imagem": "static/images/o_misterio_da_rua_7.jpg",
+        "sinopse": "O filme segue a história de um grupo de pessoas que vivem em um prédio misterioso na Rua 7, onde eventos inexplicáveis começam a acontecer. Quando um dos moradores desaparece, os outros começam a investigar, descobrindo segredos sombrios sobre o local e seus habitantes, levando-os a enfrentar forças sobrenaturais que ameaçam suas vidas.",
+        "data_lancamento": "2019-10-10",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Orfanato",
+        "imagem": "static/images/o_orfanato.jpg",
+        "sinopse": "Laura retorna ao orfanato onde passou sua infância, com a intenção de transformá-lo em um lar para crianças com necessidades especiais. Quando seu filho adotivo, Simón, começa a fazer amigos imaginários, ele desaparece misteriosamente. Laura então inicia uma busca desesperada e começa a desvendar segredos sombrios do orfanato, enfrentando uma série de fenômenos paranormais.",
+        "data_lancamento": "2007-10-11",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Pacto",
+        "imagem": "static/images/o_pacto.jpg",
+        "sinopse": "Depois da morte de sua mãe, uma jovem chamada Annie se muda para a casa de sua avó em uma cidade pequena. Logo, ela começa a perceber fenômenos estranhos e aterrorizantes, descobrindo que sua família está ligada a um pacto sombrio e a uma entidade demoníaca que busca cumprir suas promessas de vingança e poder.",
+        "data_lancamento": "2012-10-05",
+        "avaliacao": 3.0,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Poço",
+        "imagem": "static/images/o_poco.webp",
+        "sinopse": "Em um futuro distópico, um homem acorda em uma prisão vertical, onde os prisioneiros estão divididos em diferentes andares. Todos os dias, uma plataforma cheia de comida desce pelos andares, mas quanto mais baixo você está, menos comida sobra. O protagonista tenta sobreviver e encontrar uma maneira de mudar o sistema brutal, enquanto lida com a escassez e o desespero dos outros prisioneiros.",
+        "data_lancamento": "2019-03-20",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Ficção Científica","Suspense"] 
+
+      },
+      {
+      "titulo": "O Ritual",
+        "imagem": "static/images/o_ritual.webp",
+        "sinopse": "Um jovem seminarista em crise de fé é enviado para a Itália para treinar como exorcista. Lá, ele conhece um sacerdote cético e experiente em práticas de exorcismo, e os dois se deparam com uma série de fenômenos sobrenaturais. Enquanto enfrentam forças demoníacas, o seminarista começa a confrontar seus próprios medos e crenças.",
+        "data_lancamento": "2011-02-11",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Segredo de marrowbone",
+        "imagem": "static/images/o_segredo_de_ marrowbone.jpg",
+        "sinopse": "Um ex-investigador de justiça busca desvendar um crime não solucionado de seu passado enquanto lida com seu próprio passado amoroso não resolvido, ao lado de uma colega de trabalho.",
+        "data_lancamento": "2009-08-13",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Misterio", "Suspense", "Romance"] 
+
+      },
+      {
+      "titulo": "O Sexto sentido",
+        "imagem": "static/images/o_sexto_sentido.webp",
+        "sinopse": " Um garoto de 8 anos que vê pessoas mortas pede ajuda a um psicólogo infantil, que tenta descobrir a causa de suas visões, enquanto lida com seus próprios traumas emocionais.",
+        "data_lancamento": "1999-08-06",
+        "avaliacao": 4.7,
+        "generos": ["Terror", "Misterio", "Drama", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Ultimo exorcismo",
+        "imagem": "static/images/o_ultimo_exorcismo.jpg",
+        "sinopse": "Um pastor, que perdeu a fé, concorda em documentar um exorcismo, mas ao chegar à fazenda de uma jovem possuída, ele começa a questionar a veracidade da situação e sua própria crença.",
+        "data_lancamento": "2010-08-27",
+        "avaliacao": 3.2,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "O Ultimo suspiro",
+        "imagem": "static/images/o_ultimo_suspiro.jpg",
+        "sinopse": "Após a morte de seu marido, uma mulher começa a ter experiências paranormais e a descobrir segredos sombrios de seu passado, enquanto tenta lidar com a perda e o mistério envolvendo sua vida.",
+        "data_lancamento": "1995-04-14",
         "avaliacao": 3.6,
-        "generos": ["Drama", "Romance", "Comédia"]
+        "generos": ["Suspense", "Misterio", "Terror"] 
+
       },
       {
-        "titulo": "Elementos",
-        "imagem": "static/images/elemental.jpg",
-        "sinopse": "Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Até que tudo muda para Gota e Faísca.",
-        "data_lancamento": "2023-06-22",
-        "avaliacao": 4.1,
-        "generos": ["Ficção Científica", "Comédia"]
+      "titulo": "O Ultimo trem",
+        "imagem": "static/images/o_ultimo_trem.webp",
+        "sinopse": "Em uma viagem de trem, um grupo de passageiros se vê preso em uma situação dramática quando o trem sofre um acidente, e eles precisam enfrentar seus próprios medos e segredos enquanto buscam uma maneira de sobreviver.",
+        "data_lancamento": "2003-09-05",
+        "avaliacao": 3.5,
+        "generos": ["Ação", "Suspense", "Drama"] 
+
       },
       {
-        "titulo": "Chocolate",
-        "imagem": "static/images/chocolat_2016.jpg",
-        "sinopse": "Chocolat é um filme de 2016 dirigido por Roschdy ZZem sobre o palhaço Chocolat, que torna-se, em 1886, o primeiro artista negro da cena francesa.",
-        "data_lancamento": "2016-07-21",
+      "titulo": "Os Infiltrados",
+        "imagem": "static/images/os_infiltrados.jpg",
+        "sinopse": "Um policial disfarçado se infiltra na máfia irlandesa de Boston, enquanto um criminoso, também infiltrado na polícia, tenta descobrir sua identidade. Ambos enfrentam o dilema de desmascarar o outro enquanto lidam com a crescente tensão e desconfiança.",
+        "data_lancamento": "2006-10-06",
+        "avaliacao": 4.5,
+        "generos": ["Suspense", "Misterio", "Drama", "Crime"] 
+      
+      },
+      {
+      "titulo": "Os Outros",
+        "imagem": "static/images/os_outros.jpg",
+        "sinopse": "Após a morte de sua mãe, quatro irmãos se refugiam em uma mansão isolada, Marrowbone, para escapar de seu passado sombrio. Enquanto tentam manter o segredo de sua mãe falecida, eles começam a perceber uma presença misteriosa na casa. À medida que eventos estranhos acontecem, eles descobrem que há algo mais sinistro e trágico ligado ao segredo da mansão.",
+        "data_lancamento": "2017-04-13",
+        "avaliacao": 3.5,
+        "generos": ["Terror", "Misterio", "Drama"] 
+
+      },
+      {
+      "titulo": "Panico 5",
+        "imagem": "static/images/panico_5.jpg",
+        "sinopse": " Vinte e cinco anos após os assassinatos de Ghostface em Woodsboro, um novo assassino surge, fazendo com que os sobreviventes dos filmes anteriores se unam novamente para enfrentar o mistério e o terror de uma nova onda de homicídios.",
+        "data_lancamento": "2022-01-14",
+        "avaliacao": 3.9,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "Ringu",
+        "imagem": "static/images/ringu.jpg",
+        "sinopse": "Uma jornalista investiga uma fita de vídeo amaldiçoada que causa a morte de quem a assiste após sete dias. Ela começa a desvendar os mistérios por trás da maldição enquanto tenta salvar sua própria vida e a de seu filho.",
+        "data_lancamento": "199-01-31",
+        "avaliacao": 4.2,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "Sexta-Feira 13",
+        "imagem": "static/images/sexta_feira_13.webp",
+        "sinopse": "Um grupo de jovens tenta reabrir o acampamento Crystal Lake, onde, anos antes, uma série de assassinatos misteriosos aconteceram. Logo, eles se tornam alvo de um assassino mascarado, Jason Voorhees, que busca vingança por sua morte no passado.",
+        "data_lancamento": "1990-05-09",
+        "avaliacao": 3.7,
+        "generos": ["Terror", "Misterio", "Suspense"] 
+
+      },
+      {
+      "titulo": "Suspira",
+        "imagem": "static/images/suspira.jpg",
+        "sinopse": "Uma jovem americana se junta a uma prestigiada companhia de dança em Berlim, mas logo descobre que o grupo esconde segredos obscuros e está envolvido em práticas macabras. Ela se vê dividida entre descobrir a verdade e lutar por sua própria sobrevivência.",
+        "data_lancamento": "2018-10-26",
+        "avaliacao": 3.9,
+        "generos": ["Terror", "Misterio", "Drama", "Suspense"] 
+
+      },
+      {
+      "titulo": "Vingança a Sangue frio",
+        "imagem": "static/images/vingança_a_sangue_frio.jpg",
+        "sinopse": "Nels Coxman, um motorista de neve em uma cidade isolada, vê sua vida virar de cabeça para baixo quando seu filho é assassinado por um cartel de drogas. Em busca de vingança, Nels se envolve em uma guerra entre gangues, onde cada passo pode ser fatal.",
+        "data_lancamento": "2019-02-08",
+        "avaliacao": 3.2,
+        "generos": ["Ação", "Misterio", "Drama", "Suspense"] 
+
+      },
+      {
+      "titulo": "Vingança",
+        "imagem": "static/images/vinganca.jpg",
+        "sinopse": "Durante um passeio em uma casa isolada no deserto, a jovem Jen é deixada para morrer após ser atacada por seus amigos. No entanto, ela sobrevive e retorna em busca de vingança, enfrentando os agressores de maneira implacável.",
+        "data_lancamento": "2017-09-14",
         "avaliacao": 3.8,
-        "generos": ["Drama"]
+        "generos": ["Ação", "Terror", "Drama", "Suspense"] 
+
       },
       {
-        "titulo": "Pânico 5",
-        "imagem": "static/images/panico 5.jpg",
-        "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
-        "data_lancamento": "2022-01-13",
-        "avaliacao": 4.1,
-        "generos": ["Terror"]
-      },      
+      "titulo": "Zodíaco",
+        "imagem": "static/images/zodiaco.jpg",
+        "sinopse": "Baseado em fatos reais, o filme segue a busca implacável de jornalistas e policiais para desvendar a identidade do assassino conhecido como Zodíaco, que aterrorizou a área da baía de São Francisco nos anos 1960 e 1970. A investigação leva a uma obsessão crescente por parte dos envolvidos.",
+        "data_lancamento": "2007-03-02",
+        "avaliacao": 4.0,
+        "generos": [ "Misterio", "Drama", "Suspense"] 
+      
+      },
       {
-        "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas do caribe- navegando.jfif",
-        "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-        "data_lancamento": "2011-05-07",
-        "avaliacao": 3.8,
-        "generos": ["Aventura", "Ação", "Fantasia"]
-      },      
+      "titulo": "Fale comigo",
+        "imagem": "static/images/fale_comigo.jpg",
+        "sinopse": "Fale Comigo é um thriller psicológico de terror que segue um grupo de amigos que descobrem um ritual misterioso envolvendo uma mão embalsamada, que, quando tocada, permite que os espíritos se comuniquem com os vivos. A situação começa a sair do controle quando um dos amigos acaba se conectando com uma entidade perigosa, desencadeando uma série de eventos aterrorizantes.",
+        "data_lancamento": "2023-07-27",
+        "avaliacao": 4.7,
+        "generos": [ "Misterio", "Terror", "Suspense"] 
+
+      },
       {
-        "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
-        "imagem": "static/images/indiana jones.jpg",
-        "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
-        "data_lancamento": "2008-05-18",
-        "avaliacao": 4.1,
-        "generos": ["Aventura", "Ação"]
+      "titulo": "Cuidado com quem chama",
+        "imagem": "static/images/cuidado_com_quem_chama.jpg",
+        "sinopse": "Seis amigos contratam um médium para realizar uma sessão espírita via Zoom durante o isolamento físico causado pela pandemia de coronavírus. O que começa como uma brincadeira logo se transforma em um terror absoluto quando um espírito maligno invade a videochamada, colocando suas vidas em perigo. ",
+        "data_lancamento": "2020-07-30",
+        "avaliacao": 4.0,
+        "generos": [ "Sobrenatural", "Terror"] 
+      
+      },
+      {
+      "titulo": "Sorria",
+        "imagem": "static/images/sorria.webp",
+        "sinopse": "A Dra. Rose Cotter (interpretada por Sosie Bacon) é uma psiquiatra que, após presenciar um incidente traumático envolvendo uma paciente, começa a experienciar eventos assustadores e inexplicáveis. Conforme essas ocorrências se intensificam, Rose embarca em uma investigação que a leva a confrontar seu próprio passado perturbador, na tentativa de sobreviver a uma realidade aterrorizante.",
+        "data_lancamento": "2022-09-29",
+        "avaliacao": 4.5,
+        "generos": [ "Sobrenatural", "Terror" , "Misterio"] 
+      
+      },
+      {
+      "titulo": "Abismo do med0",
+        "imagem": "static/images/abismo_do_medo.jpg",
+        "sinopse": "Seis amigas se reúnem um ano após um trágico acidente para explorar uma caverna inexplorada. Sem o conhecimento de todas, Juno (Natalie Jackson Mendoza) lidera o grupo para uma caverna desconhecida, onde um acidente as deixa presas no subsolo. Enquanto buscam uma saída, descobrem que a caverna é habitada por criaturas predadoras.",
+        "data_lancamento": "2005-07-08",
+        "avaliacao": 4.5,
+        "generos": [ "Suspense", "Terror" , "Misterio"] 
+      
+      
+        
+        
+      
+
       }
     ]
   }
