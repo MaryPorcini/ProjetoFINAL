@@ -1,52 +1,1159 @@
 {
     "filmes": [
       {
-        "titulo": "Eduardo & Mônica",
-        "imagem": "static/images/eduardo e monica.jfif",
-        "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
-        "data_lancamento": "2022-01-06",
+        "titulo": "A fera do mar",
+        "imagem": "static/images/a_fera_do_mar.jpg",
+        "sinopse": "Em A Fera do Mar, uma jovem marinheira e um caçador de monstros marítimos formam uma parceria improvável enquanto enfrentam criaturas gigantes e descobrem segredos que podem mudar o destino do mundo. .",
+        "data_lancamento": "15 de junho de 2022",
+        "avaliacao": 7.6,
+        "generos": ["Ficção científica", "Ação", "Drama"]
+      },
+      {
+        "titulo": "A guerra do amanhã",
+        "imagem": "static/images/a_guerra_do_amanha.jpg",
+        "sinopse": "Em A Guerra do Amanhã, um ex-soldado é recrutado para lutar em uma guerra no futuro, onde humanos enfrentam uma invasão alienígena, e ele deve salvar o planeta e a si mesmo. .",
+        "data_lancamento": "30 de junho de 2021",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Ficção científica", "Suspense"]
+      },
+      {
+        "titulo": "A lenda dos guardiões",
+        "imagem": "static/images/a_lenda_dos_guardioes.jpg",
+        "sinopse": "Em A Lenda dos Guardiões, um jovem coruja chamado Soren se une a um grupo de guerreiros alados para lutar contra forças do mal que ameaçam dominar o reino das corujas. ",
+        "data_lancamento": "24 de setembro de 2010",
+        "avaliacao": 4.9,
+        "generos": ["Ficção científica", "fantasia"]
+      },
+      {
+        "titulo": "A 5° onda",
+        "imagem": "static/images/a5_onda.jpg",
+        "sinopse": "Em A Quinta Onda, uma jovem luta para sobreviver após uma invasão alienígena que destrói grande parte da Terra, enfrentando ondas de ataques que dizimam a humanidade.",
+        "data_lancamento": "21 de janeiro de 2016",
+        "avaliacao": 3.8,
+        "generos": ["Ficção científica", "fantasia"]
+      },
+      {
+        "titulo": "Arranha céu - Coragem sem limite",
+        "imagem": "static/images/arranha_ceu.jpg",
+        "sinopse": "Em Arranha-Céu, um ex-agente do FBI deve salvar sua família, presa em um arranha-céu de luxo em chamas, enquanto enfrenta uma ameaça terrorista em um dos prédios mais altos do mundo. ",
+        "data_lancamento": "12 de julho de 2018",
+        "avaliacao": 4.3,
+        "generos": ["Ficção científica", "Aventura", "Ação"]
+      },
+      {
+        "titulo": "As crônicas de nárnia - a viagem do peregrino da alvorada",
+        "imagem": "static/images/as_Cronicas_de _Narnia _Peregrino_da_ alvorada.jpg",
+        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
+        "data_lancamento": "9 de dezembro de 2010",
+        "avaliacao": 4.1,
+        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
+      },
+      {
+        "titulo": "As Crônicas de Nárnia - O Leão, a Feiticeira e o Guarda-Roupa",
+        "imagem": "static/images/as_cronicas_de_narnia_1.jpg",
+        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
+        "data_lancamento": "9 de dezembro de 2005",
+        "avaliacao": 4.9,
+        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
+      },
+      {
+        "titulo": "As Crônicas de Nárnia - O Príncipe Caspian",
+        "imagem": "static/images/as_cronicas_de_narnia_caspian.jpg",
+        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
+        "data_lancamento": "30 de maio de 2008",
+        "avaliacao": 4.7,
+        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
+      },
+      {
+        "titulo": "Avatar",
+        "imagem": "static/images/avatar.jpg",
+        "sinopse": "Em Avatar, Jake Sully, um ex-militar, se infiltra em um programa de exploração em Pandora, onde se envolve com os nativos Na'vi e luta para proteger seu novo lar. ",
+        "data_lancamento": "18 de dezembro de 2009",
+        "avaliacao": 5.0,
+        "generos": ["Ficção científica", "Aventura", "Fantasia", "Classico" ]
+      },
+      {
+        "titulo": "Avatar: O Caminho da Água",
+        "imagem": "static/images/avatar_caminho_agua.jpg",
+        "sinopse": "Em Avatar: O Caminho da Água, Jake Sully e Neytiri enfrentam novas ameaças enquanto exploram os oceanos de Pandora e tentam proteger sua família de forças externas. ",
+        "data_lancamento": "15 de dezembro de 2022",
+        "avaliacao": 4.6,
+        "generos": ["Ficção científica", "Aventura", "Fantasia" ]
+      },
+      {
+        "titulo": "Bad Boy",
+        "imagem": "static/images/bad_boys_1.jpg",
+        "sinopse": "Os detetives Mike Lowrey e Marcus Burnett, de Miami, precisam proteger uma testemunha enquanto enfrentam traficantes perigosos e muita ação explosiva. ",
+        "data_lancamento": "7 de abril de 1995 ",
+        "avaliacao": 4.6,
+        "generos": ["Ficção científica", "Aventura", "Fantasia"]
+      },
+      {
+        "titulo": "Bad Boy 2",
+        "imagem": "static/images/bad_boy_2.jpg",
+        "sinopse": "Os detetives Mike Lowrey e Marcus Burnett investigam um cartel de drogas em Miami, enfrentando tiroteios, perseguições e situações caóticas com muito humor e ação. ",
+        "data_lancamento": "18 de julho de 2003  ",
+        "avaliacao": 4.6,
+        "generos": ["Comédia", "Aventura", "Drama", "Mistério", "Crime" ]
+      },
+      {
+        "titulo": "Bad boys: Para Sempre  ",
+        "imagem": "static/images/bad_boys_3.jpg",
+        "sinopse": "Os detetives Mike Lowrey e Marcus Burnett se reúnem para uma última missão, enfrentando um assassino ligado ao passado de Mike enquanto lidam com mudanças na polícia e na própria amizade. ",
+        "data_lancamento": "17 de janeiro de 2020 ",
+        "avaliacao": 4.4,
+        "generos": ["Comédia", "Aventura", "Drama", "Mistério", "Crime" ]
+      },
+      {
+        "titulo": "Bad boys 4",
+        "imagem": "static/images/bad_boys_4.jpg",
+        "sinopse": "Mike e Marcus se tornam fugitivos enquanto investigam uma conspiração dentro da polícia para limpar o nome de seu falecido capitão",
+        "data_lancamento": "6 de julho de 2024",
+        "avaliacao": 4.9,
+        "generos": ["Comédia", "Aventura", "Drama", "Mistério", "Crime" ]
+      },
+      {
+        "titulo": "Batman - O Cavaleiro das Trevas",
+        "imagem": "static/images/batman_trevas.jpg",
+        "sinopse": "Em Batman: O Cavaleiro das Trevas, Batman enfrenta o caos imposto pelo Coringa, um criminoso psicótico que ameaça destruir Gotham, enquanto lida com questões morais e seu papel como vigilante. ",
+        "data_lancamento": "18 de julho de 2008",
+        "avaliacao": 4.9,
+        "generos": ["Ação", "Aventura", "Drama", "Ficção científica", "Crime" ]
+      },
+      {
+        "titulo": "Bird Box Barcelona",
+        "imagem": "static/images/bird_box_barcelona.jpg",
+        "sinopse": "Em Bird Box Barcelona, um homem e outros sobreviventes tentam enfrentar a ameaça das criaturas que levam as pessoas ao suicídio, enquanto buscam abrigo e segurança em uma Barcelona devastada. ",
+        "data_lancamento": "14 de julho de 2023",
+        "avaliacao": 2.1,
+        "generos": ["Terror", "Suspense", "Drama", "Ficção científica", "Mistério" ]
+      },
+      {
+        "titulo": "Bird Box ",
+        "imagem": "static/images/bird_box.jpg",
+        "sinopse": "Em Bird Box, uma mãe e seus filhos tentam sobreviver em um mundo pós-apocalíptico, onde criaturas misteriosas levam as pessoas ao suicídio ao serem vistas. ",
+        "data_lancamento": "14 de dezembro de 2018",
+        "avaliacao": 4.1,
+        "generos": ["Terror", "Suspense", "Drama", "Ficção científica", "Mistério" ]
+      },
+      {
+        "titulo": "O bom Dinossauro ",
+        "imagem": "static/images/bom_dinossauro.jpg",
+        "sinopse": "Em O Bom Dinossauro, Arlo, um jovem dinossauro, forma uma inesperada amizade com um garoto humano chamado Spot e embarca em uma jornada para superar seus medos e encontrar seu caminho de volta para casa. ",
+        "data_lancamento": "7 de janeiro de 2016",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Infantil", "Ficção científica", "Fantasia", "Aventura" ]
+      },
+      {
+        "titulo": "Vingadores - Avengers ",
+        "imagem": "static/images/vingadores_avenger.jpg",
+        "sinopse": "Os maiores heróis da Terra, incluindo Homem de Ferro, Capitão América, Thor e Hulk, unem forças para impedir Loki de conquistar o planeta com um exército alienígena.   ",
+        "data_lancamento": "4 de maio de 2012  ",
+        "avaliacao":4.6,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Vingadores Guerra Infinita ",
+        "imagem": "static/images/vingadores_guerra_infinita.jpg",
+        "sinopse": "Os Vingadores e seus aliados enfrentam Thanos, um poderoso tirano intergaláctico que busca reunir as Joias do Infinito para exterminar metade do universo.  ",
+        "data_lancamento": "27 de abril de 2018  ",
+        "avaliacao":4.7,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Vingadores Ultimato",
+        "imagem": "static/images/vingadores_ultimato.jpg",
+        "sinopse": "Após a devastação causada por Thanos, os Vingadores unem forças para recuperar as Joias do Infinito e restaurar o universo em uma última e épica batalha. ",
+        "data_lancamento": "26 de abril de 2019   ",
+        "avaliacao":4.7,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Vingadores - Era de Ultron",
+        "imagem": "static/images/vingadores_ultron.jpg",
+        "sinopse": "Os Vingadores enfrentam Ultron, uma inteligência artificial criada por Tony Stark que se volta contra a humanidade, forçando a equipe a lutar para salvar o mundo da extinção.  ",
+        "data_lancamento": "1 de maio de 2015   ",
+        "avaliacao":4.5,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Capitão América - O Primeiro Vingador ",
+        "imagem": "static/images/capitao_primeiro_vingador.jpg",
+        "sinopse": "Durante a Segunda Guerra Mundial, Steve Rogers se torna o super-soldado Capitão América e enfrenta a organização Hydra, liderada pelo temível Caveira Vermelha.  ",
+        "data_lancamento": "22 de julho de 2011 ",
+        "avaliacao":4.6,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Capitão América 2: O Soldado Invernal ",
+        "imagem": "static/images/capitao_america_2.jpg",
+        "sinopse": "Capitão América descobre uma conspiração dentro da S.H.I.E.L.D. enquanto enfrenta um misterioso assassino, o Soldado Invernal, que tem uma ligação com seu passado. ",
+        "data_lancamento": "10 de abril de 2014 ",
+        "avaliacao":4.8,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Viuva Negra",
+        "imagem": "static/images/viuva_negra.jpg",
+        "sinopse": "Natasha Romanoff enfrenta seu passado ao se reunir com sua antiga família e confrontar a sombria organização que a transformou em uma espiã implacável.  ",
+        "data_lancamento": "9 de julho de 2021",
+        "avaliacao":3.8 ,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Thor Amor e Trovão",
+        "imagem": "static/images/thor_amor_trovao.jpg",
+        "sinopse": "Thor embarca em uma jornada para deter Gorr, o Carniceiro dos Deuses, enquanto lida com o retorno de Jane Foster, agora empunhando Mjölnir como a Poderosa Thor.  ",
+        "data_lancamento": "8 de julho de 2022 ",
+        "avaliacao":2.7 ,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Thor - O Mundo Sombrio",
+        "imagem": "static/images/thor_mundo_sombrio.jpg",
+        "sinopse": "Thor enfrenta Malekith, um líder dos Elfos Negros que busca usar o Éter para mergulhar o universo na escuridão, forçando o Deus do Trovão a se aliar a Loki.   ",
+        "data_lancamento": "8 de novembro de 2013  ",
+        "avaliacao":4.3 ,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Thor Ragnarock",
+        "imagem": "static/images/thor_tagnarock.jpg",
+        "sinopse": "Thor precisa escapar de um planeta distante e formar uma equipe improvável para impedir que sua irmã Hela destrua Asgard e traga o Ragnarok.   ",
+        "data_lancamento": "3 de novembro de 2017 ",
+        "avaliacao":4.3 ,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Capitã Marvel ",
+        "imagem": "static/images/capita_marvel.jpg",
+        "sinopse": "Carol Danvers descobre sua verdadeira identidade e seu poder como Capitã Marvel enquanto se envolve em uma guerra intergaláctica entre os Kree e os Skrulls. ",
+        "data_lancamento": "8 de março de 2019  ",
+        "avaliacao":3.6,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "As Marvels ",
+        "imagem": "static/images/as_marvels.jpg",
+        "sinopse": "Carol Danvers, Kamala Khan e Monica Rambeau têm seus poderes entrelaçados e precisam unir forças para enfrentar uma nova ameaça cósmica e salvar o universo.  ",
+        "data_lancamento": "10 de julho de 2023   ",
+        "avaliacao":2.5,
+        "generos": ["Ação", "Drama", "Ficção científica", "Guerra", "Aventura" ]
+      },
+      {
+        "titulo": "Deadpool",
+        "imagem": "static/images/deadpool.jpg",
+        "sinopse": "Deadpool busca vingança após um experimento que lhe deu poderes, mas o desfigurou. ",
+        "data_lancamento": "11 de fevereiro de 2016",
+        "avaliacao":4.5,
+        "generos": ["Ação", "Comédia", "Romance", "Drama", "Aventura" ]
+      },
+      {
+        "titulo": "Deadpool 2",
+        "imagem": "static/images/deadpool_2.jpg",
+        "sinopse": "Deadpool forma a equipe X-Force para proteger um jovem mutante do perigoso viajante do tempo Cable, enquanto lida com perdas e tenta encontrar redenção.  ",
+        "data_lancamento": "17 de maio de 2018",
+        "avaliacao":4.6,
+        "generos": ["Ação", "Comédia", "Romance", "Drama", "Aventura" ]
+      },
+      {
+        "titulo": "Deadpool & Wolverine",
+        "imagem": "static/images/deadpool_wolverine.jpg",
+        "sinopse": "Wolverine está se recuperando quando cruza seu caminho com Deadpool ",
+        "data_lancamento": "25 de julho de 2024",
+        "avaliacao":4.3,
+        "generos": ["Ação", "Comédia", "Aventura", "Ficção científica"]
+      },
+      {
+        "titulo": "DoutorEstranho",
+        "imagem": "static/images/dr_estranho.jpg",
+        "sinopse": "Após um acidente que acaba com sua carreira, o brilhante cirurgião Stephen Strange busca cura e descobre a magia, tornando-se o Mestre das Artes Místicas para proteger a realidade.  ",
+        "data_lancamento": " 4 de maio de 2016 ",
+        "avaliacao":4.6,
+        "generos": ["Ação", "Comédia", "Aventura", "Ficção científica", "Drama"]
+      },
+      {
+        "titulo": "DoutorEstranho no Multiverso da Loucura",
+        "imagem": "static/images/dr_estranho_loucura.jpg",
+        "sinopse": "Doutor Estranho embarca em uma jornada pelo multiverso para proteger America Chavez, uma jovem com poderes únicos, enquanto enfrenta uma versão corrompida de uma antiga aliada. ",
+        "data_lancamento": "6 de maio de 2022",
+        "avaliacao":3.5,
+        "generos": ["Ação", "Comédia", "Aventura", "Ficção científica", "Drama", "Terror"]
+      },
+      {
+        "titulo": "o espetacular  Homem-Aranha",
+        "imagem": "static/images/espetacular_aranha.jpg",
+        "sinopse": "Peter Parker descobre segredos sobre o passado de sua família enquanto enfrenta o vilão Lagarto e aprende a responsabilidade de ser o Homem-Aranha.  ",
+        "data_lancamento": "6 de julho de 2012",
+        "avaliacao":4.4,
+        "generos": ["Ação", "Romance", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "o espetacular  Homem-Aranha 2",
+        "imagem": "static/images/espetacular_aranha2.jpg",
+        "sinopse": "Peter Parker enfrenta novos desafios enquanto lida com seu relacionamento com Gwen Stacy e combate Electro, um inimigo poderoso que ameaça Nova York. ",
+        "data_lancamento": "2 de maio de 2014 ",
+        "avaliacao":4.5,
+        "generos": ["Ação", "Romance", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Eternos",
+        "imagem": "static/images/eternos.jpg",
+        "sinopse": "Um grupo de seres imortais, os Eternos, ressurge após séculos ocultos para proteger a Terra de uma antiga ameaça enquanto lidam com segredos do passado. ",
+        "data_lancamento": "4 de novembro de 2021 ",
+        "avaliacao":3.1,
+        "generos": ["Ação", "Romance", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Guardiões da Galaxia",
+        "imagem": "static/images/guardiao_galaxia_1.jpg",
+        "sinopse": "Um grupo de desajustados espaciais se une para impedir que um vilão poderoso use uma Joia do Infinito para destruir a galáxia. ",
+        "data_lancamento": "1 de agosto de 2014  ",
+        "avaliacao":4.7,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Guardiões da Galaxia 2 ",
+        "imagem": "static/images/guardiao_galaxia2.jpg",
+        "sinopse": "Os Guardiões da Galáxia enfrentam novos desafios quando Peter Quill conhece seu pai celestial, Ego, enquanto descobre segredos que podem mudar seu destino. ",
+        "data_lancamento": "5 de maio de 2017",
+        "avaliacao":4.5 ,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Guardiões da Galaxia 3 ",
+        "imagem": "static/images/guardiao_galaxia_3.jpg",
+        "sinopse": "Os Guardiões da Galáxia embarcam em uma missão para salvar Rocket, enfrentando o Alto Evolucionário enquanto lidam com despedidas e novos começos.  ",
+        "data_lancamento": "5 de maio de 2023",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Capitão América - Guerra Civíl",
+        "imagem": "static/images/guerra_civil.jpg",
+        "sinopse": "Os Vingadores se dividem quando um conflito entre Capitão América e Homem de Ferro surge após uma nova lei exigir o controle governamental sobre os heróis.   ",
+        "data_lancamento": "28 de abril de 2016 ",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Suspense"]
+      },
+      {
+        "titulo": "Homem aranha Aranhaverso",
+        "imagem": "static/images/homem_aranha_aranhaverso.jpg",
+        "sinopse": "Miles Morales descobre o multiverso e se une a outros Homens-Aranha para impedir uma ameaça que pode destruir tudo.",
+        "data_lancamento": "10 de janeiro de 2019 ",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Suspense"]
+      },
+      {
+        "titulo": "Homem aranha - Atravez do Aranhaverso",
+        "imagem": "static/images/homem_aranha_atraves_aranhaverso.jpg",
+        "sinopse": "Miles Morales embarca em uma nova aventura pelo multiverso, encontrando variantes do Homem-Aranha enquanto enfrenta um poderoso inimigo que ameaça todas as realidades. ",
+        "data_lancamento": "1 de junho de 2023 ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Suspense"] 
+      },
+      {
+        "titulo": "Homem aranha - Longe de Casa",
+        "imagem": "static/images/homem_aranha_longe_casa.jpg",
+        "sinopse": "Em Homem-Aranha: Longe de Casa, Peter Parker embarca em uma viagem escolar à Europa, mas precisa enfrentar o vilão Mysterio, que ameaça a segurança global.",
+        "data_lancamento": "4 de julho de 2019",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem aranha - Sem Volta pra Casa",
+        "imagem": "static/images/homem_aranha_sem_casa.jpg",
+        "sinopse": "Em Homem-Aranha: Sem Volta para Casa, Peter Parker busca a ajuda do Doutor Estranho para apagar a memória de sua identidade secreta, mas acaba enfrentando vilões de outras dimensões. ",
+        "data_lancamento": "16 de dezembro de 2021",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Romance"] 
+      },
+      {
+        "titulo": "Homem aranha",
+        "imagem": "static/images/homem_aranha_tobey.jpg",
+        "sinopse": "Em Homem-Aranha, Peter Parker ganha poderes aracnídeos e decide combater o crime em Nova York, enfrentando o vilão Duende Verde. ",
+        "data_lancamento": "17 de maio de 2002",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Romance"] 
+      },
+      {
+        "titulo": "Homem aranha 2",
+        "imagem": "static/images/homem_aranha_tobey2.jpg",
+        "sinopse": "Em Homem-Aranha 2, Peter Parker lida com os desafios de sua vida pessoal enquanto enfrenta o vilão Doutor Octopus, que ameaça destruir a cidade.  ",
+        "data_lancamento": "2 de julho de 2004",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Romance"] 
+      },
+      {
+        "titulo": "Homem aranha 3",
+        "imagem": "static/images/homem_aranha_tobey_3.jpg",
+        "sinopse": "Em Homem-Aranha 3, Peter Parker enfrenta novos inimigos, incluindo o Homem-Areia e o Venom, enquanto lida com o lado sombrio de seus poderes.  ",
+        "data_lancamento": "4 de maio de 2007",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia", "Romance"] 
+      },
+      {
+        "titulo": "Homem de Ferro",
+        "imagem": "static/images/homem_ferro_1.jpg",
+        "sinopse": "Após ser sequestrado, o bilionário e gênio Tony Stark constrói uma armadura poderosa para escapar e decide usá-la para proteger o mundo como o Homem de Ferro.  ",
+        "data_lancamento": "30 de abril de 2008 ",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem de Ferro 2",
+        "imagem": "static/images/homem_ferro2.jpg",
+        "sinopse": " Em Homem de Ferro 2, Tony Stark lida com a pressão do governo, um novo inimigo vingativo e sua saúde debilitada, enquanto tenta proteger sua tecnologia e o mundo.",
+        "data_lancamento": " 28 de abril de 2010 ",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem de Ferro 3",
+        "imagem": "static/images/homem_ferro_3.jpg",
+        "sinopse": " Tony Stark enfrenta o terrorista Mandarim enquanto lida com as consequências da Batalha de Nova York, testando os limites de sua armadura e de si mesmo.",
+        "data_lancamento": "3 de maio de 2013 ",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem Formiga",
+        "imagem": "static/images/homem_formiga.jpg",
+        "sinopse": " O ladrão Scott Lang recebe um traje especial que lhe permite encolher e aumentar sua força, tornando-se o Homem-Formiga para impedir um perigoso plano tecnológico. ",
+        "data_lancamento": "16 de julho de 2015 ",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem Formiga & A Vespa",
+        "imagem": "static/images/homem_Formiga_Vespa.jpg",
+        "sinopse": " Enquanto lida com as consequências de seus atos, Scott Lang se une a Hope Van Dyne e Hank Pym em uma missão urgente para resgatar Janet Van Dyne do Reino Quântico.  ",
+        "data_lancamento": "5 de julho de 2018  ",
+        "avaliacao": 3.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Homem Formiga Quantumania",
+        "imagem": "static/images/homem_formiga_quantumania.jpg",
+        "sinopse": " Homem-Formiga, Vespa e sua família são arrastados para o Reino Quântico, onde enfrentam Kang, o Conquistador, em uma batalha pelo destino do multiverso.  ",
+        "data_lancamento": "17 de fevereiro de 2023 ",
+        "avaliacao": 3.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Hulk",
+        "imagem": "static/images/hulk.jpg",
+        "sinopse": " Após um experimento fracassado, o cientista Bruce Banner sofre uma mutação que o transforma em uma criatura gigante e incontrolável sempre que sente raiva, enquanto é caçado pelo exército.  ",
+        "data_lancamento": "13 de junho de 2008  ",
+        "avaliacao": 3.9,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Pantera Negra ",
+        "imagem": "static/images/pantera_negra.jpg",
+        "sinopse": "Após a morte de seu pai, T'Challa retorna a Wakanda para assumir o trono como Pantera Negra, mas precisa enfrentar um inimigo do passado que ameaça seu reino e o mundo.  ",
+        "data_lancamento": " 16 de fevereiro de 2018 ",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
+      },
+      {
+        "titulo": "Pantera Negra - Wakanda Para Sempre   ",
+        "imagem": "static/images/pantera_negra_wakanda_sempre.jpg",
+        "sinopse": "Após a morte do rei T’Challa, Wakanda enfrenta novas ameaças enquanto Shuri e seus aliados lutam para proteger a nação e enfrentar Namor, líder do reino subaquático Talokan.  ",
+        "data_lancamento": "10 de novembro de 2022 ",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
+      },
+      {
+        "titulo": "Quarteto Fantastico  ",
+        "imagem": "static/images/quarteto_fantastico.jpg",
+        "sinopse": "Após um acidente em uma missão científica, quatro amigos ganham poderes extraordinários e se tornam o Quarteto Fantástico, unindo forças para enfrentar o temível Doutor Destino.  ",
+        "data_lancamento": "8 de julho de 2005 ",
         "avaliacao": 3.6,
-        "generos": ["Drama", "Romance", "Comédia"]
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
       },
       {
-        "titulo": "Elementos",
-        "imagem": "static/images/elemental.jpg",
-        "sinopse": "Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Até que tudo muda para Gota e Faísca.",
-        "data_lancamento": "2023-06-22",
-        "avaliacao": 4.1,
-        "generos": ["Ficção Científica", "Comédia"]
+        "titulo": "Shang-Chi e a Lenda dos Dez Anéis",
+        "imagem": "static/images/shang_shi_anel.jpg",
+        "sinopse": "Shang-Chi, um mestre em artes marciais, é forçado a enfrentar seu passado e seu pai, o líder da misteriosa organização Dez Anéis, em uma batalha pelo destino do mundo.  ",
+        "data_lancamento": "3 de setembro de 2021  ",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
       },
       {
-        "titulo": "Chocolate",
-        "imagem": "static/images/chocolat_2016.jpg",
-        "sinopse": "Chocolat é um filme de 2016 dirigido por Roschdy ZZem sobre o palhaço Chocolat, que torna-se, em 1886, o primeiro artista negro da cena francesa.",
-        "data_lancamento": "2016-07-21",
-        "avaliacao": 3.8,
-        "generos": ["Drama"]
+        "titulo": "Venom Tempo de Carnificina",
+        "imagem": "static/images/venos_carnificina.jpg",
+        "sinopse": "Eddie Brock e Venom enfrentam um novo inimigo mortal, Carnificina, surgido após o serial killer Cletus Kasady se fundir com um simbionte alienígena.  ",
+        "data_lancamento": "1 de outubro de 2021  ",
+        "avaliacao": 3.4,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
       },
       {
-        "titulo": "Pânico 5",
-        "imagem": "static/images/panico 5.jpg",
-        "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
-        "data_lancamento": "2022-01-13",
-        "avaliacao": 4.1,
-        "generos": ["Terror"]
-      },      
+        "titulo": "Insurgente",
+        "imagem": "static/images/insurgente.jpg",
+        "sinopse": " Em Insurgente, Tris Prior e Quatro tentam escapar do regime opressor da facção Abnegação enquanto enfrentam desafios pessoais e lutam pela liberdade em uma sociedade dividida. A jornada deles os leva a descobrir segredos sobre o sistema e a si mesmos.",
+        "data_lancamento": "13 de junho de 2008  ",
+        "avaliacao": 3.9,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
       {
-        "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas do caribe- navegando.jfif",
-        "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-        "data_lancamento": "2011-05-07",
-        "avaliacao": 3.8,
-        "generos": ["Aventura", "Ação", "Fantasia"]
-      },      
+        "titulo": "Divergente",
+        "imagem": "static/images/divergentes.jpg",
+        "sinopse": " Em um mundo distópico, a sociedade é dividida em facções baseadas em virtudes. Quando Beatrice Prior descobre que é Divergente, ela precisa escolher entre sua família e sua verdadeira identidade. ",
+        "data_lancamento": "17 de abril de 2014  ",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
       {
-        "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
-        "imagem": "static/images/indiana jones.jpg",
-        "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
-        "data_lancamento": "2008-05-18",
+        "titulo": "Convergentes",
+        "imagem": "static/images/convergentes.jpg",
+        "sinopse": "Em Convergente, Tris e Quatro enfrentam novas ameaças enquanto buscam respostas sobre o misterioso mundo além da cerca, desafiando os limites de sua sociedade controlada e revelando segredos que podem mudar tudo.  ",
+        "data_lancamento": "10 de março de 2016  ",
+        "avaliacao": 3.6,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Interestelar",
+        "imagem": "static/images/interestelar.jpg",
+        "sinopse": "Em Interestelar, um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade, enquanto enfrentam dilemas científicos e emocionais sobre o tempo e o espaço. ",
+        "data_lancamento": "6 de novembro de 2014",
+        "avaliacao": 4.6,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "John Wick - De Volta ao Jogo",
+        "imagem": "static/images/jhon_wick_1.jpg",
+        "sinopse": "Após a morte de sua esposa, John Wick, um ex-assassino de elite, busca vingança contra mafiosos que roubaram seu carro e mataram seu cachorro, último presente de sua amada.  ",
+        "data_lancamento": "24 de outubro de 2014 ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "John Wick- Um Novo Dia Para Matar",
+        "imagem": "static/images/jhon_wick2.jpg",
+        "sinopse": "John Wick é forçado a cumprir uma dívida de sangue e viaja a Roma para eliminar um poderoso criminoso. Traído, ele se torna alvo de assassinos do mundo todo e precisa lutar para sobreviver.   ",
+        "data_lancamento": "14 de setembro de 2023  ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "John Wick 3 - Parabellum",
+        "imagem": "static/images/jhon_wick_3.jpg",
+        "sinopse": "Com uma recompensa por sua cabeça, John Wick se torna o alvo de assassinos do mundo todo e luta para sobreviver enquanto busca uma forma de revogar sua excomunhão.   ",
+        "data_lancamento": "17 de maio de 2019 ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "John Wick 4 - Baba Yaga",
+        "imagem": "static/images/jhon_wick_4.jpg",
+        "sinopse": "John Wick enfrenta sua batalha final contra a Alta Cúpula, viajando pelo mundo para desafiar poderosos inimigos e conquistar sua liberdade definitiva.  ",
+        "data_lancamento": "23 de março de 2023  ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jogos Vorazes",
+        "imagem": "static/images/jogos_vorazes.jpg",
+        "sinopse": "Em Jogos Vorazes, Katniss luta pela sobrevivência em uma competição mortal, tornando-se símbolo de rebelião contra um governo tirânico.  ",
+        "data_lancamento": "23 de março de 2012",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jogos Vorazes - Em Chamas",
+        "imagem": "static/images/jogos_vorazes_chamas.jpg",
+        "sinopse": "Em Jogos Vorazes: Em Chamas, Katniss se torna alvo do governo após desafiar o sistema, enquanto uma nova edição dos Jogos ameaça sua vida e a de seus entes queridos.  ",
+        "data_lancamento": "15 de novembro de 2013 ",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": " Jogos Vorazes: A Esperança - Parte 1",
+        "imagem": "static/images/jogos_vorazes_esperanca_pt1.jpg",
+        "sinopse": "Em Jogos Vorazes: Em Chamas, Katniss se torna alvo do governo após desafiar o sistema, enquanto uma nova edição dos Jogos ameaça sua vida e a de seus entes queridos.  ",
+        "data_lancamento": "19 de novembro de 2014 ",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jogos Vorazes: A Esperança - O Final",
+        "imagem": "static/images/jogos_vorazes_esperanca_final.jpg",
+        "sinopse": "Em Jogos Vorazes: A Esperança - O Final, Katniss confronta o Capitão Snow em uma batalha decisiva, buscando libertar Panem e dar fim ao regime tirânico de uma vez por todas.   ",
+        "data_lancamento": "18 de novembro de 2015",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jogos Vorazes - A Cantiga dos Pássaros e das Serpentes",
+        "imagem": "static/images/jogos_vorazes_passaro_serpente.jpg",
+        "sinopse": "Em Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes, acompanhamos a juventude de Coriolanus Snow, antes de se tornar o temido presidente, enquanto lida com o desafio de ser mentor nos primeiros Jogos Vorazes.  ",
+        "data_lancamento": "15 de novembro de 2023",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jumanji Bem-vindo à Selva",
+        "imagem": "static/images/jumanji.jpg",
+        "sinopse": "Em Jumanji, quatro adolescentes ficam presos em um jogo de tabuleiro mágico, onde devem enfrentar desafios perigosos e criaturas selvagens para escapar.  ",
+        "data_lancamento": "4 de janeiro de 2018",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jumanji Proxima Fase",
+        "imagem": "static/images/jumanji_prox_fase.jpg",
+        "sinopse": " Em Jumanji: A Próxima Fase, os amigos retornam ao jogo para resgatar um dos seus, enfrentando novos desafios e perigos em um mundo mais complexo e imprevisível. ",
+        "data_lancamento": "5 de dezembro de 2019",
+        "avaliacao": 3.9,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Drama", "Fantasia"] 
+      },
+      {
+        "titulo": "Jurassic Park 3",
+        "imagem": "static/images/jurassic_3.jpg",
+        "sinopse": "Em Jurassic Park 3, um casal contrata Alan Grant para uma expedição em uma ilha de dinossauros, mas acabam presos no território perigoso, enfrentando criaturas ainda mais ameaçadoras.  ",
+        "data_lancamento": "20 de julho de 2001",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério", "Fantasia"] 
+      },
+      {
+        "titulo": "Jurassic World O Mundo dos Dinossauros",
+        "imagem": "static/images/jurassic_word.jpg",
+        "sinopse": "Em Jurassic World, um parque de dinossauros geneticamente modificados abre suas portas para o público, mas a criação de um dinossauro híbrido resulta em caos e luta pela sobrevivência.   ",
+        "data_lancamento": "11 de junho de 2015",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério", "Fantasia"] 
+      },
+      {
+        "titulo": "Jurassic World Dominio",
+        "imagem": "static/images/jurassic_word_dominio.jpg",
+        "sinopse": "Em Jurassic World: Domínio, humanos e dinossauros convivem em um mundo onde os animais pré-históricos agora estão espalhados pela Terra, criando um novo equilíbrio que ameaça a sobrevivência de todos.  ",
+        "data_lancamento": "2 de junho de 2022",
+        "avaliacao": 3.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério", "Fantasia"] 
+      },
+      {
+        "titulo": "Jurassic World Reino Ameaçado",
+        "imagem": "static/images/jurassic_word_reino_ameassado.jpg",
+        "sinopse": "Em Jurassic World: Reino Ameaçado, dinossauros de Isla Nublar estão à beira da extinção devido a um vulcão em erupção, e uma missão de resgate se transforma em uma ameaça ainda maior.  ",
+        "data_lancamento": "21 de junho de 2018",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério", "Fantasia"] 
+      },
+      {
+        "titulo": "logan",
+        "imagem": "static/images/logan.jpg",
+        "sinopse": "Em um futuro sombrio, um envelhecido Logan cuida do doente Professor Xavier enquanto protege uma jovem mutante perseguida, na sua última e brutal jornada. ",
+        "data_lancamento": "3 de março de 2017 ",
+        "avaliacao": 4.6,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério", "Fantasia"] 
+      },
+      {
+        "titulo": "Um lugar silencioso",
+        "imagem": "static/images/lugar_silencioso.jpg",
+        "sinopse": "Em Um Lugar Silencioso, uma família luta pela sobrevivência em um mundo pós-apocalíptico, onde criaturas mortais caçam através do som, forçando-os a viver em completo silêncio.  ",
+        "data_lancamento": "5 de abril de 2018",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Um Lugar Silencioso - Parte II  ",
+        "imagem": "static/images/lugar_silencioso_2.jpg",
+        "sinopse": "Em Um Lugar Silencioso 2, a família Abbott continua sua luta pela sobrevivência, enfrentando novos perigos em um mundo onde os monstros caçam pelo som.  ",
+        "data_lancamento": "17 de junho de 2021",
         "avaliacao": 4.1,
-        "generos": ["Aventura", "Ação"]
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "The Silence ",
+        "imagem": "static/images/the_silence.jpg",
+        "sinopse": "Em The Silence, uma família luta para sobreviver em um mundo invadido por criaturas que caçam através do som, forçando todos a viver em completo silêncio.  ",
+        "data_lancamento": "16 de maio de 2019",
+        "avaliacao": 2.6,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Viagem 2 ",
+        "imagem": "static/images/viagem_2.jpg",
+        "sinopse": "Em Viagem 2: O Mistério da Ilha Misteriosa, Sean e seu padrasto embarcam em uma jornada para encontrar a ilha fictícia descrita por Júlio Verne, enfrentando perigos e criaturas incríveis.  ",
+        "data_lancamento": "3 de fevereiro de 2012",
+        "avaliacao": 3.9,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Mad Max Alem da Cúpula do Trovão  ",
+        "imagem": "static/images/mad_max_alem_cupula.jpg",
+        "sinopse": "Em Mad Max: Além da Cúpula do Trovão, Max se une a uma jovem garota em uma luta contra a tirania de Aunty Entity, enquanto enfrenta batalhas em uma arena e tenta escapar de um mundo ainda mais caótico. ",
+        "data_lancamento": "29 de junho de 1985",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Mad Max: Estrada da Fúria ",
+        "imagem": "static/images/mad_max_estrada_furia.jpg",
+        "sinopse": "Em Mad Max: Estrada da Fúria, Max se alia a Furiosa em uma perigosa fuga através de um deserto devastado, enfrentando um tirano e suas tropas em uma missão de sobrevivência e liberdade.  ",
+        "data_lancamento": "14 de maio 2015",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Mad Max 2 ",
+        "imagem": "static/images/mad_max2.jpg",
+        "sinopse": "Em Mad Max 2: A Caçada Continua, Max se alia a um grupo de sobreviventes para proteger um vilarejo e seus recursos valiosos contra uma gangue de bandidos em um mundo devastado. ",
+        "data_lancamento": "5 de abril de 1982",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Meu Malvado Favorito 1 ",
+        "imagem": "static/images/malvado_fav.jpg",
+        "sinopse": "Gru, um vilão atrapalhado, planeja roubar a Lua, mas sua vida muda ao adotar três meninas.   ",
+        "data_lancamento": "6 de agosto de 2010",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Meu Malvado Favorito 2 ",
+        "imagem": "static/images/malvado_fav_2.jpg",
+        "sinopse": "Gru deixa a vilania para criar suas filhas, mas é recrutado para deter um novo vilão.  ",
+        "data_lancamento": "5 de julho de 2013",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Meu Malvado Favorito 3 ",
+        "imagem": "static/images/malvado_fav_3.jpg",
+        "sinopse": "Gru descobre seu irmão gêmeo Dru e, juntos, enfrentam um novo vilão.   ",
+        "data_lancamento": "29 de junho de 2017",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Meu Malvado Favorito 4 ",
+        "imagem": "static/images/malvado_fav4.jpg",
+        "sinopse": "Gru enfrenta o vilão Balthazar Bratt, um ex-astro infantil dos anos 80, enquanto lida com sua rivalidade com o irmão Dru.    ",
+        "data_lancamento": "4 de julho de 2024",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Maze Runner: Correr ou Morrer ",
+        "imagem": "static/images/maze_runer.jpg",
+        "sinopse": "Em Maze Runner, Thomas acorda em um labirinto sem memória e se junta a um grupo de jovens para descobrir a saída, enfrentando perigos e mistérios.   ",
+        "data_lancamento": "18 de setembro de 2014",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Maze Runner: Prova de Fogo ",
+        "imagem": "static/images/maz_runer_fogo.jpg",
+        "sinopse": "Em Maze Runner: Prova de Fogo, Thomas e seus amigos enfrentam novos desafios em uma cidade devastada, enquanto buscam respostas sobre a misteriosa organização WCKD.  ",
+        "data_lancamento": "1 de setembro de 2015",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Maze Runner: Cura Mortal",
+        "imagem": "static/images/maze_runer_cura.jpg",
+        "sinopse": "Em Maze Runner: Cura Mortal, Thomas e seus amigos lutam contra o tempo para encontrar a cura para um vírus mortal, enfrentando perigos e a ameaça da WCKD.  ",
+        "data_lancamento": "25 de janeiro de 2018",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Os mercenários",
+        "imagem": "static/images/mercenario_1.jpg",
+        "sinopse": "Em Os Mercenários, um grupo de mercenários altamente treinados é contratado para derrubar um ditador em uma ilha distante, enfrentando desafios mortais e batalhas intensas.  ",
+        "data_lancamento": "13 de agosto de 2010",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Os mercenários 2",
+        "imagem": "static/images/mercenario_2.jpg",
+        "sinopse": "Em Os Mercenários 2, o grupo é reunido para uma missão de resgate, mas acaba sendo traído, levando a uma busca por vingança contra aqueles que os enganaram.  ",
+        "data_lancamento": "31 de agosto de 2012",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Os mercenários 3",
+        "imagem": "static/images/mercenario_3.jpg",
+        "sinopse": "Em Os Mercenários 3, Barney e seus amigos enfrentam Conrad Stonebanks, um antigo membro do grupo que se tornou um poderoso criminoso, em uma batalha para impedir suas ações.  ",
+        "data_lancamento": "21 de agosto de 2014",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Os mercenários 4",
+        "imagem": "static/images/mercenario_4.jpg",
+        "sinopse": "Em Os Mercenários 4, o grupo é contratado para uma missão de alto risco, enfrentando novos inimigos e perigos, enquanto lidam com traições e desafios pessoais. ",
+        "data_lancamento": "21 de setembro de 2023",
+        "avaliacao": 3.0,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "O Ultimo Mestre do Ar",
+        "imagem": "static/images/mestre_ar.jpg",
+        "sinopse": "Em O Último Mestre do Ar, Aang, o último sobrevivente do povo Airbender, deve dominar os quatro elementos e impedir que o Senhor do Fogo destrua o mundo e desequilibre os quatro reinos. ",
+        "data_lancamento": "20 de agosto de 2010",
+        "avaliacao": 2.9,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "O Mundo Depois de Nos",
+        "imagem": "static/images/mundo_depois_nos.jpg",
+        "sinopse": "Em O Mundo Depois de Nós, um homem e seu cachorro tentam sobreviver em um planeta pós-apocalíptico, enfrentando os desafios de um mundo devastado pela ausência de seres humanos.  ",
+        "data_lancamento": "8 de dezembro de 2023",
+        "avaliacao": 2.5,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "Next Gen",
+        "imagem": "static/images/next_gent.jpg",
+        "sinopse": "Mai se torna amiga de um robô avançado e, juntos, enfrentam uma conspiração perigosa   ",
+        "data_lancamento": "7 de setembro de 2018",
+        "avaliacao": 3.7,
+        "generos": ["Ação", "Aventura", "Ficção científica", "Mistério"] 
+      },
+      {
+        "titulo": "O Ataque",
+        "imagem": "static/images/o_ataque.jpg",
+        "sinopse": "Em O Ataque, um soldado americano luta para proteger sua equipe após uma emboscada no Oriente Médio, enfrentando traumas e dilemas morais.    ",
+        "data_lancamento": " 6 de setembro de 2013",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
+      },
+      {
+        "titulo": "Resgate",
+        "imagem": "static/images/resgate_.jpg",
+        "sinopse": "O mercenário Tyler Rake é contratado para resgatar o filho sequestrado de um poderoso criminoso, mas a missão se torna uma luta brutal pela sobrevivência.   ",
+        "data_lancamento": "24 de abril de 2020 ",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
+      },
+      {
+        "titulo": "Resgate 2",
+        "imagem": "static/images/resgate_2jfif.jpg",
+        "sinopse": "Tyler Rake retorna para uma nova missão mortal: resgatar a família de um implacável criminoso de uma prisão de segurança máxima.   ",
+        "data_lancamento": "16 de setembro de 2022  ",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Suspense", "Mistério"] 
+      },
+      {
+        "titulo": "Perdido em Marte",
+        "imagem": "static/images/perdido_marte.jpg",
+        "sinopse": "Em Perdido em Marte, um astronauta é deixado para trás em Marte após um acidente e precisa usar sua inteligência e recursos limitados para sobreviver enquanto espera por resgate. ",
+        "data_lancamento": "1 de outubro de 2015",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Peter Pan",
+        "imagem": "static/images/peter_pan.jpg",
+        "sinopse": "Em Peter Pan, um menino que se recusa a crescer leva três crianças para a Terra do Nunca, onde enfrentam aventuras com piratas, índios e o vilão Capitão Hook.  ",
+        "data_lancamento": "18 de fevereiro de 2013",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Peter Pan & Wendy",
+        "imagem": "static/images/peter_pan_wendy.jpg",
+        "sinopse": "Em Peter Pan & Wendy, Wendy e seus irmãos viajam para a Terra do Nunca, onde encontram Peter Pan e enfrentam desafios enquanto lidam com o temido Capitão Hook e suas próprias inseguranças.   ",
+        "data_lancamento": "28 de abril de 2023",
+        "avaliacao": 2.2,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Planeta dos Macacos a Origem",
+        "imagem": "static/images/planeta_macaco_origem.jpg",
+        "sinopse": "Em Planeta dos Macacos - A Origem, um experimento com macacos para tratar Alzheimer resulta em um novo líder, César, que começa a questionar sua lealdade aos humanos e sua liberdade.  ",
+        "data_lancamento": "26 de agosto de 2011",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Planeta dos Macacos o Confronto",
+        "imagem": "static/images/planeta_macacos_confontro.jpg",
+        "sinopse": "Em Planeta dos Macacos: O Confronto, César lidera os macacos em uma batalha pela sobrevivência contra um grupo de humanos, enquanto a tensão entre as espécies cresce.   ",
+        "data_lancamento": "24 de julho de 2014",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Circulo de Fogo",
+        "imagem": "static/images/circulo_fogo.jpg",
+        "sinopse": "Em Círculo de Fogo, gigantescas criaturas alienígenas saem do fundo do oceano e atacam a Terra, levando a humanidade a construir robôs gigantes para lutar e defender o planeta.  ",
+        "data_lancamento": "9 de agosto de 2013",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Circulo de fogo - A Revolta",
+        "imagem": "static/images/circulo_fogo_revolta.jpg",
+        "sinopse": "Em Círculo de Fogo: A Revolta, jovens pilotos de Jaegers lutam para proteger a Terra de uma nova ameaça alienígena, enquanto enfrentam desafios em um mundo em ruínas após a batalha contra os Kaiju.  ",
+        "data_lancamento": "22 de março de 2018",
+        "avaliacao": 3.2,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Por Agua Abaixo",
+        "imagem": "static/images/por_agua_abaixo.jpg",
+        "sinopse": "Roddy, um rato de luxo, cai no esgoto e precisa da ajuda de Rita para voltar, enquanto enfrenta o vilão Toad. ",
+        "data_lancamento": "15 de dezembro de 2006",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Rango",
+        "imagem": "static/images/rango.jpg",
+        "sinopse": "Rango, um camaleão perdido, vira xerife e enfrenta desafios no deserto.  ",
+        "data_lancamento": "9 de março de 2011",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura", "Suspense", "Ficção científica"] 
+      },
+      {
+        "titulo": "Shrek",
+        "imagem": "static/images/sherek.jpg",
+        "sinopse": " Shrek, um ogro solitário, embarca em uma missão para resgatar a princesa Fiona e recuperar seu pântano, fazendo novos amigos pelo caminho.  ",
+        "data_lancamento": "22 de junho de 2001",
+        "avaliacao": 4.6,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Shrek 2",
+        "imagem": "static/images/sherek_2.jpg",
+        "sinopse": "Shrek e Fiona visitam os pais dela, mas enfrentam problemas quando o Príncipe Encantado tenta reconquistar Fiona.   ",
+        "data_lancamento": "18 de junho de 2004",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Shrek Terceiro",
+        "imagem": "static/images/sherek_terceiro.jpg",
+        "sinopse": "Shrek precisa encontrar o herdeiro do trono para impedir que o malvado tio de Fiona, Príncipe Artie, governe o reino de Farquaad.  ",
+        "data_lancamento": "18 de maio de 2007",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Shrek de Natal",
+        "imagem": "static/images/sherek_natal.jpg",
+        "sinopse": "Shrek tenta organizar um Natal perfeito para sua família, mas as coisas saem do controle com suas trapalhadas.   ",
+        "data_lancamento": "24 de dezembro de 2007",
+        "avaliacao": 3.7,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Shrek para Sempre",
+        "imagem": "static/images/sherek_para_sempre.jpg",
+        "sinopse":"Shrek faz um acordo com Rumpelstiltskin para voltar a ter sua vida de antes, mas acaba em um mundo alternativo onde nunca conheceu Fiona.    ",
+        "data_lancamento": "9 de julho de 2010",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "O Susto de Shrek ",
+        "imagem": "static/images/susto_shereck.jpg",
+        "sinopse":"Shrek e seus amigos tentam contar histórias de terror em uma noite de Halloween, mas acabam assustados com os próprios medos.  ",
+        "data_lancamento":  "28 de outubro de 2010",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Sonic ",
+        "imagem": "static/images/sonic.jpg",
+        "sinopse":"Em Sonic - O Filme, Sonic, um ouriço superveloz, foge de uma agência governamental e se junta a um policial local para impedir os planos do vilão Dr. Robotnik de dominar o mundo.   ",
+        "data_lancamento":  "13 de fevereiro de 2020 ",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Sonic 2 ",
+        "imagem": "static/images/sonic2.jpg",
+        "sinopse":"Em Sonic 2 - O Filme, Sonic se une a Tails para impedir Dr. Robotnik e seu novo aliado, Knuckles, de obterem a poderosa Esmeralda Mestre e ameaçarem o mundo.  ",
+        "data_lancamento":  "7 de abril de 2022 ",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Sonic 3 ",
+        "imagem": "static/images/sonic_3.jpg",
+        "sinopse":"Sonic, Knuckles e Tails se juntam para enfrentar Shadow, um novo e misterioso inimigo com poderes diferentes de tudo que já enfrentaram antes. ",
+        "data_lancamento":  "25 de dezembro de 2024 ",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Ta Dando Onda  ",
+        "imagem": "static/images/ta_dando_onda.jpg",
+        "sinopse":"Em Tá Dando Onda, um jovem surfista chamado Cody se junta a um grupo de pinguins para treinar e participar de uma competição de surfe, enfrentando desafios e aprendendo a importância da amizade e coragem. ",
+        "data_lancamento":  "26 de outubro de 2007",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Ta Dando Onda 2 ",
+        "imagem": "static/images/ta_dando_onda_2.jpg",
+        "sinopse":"Cody Maverick se junta aos radicais Hang 5 para surfar a onda mais perigosa do mundo, enfrentando desafios e aprendendo sobre coragem e amizade.  ",
+        "data_lancamento":  "24 de janeiro de 2017",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Touro Ferdinando",
+        "imagem": "static/images/touro_feridnando.jpg",
+        "sinopse":"Ferdinando, um touro dócil, é confundido como perigoso e levado para touradas, mas só quer viver em paz.  ",
+        "data_lancamento":  "11 de janeiro de 2018",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Up Altas Aventuras",
+        "imagem": "static/images/up_altas_aventuras.jpg",
+        "sinopse":"Em Up: Altas Aventuras, um idoso viúvo, Carl Fredricksen, embarca em uma jornada de balão para realizar o sonho de sua falecida esposa, mas acaba levando um inesperado companheiro, o jovem explorador Russell.   ",
+        "data_lancamento":  "4 de setembro de 2009",
+        "avaliacao": 4.6,
+        "generos": ["Ação", "Aventura", "Comédia", "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos ",
+        "imagem": "static/images/velozes_furioso_1.jpg",
+        "sinopse":"O policial Brian O’Conner se infiltra no mundo das corridas de rua para investigar uma série de roubos, mas acaba se tornando amigo do líder da equipe, Dominic Toretto, e precisa escolher entre a lei e a lealdade. ",
+        "data_lancamento":  "28 de setembro de 2001",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Mais Velozes Mais Furiosos",
+        "imagem": "static/images/mais_velozes.jpg",
+        "sinopse":"Fugindo da polícia, Brian O’Conner se junta a um antigo amigo, Roman Pearce, para derrubar um perigoso traficante de drogas em Miami, usando suas habilidades nas corridas de rua.  ",
+        "data_lancamento":  "12 de junho de 2003",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura", "Ficção científica"] 
+      },
+      {
+        "titulo": "Turbo-Charged Prelude ",
+        "imagem": "static/images/turbo_charged.jpg",
+        "sinopse":"Brian O’Conner foge da polícia após os eventos de Velozes e Furiosos e cruza os Estados Unidos, participando de corridas ilegais até chegar a Miami.  ",
+        "data_lancamento":  "3 de junho de 2003",
+        "avaliacao": 3.3,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos Desafio em Tóquio ",
+        "imagem": "static/images/velozes_furiosos_toquio.jpg",
+        "sinopse":" Um jovem piloto de rua se muda para Tóquio e se envolve no mundo das perigosas corridas de drift, enfrentando um poderoso membro da Yakuza. ",
+        "data_lancamento":  "11 de agosto de 2006",
+        "avaliacao": 4.0,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 4 ",
+        "imagem": "static/images/velozes_furiosos_4.jpg",
+        "sinopse":"Dominic Toretto e Brian O’Conner se reencontram para derrubar um cartel de drogas, enquanto enfrentam seu passado e reafirmam sua aliança nas ruas.  ",
+        "data_lancamento":  "3 de abril de 2009",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 5 ",
+        "imagem": "static/images/velozes_furiosos_5.jpg",
+        "sinopse":"Dominic Toretto e Brian O’Conner montam um time de corredores no Brasil para realizar um grande assalto e escapar de um implacável agente federal.   ",
+        "data_lancamento":  "15 de abril de 2011",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 6 ",
+        "imagem": "static/images/velozes_furioso_6.jpg",
+        "sinopse":"Dominic Toretto e sua equipe são recrutados para capturar uma perigosa organização criminosa, enquanto descobrem que Letty está viva e trabalhando para o inimigo.   ",
+        "data_lancamento":  "24 de maio de 2013",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 7 ",
+        "imagem": "static/images/velozes_furiosos_7.jpg",
+        "sinopse":" Dominic Toretto e sua equipe enfrentam um assassino implacável em busca de vingança, enquanto realizam uma missão para recuperar uma tecnologia poderosa.   ",
+        "data_lancamento":  "2 de abril de 2015",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 8",
+        "imagem": "static/images/velozes_furiosos8.jpg",
+        "sinopse":" Dominic Toretto trai sua equipe ao se aliar a uma cyberterrorista misteriosa, forçando seus amigos a se unirem para entender sua motivação e detê-lo ",
+        "data_lancamento":  "13 de abril de 2017",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 9",
+        "imagem": "static/images/velozes_furioso_9.jpg",
+        "sinopse":"Dominic Toretto precisa enfrentar seu irmão desaparecido, Jakob, agora um assassino altamente treinado, enquanto sua equipe enfrenta uma nova ameaça global.     ",
+        "data_lancamento":  "24 de junho de 2021",
+        "avaliacao": 3.7,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "Velozes e furiosos 10",
+        "imagem": "static/images/velozes_furiosos_10.jpg",
+        "sinopse":"Dominic Toretto e sua equipe enfrentam Dante Reyes, um novo inimigo sedento por vingança, que busca destruir tudo o que Dom ama após a queda de seu pai no Rio de Janeiro.    ",
+        "data_lancamento":  "17 de maio de 2023",
+        "avaliacao": 3.6,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Man Origens Wolverine",
+        "imagem": "static/images/x_man_origem.jpg",
+        "sinopse":"A história de Wolverine é revelada, desde sua infância até seu envolvimento em um projeto secreto que lhe concede garras de adamantium, moldando seu destino como mutante.    ",
+        "data_lancamento":  "30 de abril de 2009",
+        "avaliacao": 3.7,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Man 2",
+        "imagem": "static/images/x_man_2.jpg",
+        "sinopse":"Os X-Men se unem a Magneto para enfrentar um inimigo em comum: William Stryker, um militar que planeja exterminar todos os mutantes usando o próprio Cérebro de Xavier.   ",
+        "data_lancamento":  "1 de maio de 2003",
+        "avaliacao": 4.2,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Men: Dias de um Futuro Esquecido ",
+        "imagem": "static/images/x_man_futuro.jpg",
+        "sinopse":"Wolverine viaja ao passado para unir os X-Men jovens e impedir um evento que levará à criação dos Sentinelas, robôs que exterminarão os mutantes no futuro.  ",
+        "data_lancamento":  "22 de maio de 2014",
+        "avaliacao": 4.6,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Man O Confronto Final ",
+        "imagem": "static/images/x_man_confronto_final.jpg",
+        "sinopse":"Os X-Men enfrentam uma guerra entre mutantes após a criação de uma cura para seus poderes, enquanto Jean Grey retorna como a destrutiva Fênix Negra.  ",
+        "data_lancamento":  "25 de maio de 2006",
+        "avaliacao": 4.3,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Men: Fênix Negra ",
+        "imagem": "static/images/x_man_fenix.jpg",
+        "sinopse":"Jean Grey absorve uma força cósmica e perde o controle, tornando-se uma ameaça. Os X-Men lutam para salvá-la enquanto inimigos tentam manipulá-la.  ",
+        "data_lancamento":  "6 de junho de 2019",
+        "avaliacao": 3.1,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
+      },
+      {
+        "titulo": "X-Men: Primeiro Classe ",
+        "imagem": "static/images/x_man_primeira_classe.jpg",
+        "sinopse":"Nos anos 1960, Charles Xavier e Erik Lehnsherr unem forças para reunir jovens mutantes e impedir uma guerra nuclear, mas diferenças ideológicas os transformam em Professor X e Magneto. ",
+        "data_lancamento":  "25 de maio de 2011",
+        "avaliacao": 4.4,
+        "generos": ["Ação", "Aventura",  "Ficção científica"] 
       }
+      
+      
+      
     ]
   }
