@@ -13,7 +13,7 @@
         "imagem": "static/images/a_menina_dos_meus_olhos.webp",
         "sinopse": "Um grupo de amigos de uma escola particular é apaixonado pela mesma colega de classe, a graciosa Seon-ah. Jinwoo é o único que alega não ser fascinado por ela, mas, apesar das diferenças, os dois acabam se aproximando.",
         "data_lancamento": "2024-03-13",
-        "avaliacao": "N/A",
+        "avaliacao": 4.6,
         "generos": ["Romance", "Drama"]
     },
     {
@@ -93,7 +93,7 @@
         "imagem":"static/images/hopeless.jpg",
         "sinopse": "Um jovem preso em um ambiente violento busca desesperadamente uma saída, enfrentando escolhas morais difíceis.",
         "data_lancamento": "2023-10-11",
-        "avaliacao": "N/A",
+        "avaliacao": 3.5,
         "generos": ["Drama", "Crime"]
     },
     {
