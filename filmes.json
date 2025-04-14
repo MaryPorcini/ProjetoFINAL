@@ -1,52 +1,934 @@
 {
     "filmes": [
-      {
-        "titulo": "Eduardo & Mônica",
-        "imagem": "static/images/eduardo e monica.jfif",
-        "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
-        "data_lancamento": "2022-01-06",
-        "avaliacao": 3.6,
-        "generos": ["Drama", "Romance", "Comédia"]
+          {
+            "titulo": "Eduardo & Mônica",
+            "imagem": "static/images/eduardo e monica.jfif",
+            "sinopse": "Eduardo e Mônica é um filme brasileiro de comédia dramática, dirigido por René Sampaio. É baseado na canção homônima escrita por Renato Russo para a banda Legião Urbana. ",
+            "data_lancamento": "2022-01-06",
+            "avaliacao": 3.6,
+            "generos": ["Drama", "Romance", "Comédia"]
+          },
+          {
+            "titulo": "Elementos",
+            "imagem": "static/images/elemental.jpg",
+            "sinopse": "Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Até que tudo muda para Gota e Faísca.",
+            "data_lancamento": "2023-06-22",
+            "avaliacao": 4.1,
+            "generos": ["Ficção Científica", "Comédia"]
+          },
+          {
+            "titulo": "Chocolate",
+            "imagem": "static/images/chocolat_2016.jpg",
+            "sinopse": "Chocolate é um filme de 2016 dirigido por Roschdy ZZem sobre o palhaço Chocolate, que torna-se, em 1886, o primeiro artista negro da cena francesa.",
+            "data_lancamento": "2016-07-21",
+            "avaliacao": 3.8,
+            "generos": ["Drama"]
+          },
+          {
+            "titulo": "Pânico 5",
+            "imagem": "static/images/panico 5.jpg",
+            "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
+            "data_lancamento": "2022-01-13",
+            "avaliacao": 4.1,
+            "generos": ["Terror"]
+          },      
+          {
+            "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
+            "imagem": "static/images/piratas do caribe- navegando.jfif",
+            "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
+            "data_lancamento": "2011-05-07",
+            "avaliacao": 3.8,
+            "generos": ["Aventura", "Ação", "Fantasia"]
+          },      
+          {
+            "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
+            "imagem": "static/images/indiana jones.jpg",
+            "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
+            "data_lancamento": "2008-05-18",
+            "avaliacao": 4.1,
+            "generos": ["Aventura", "Ação"]
+          },
+          {
+    
+        "titulo": "O Rei do Show",
+        "imagem":"static/images/o_rei_do_show.webp",
+        "sinopse": "A história do visionário P.T. Barnum, que cria um espetáculo extraordinário e revolucionário",
+        "data_lancamento": "2017",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Drama"]
       },
       {
-        "titulo": "Elementos",
-        "imagem": "static/images/elemental.jpg",
-        "sinopse": "Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Até que tudo muda para Gota e Faísca.",
-        "data_lancamento": "2023-06-22",
-        "avaliacao": 4.1,
-        "generos": ["Ficção Científica", "Comédia"]
+        "titulo": "La La Land",
+        "imagem":"static/images/la_la_land.png",
+        "sinopse": "Um músico de jazz e uma aspirante a atriz se apaixonam enquanto perseguem seus sonhos em Los Angeles",
+        "data_lancamento": "2016",
+        "avaliacao": 4.5,
+        "generos": ["Musical","Romance", "Drama"]
       },
       {
-        "titulo": "Chocolate",
-        "imagem": "static/images/chocolat_2016.jpg",
-        "sinopse": "Chocolat é um filme de 2016 dirigido por Roschdy ZZem sobre o palhaço Chocolat, que torna-se, em 1886, o primeiro artista negro da cena francesa.",
-        "data_lancamento": "2016-07-21",
-        "avaliacao": 3.8,
-        "generos": ["Drama"]
+        "titulo": "Moulin Rouge",
+        "imagem":"static/images/moulin_rouge.jpg",
+        "sinopse": "Um poeta se envolve em um romance proibido com uma cortesã no famoso cabaré parisiense",
+        "data_lancamento": "2001",
+        "avaliacao": 4,
+        "generos": ["Musical", "Romance", "Drama"]
       },
       {
-        "titulo": "Pânico 5",
-        "imagem": "static/images/panico 5.jpg",
-        "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
-        "data_lancamento": "2022-01-13",
-        "avaliacao": 4.1,
-        "generos": ["Terror"]
-      },      
+        "titulo": "Grease: Nos Tempos da Brilhantina",
+        "imagem":"static/images/grease_nos_tempos_da_brilhantina.jpg",
+        "sinopse": "Dois adolescentes navegam pelo amor de verão e os desafios do último ano do ensino médio nos anos 50",
+        "data_lancamento": "1978",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Romance", "Comédia"]
+      },
       {
-        "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas do caribe- navegando.jfif",
-        "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-        "data_lancamento": "2011-05-07",
-        "avaliacao": 3.8,
-        "generos": ["Aventura", "Ação", "Fantasia"]
-      },      
+        "titulo": "Mamma Mia!",
+        "imagem":"static/images/mamma_mia.jpg",
+        "sinopse": "Uma jovem prestes a se casar busca descobrir a identidade de seu pai, usando as músicas do ABBA",
+        "data_lancamento": "2008",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance", "Comédia"]
+      },
       {
-        "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
-        "imagem": "static/images/indiana jones.jpg",
-        "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
-        "data_lancamento": "2008-05-18",
-        "avaliacao": 4.1,
-        "generos": ["Aventura", "Ação"]
+        "titulo": "Mamma Mia! Here We Go Again",
+        "imagem":"static/images/mamma_mia_here_we_go_again.jpg",
+        "sinopse": "Retorna à ilha grega para explorar o passado de Donna e os novos desenvolvimentos na vida de sua filha",
+        "data_lancamento": "2018",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance", "Comédia"]
+      },
+      {
+        "titulo": "Os Miseráveis",
+        "imagem":"static/images/os_miseraveis.jpg",
+        "sinopse": "Adaptação musical do clássico de Victor Hugo sobre amor, redenção e revolução na França do século XIX",
+        "data_lancamento": "2012",
+        "avaliacao": 4,
+        "generos": ["Musical", "Drama"]
+      },
+      {
+        "titulo": "Mary Poppins",
+        "imagem":"static/images/mary_poppins.jpg",
+        "sinopse": "Uma babá mágica transforma a vida de uma família inglesa com música e aventura.",
+        "data_lancamento": "1964",
+        "avaliacao":5,
+        "generos": ["Musical", "Fantasia"]
+      },
+      {
+        "titulo": "Mary Poppins Returns",
+        "imagem":"static/images/mary_poppins_returns.jpg",
+        "sinopse": "Mary Poppins retorna para ajudar a próxima geração da família Banks durante um momento difícil.",
+        "data_lancamento": "2018",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Fantasia"]
+      }, 
+      {
+        "titulo": "Chicago",
+        "imagem":"static/images/chicago.jpg",
+        "sinopse": "Duas mulheres acusadas de assassinato competem pela fama na Chicago dos anos 1920",
+        "data_lancamento": "2002",
+        "avaliacao": 4,
+        "generos": ["Musical", "Drama"]
+      },
+      {
+        "titulo": "O Mágico de Oz",
+        "imagem":"static/images/o_magico_de_oz.jpg",
+        "sinopse": "Dorothy é transportada para a terra mágica de Oz e busca o caminho de volta para casa",
+        "data_lancamento": "1939",
+        "avaliacao": 5,
+        "generos": ["Musical", "Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "A Noviça Rebelde",
+        "imagem":"static/images/a_novica_rebelde.jpg",
+        "sinopse": "Uma aspirante a freira se torna governanta e traz música e alegria para a família von Trapp na Áustria pré-Segunda Guerra Mundial.",
+        "data_lancamento": "1965",
+        "avaliacao": 5,
+        "generos": ["Musical", "Drama", "Romance"]
+      },
+      
+      {
+        "titulo": "Annie",
+        "imagem":"static/images/annie.jpg",
+        "sinopse": "Uma órfã otimista busca uma família adotiva durante a Grande Depressão.",
+        "data_lancamento": "1982",
+        "avaliacao": 3,
+        "generos": ["Musical", "Comédia"]
+      },
+      {
+        "titulo": "Annie",
+        "imagem":"static/images/annie_remake.jpg",
+        "sinopse": "Uma versão moderna da história da órfã que conquista o coração de um magnata de Nova York.",
+        "data_lancamento": "2014",
+        "avaliacao": 2.5,
+        "generos": ["Musical", "Comédia"]
+      },
+      {
+        "titulo": "O Fantasma da Ópera",
+        "imagem":"static/images/o_fantasma_da_opera.webp",
+        "sinopse": "Um misterioso gênio musical assombra a Ópera de Paris e se apaixona por uma jovem soprano.",
+        "data_lancamento": "2003",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance", "Drama"]
+      },
+      {
+        "titulo": "Encantada",
+        "imagem":"static/images/encantada.jpg",
+        "sinopse": "Uma princesa de conto de fadas é transportada para a Nova York moderna, onde descobre o amor verdadeiro.",
+        "data_lancamento": "2007",
+        "avaliacao": 4,
+        "generos": ["Musical", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "Desencantada",
+        "imagem":"static/images/desencantada.jpg",
+        "sinopse": "Giselle enfrenta novos desafios ao equilibrar a vida no mundo real com elementos de contos de fadas.",
+        "data_lancamento": "2022",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "Hamilton",
+        "imagem":"static/images/hamilton.jpg",
+        "sinopse": "Musical que narra a vida de Alexander Hamilton, um dos fundadores dos EUA, com uma abordagem inovadora.",
+        "data_lancamento": "2020",
+        "avaliacao": 5,
+        "generos": ["Musical", "Drama"]
+      },
+      {
+        "titulo": "High School Musical",
+        "imagem":"static/images/high_school_musical.jpg",
+        "sinopse": "Dois estudantes de diferentes grupos sociais se unem para participar de um musical escolar.",
+        "data_lancamento": "2006",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance"]
+      },
+      {
+        "titulo": "High School Musical 2",
+        "imagem":"static/images/high_school_musical_dois.jpg",
+        "sinopse": "O grupo de amigos enfrenta novos desafios durante as férias de verão.",
+        "data_lancamento": "2007",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance"]
+      },
+      {
+        "titulo": "High School Musical 3",
+        "imagem":"static/images/high_school_musical_tres.jpg",
+        "sinopse": "No último ano do ensino médio, os amigos se preparam para a formatura e decisões sobre o futuro.",
+        "data_lancamento": "2008",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance"]
+      },
+      {
+        "titulo": "A Pequena Loja dos Horrores",
+        "imagem":"static/images/a_pequena_loja_dos_horrores.jpg",
+        "sinopse": "Um funcionário de floricultura cria uma planta carnívora que deseja dominar o mundo.",
+        "data_lancamento": "1983",
+        "avaliacao": 4,
+        "generos": ["Musical", "Comédia", "Terror"]
+      },
+      {
+        "titulo": "Bohemian Rhapsody",
+        "imagem":"static/images/bohemian_rhapsody.jpg",
+        "sinopse": "Freddie Mercury, Brian May, Roger Taylor e John Deacon formam a banda de rock Queen em 1970. Quando o estilo de vida agitado de Mercury começa a sair de controle, o grupo precisa encontrar uma forma de lidar com o sucesso e os excessos de seu líder.",
+        "data_lancamento": "2018",
+        "avaliacao": 4.8,
+        "generos": ["Musical", "Biografia", "Drama"]
+      },
+      {
+        "titulo": "A Bela e a Fera",
+        "imagem":"static/images/a_bela_e_a_fera_original.jpg",
+        "sinopse": "Um funcionário de floricultura cria uma planta carnívora que deseja dominar o mundo.",
+        "data_lancamento": "1991",
+        "avaliacao": 4.5,
+        "generos": ["Musical", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "A Bela e a Fera",
+        "imagem":"static/images/a_bela_e_a_fera_live.jpg",
+        "sinopse": "Adaptação live-action do clássico da Disney, onde o amor verdadeiro quebra uma terrível maldição.",
+        "data_lancamento": "2017",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "Os Produtores",
+        "imagem":"static/images/os_produtores.jpg",
+        "sinopse": "Dois produtores planejam um fracasso teatral para lucrar, mas o plano sai inesperadamente errado.",
+        "data_lancamento": "2005",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Comédia"]
+      },
+      {
+        "titulo": "Tick, Tick… Boom! ",
+        "imagem":"static/images/tick_tick_boom.jpg",
+        "sinopse": "Um compositor luta para alcançar o sucesso na Broadway antes que o tempo acabe.",
+        "data_lancamento": "2021",
+        "avaliacao": 4,
+        "generos": ["Musical", "Biografia", "Drama"]
+      },
+      {
+        "titulo": "Evita",
+        "imagem":"static/images/evita.jpg",
+        "sinopse": "A ascensão de Eva Perón, de atriz humilde a primeira-dama da Argentina.",
+        "data_lancamento": "1996",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Biografia", "Drama"]
+      },
+      {
+        "titulo": "Burlesque",
+        "imagem":"static/images/burlesque.jpg",
+        "sinopse": "Uma jovem talentosa encontra fama e romance em um clube burlesco de Los Angeles.",
+        "data_lancamento": "2010",
+        "avaliacao": 3,
+        "generos": ["Musical", "Romance", "Drama"]
+      },
+      {
+        "titulo": "Cinderella ",
+        "imagem":"static/images/cinderella.jpg",
+        "sinopse": "Releitura musical do clássico conto de fadas com um elenco diversificado.",
+        "data_lancamento": "1997",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "Cinderella",
+        "imagem":"static/images/cinderella_remake.jpg",
+        "sinopse": " Uma versão moderna do conto clássico, onde Cinderella busca independência e sucesso.",
+        "data_lancamento": "2021",
+        "avaliacao": 2.5,
+        "generos": ["Musical", "Romance", "Comédia"]
+      },
+      {
+        "titulo": "Repo! The Genetic Opera",
+        "imagem":"static/images/repo_the_genetic_opera.jpg",
+        "sinopse": "Em um futuro distópico, uma empresa controla transplantes de órgãos com consequências mortais.",
+        "data_lancamento": "2008",
+        "avaliacao": 2.5,
+        "generos": ["Musical", "Terror", "Ficção Científica"]
+      },
+      {
+        "titulo": "The Rocky Horror Picture Show",
+        "imagem":"static/images/the_rocky_horror_picture_show.jpg",
+        "sinopse": "Um casal busca ajuda em um castelo estranho, encontrando um cientista excêntrico e suas criações.",
+        "data_lancamento": "1975",
+        "avaliacao": 4,
+        "generos": ["Musical", "Terror", "Comédia"]
+      },
+      {
+        "titulo": "Hair",
+        "imagem":"static/images/hair.jpg",
+        "sinopse": "Um jovem se junta a um grupo de hippies na era da contracultura dos anos 60.",
+        "data_lancamento": "1979",
+        "avaliacao": 4,
+        "generos": ["Musical", "Drama", "Guerra"]
+      },
+      {
+        "titulo": "Hedwig and the Angry Inch",
+        "imagem":"static/images/hedwig_and_the_angry_inch.jpg",
+        "sinopse": "Uma cantora transgênero alemã busca sucesso musical e amor nos EUA.",
+        "data_lancamento": "2001",
+        "avaliacao": 4,
+        "generos": ["Musical", "Drama", "Comédia"]
+      },
+      {
+        "titulo": "Across the Universe",
+        "imagem":"static/images/across_the_universe.jpg",
+        "sinopse": "Uma história de amor ambientada nos anos 60, embalada por músicas dos Beatles.",
+        "data_lancamento": "2007",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Drama", "Romance"]
+      },
+      {
+        "titulo": "Os Irmãos Cara de Pau",
+        "imagem":"static/images/os_irmaos_cara_de_pau.jpg",
+        "sinopse": "Dois irmãos músicos tentam salvar o orfanato onde cresceram, enfrentando diversas aventuras.",
+        "data_lancamento": "1980",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Comédia", "Ação"]
+      },
+      {
+        "titulo": "Vivo",
+        "imagem":"static/images/vivo.jpg",
+        "sinopse": "Um jupará músico embarca em uma aventura para entregar uma canção de amor",
+        "data_lancamento": "2020",
+        "avaliacao": 3.5,
+        "generos": ["Musical", "Animação", "Aventura"]
+      },
+      {
+        "titulo": "Descendentes",
+        "imagem":"static/images/descendentes.webp",
+        "sinopse": "Filhos de vilões da Disney têm a chance de redenção em uma escola para heróis.",
+        "data_lancamento": "2015",
+        "avaliacao": 3,
+        "generos": ["Musical", "Comédia", "Drama"]
+      },
+      {
+        "titulo": "Descendentes 2",
+        "imagem":"static/images/descendentes_dois.jpeg",
+        "sinopse": "Mal retorna à Ilha dos Perdidos, enfrentando novos desafios e antigos inimigos.",
+        "data_lancamento": "2017",
+        "avaliacao": 3,
+        "generos": ["Musical", "Comédia", "Drama"]
+      },
+      {
+        "titulo": "Descendentes 3",
+        "imagem":"static/images/descendentes_tres.jpg",
+        "sinopse": " Os filhos dos vilões enfrentam uma ameaça que pode destruir Auradon para sempre.",
+        "data_lancamento": "2019",
+        "avaliacao": 3,
+        "generos": ["Musical", "Comédia", "Drama"]
+      },
+      {
+        "titulo": "O Rei Leão",
+        "imagem":"static/images/o_rei_leao.jpg",
+        "sinopse": "Um jovem leão enfrenta desafios para reivindicar seu lugar como rei da savana africana.",
+        "data_lancamento": "1994",
+        "avaliacao": 4.5,
+        "generos": ["Musical", "Animação", "Aventura"]
+      },
+      {
+        "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+        "imagem":"static/images/senhor_dos_aneis_a_sociedade_do_mal.jpg",
+        "sinopse": "Um hobbit inicia uma jornada épica para destruir um anel poderoso e salvar a Terra-média.",
+        "data_lancamento": "2001",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Senhor dos Anéis: As Duas Torres",
+        "imagem":"static/images/o_senhor_dos_aneis_as_duas_torres.webp",
+        "sinopse": "A Irmandade se separa, enfrentando batalhas e alianças para deter as forças de Sauron",
+        "data_lancamento": "2002",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Senhor dos Anéis: O Retorno do Rei ",
+        "imagem":"static/images/o_senhor_dos_aneis_o_retorno_do_rei.jpg",
+        "sinopse": "A batalha final pela Terra-média acontece, com o destino do anel sendo decidido.",
+        "data_lancamento": "2003",
+        "avaliacao": 5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Hobbit: Uma Jornada Inesperada",
+        "imagem":"static/images/hobbit_uma_jornada_inesperada.jpg",
+        "sinopse": "Bilbo Bolseiro se junta a um grupo de anões para recuperar um reino perdido, enfrentando muitos perigos.",
+        "data_lancamento": "2012",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Hobbit: A Desolação de Smaug",
+        "imagem":"static/images/hobbit_a_desolacao_de_smaug.jpg",
+        "sinopse": "A jornada de Bilbo e os anões continua enquanto enfrentam o dragão Smaug e outros desafios.",
+        "data_lancamento": "2013",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Hobbit: A Batalha dos Cinco Exércitos",
+        "imagem":"static/images/the_hobbit_a_batalha_dos_cinco_exercitos.jpg",
+        "sinopse": "A luta final pelo tesouro de Erebor coloca todos os envolvidos em uma batalha épica.",
+        "data_lancamento": "2014",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "imagem":"static/images/harry_potter_e_a_pedra_filosofal.jpg",
+        "sinopse": "Um garoto descobre que é um bruxo e vai para uma escola mágica onde viverá grandes aventuras.",
+        "data_lancamento": "2001",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e a Câmara Secreta",
+        "imagem":"static/images/harry_potter_e_a_camara_secreta.jpg",
+        "sinopse": "Harry e seus amigos enfrentam o mistério da Câmara Secreta e uma ameaça terrível em Hogwarts.",
+        "data_lancamento": "2002",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e o Prisioneiro de Azkaban",
+        "imagem":"static/images/harry_potter_e_o_prisioneiro_de_askaban.jpg",
+        "sinopse": " Harry descobre segredos sobre seu passado e enfrenta novos perigos em sua terceira aventura.",
+        "data_lancamento": "2004",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e o Cálice de Fogo",
+        "imagem":"static/images/harry_potter_e_o_calice_de_fogo.webp",
+        "sinopse": "Harry é forçado a participar de um torneio mortal, enquanto forças sombrias começam a se mover.",
+        "data_lancamento": "2005",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e a Ordem da Fênix",
+        "imagem":"static/images/harry_potter_e_a_ordem_da_fenix.jpg",
+        "sinopse": "Harry se junta à Ordem da Fênix para lutar contra o retorno de Voldemort, enfrentando desafios internos.",
+        "data_lancamento": "2007",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e o Enigma do Príncipe",
+        "imagem":"static/images/harry_potter_e_o_enigma_do_principe.jpg",
+        "sinopse": "Harry descobre mais sobre o passado de Voldemort e encontra pistas para derrotá-lo.",
+        "data_lancamento": "2009",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e as Relíquias da Morte  Parte 1 ",
+        "imagem":"static/images/harry_potter_e_as_reliquias_da_morte.jpg",
+        "sinopse": "Harry, Ron e Hermione embarcam em uma missão perigosa para destruir os horcruxes de Voldemort.",
+        "data_lancamento": "2010",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Harry Potter e as Relíquias da Morte  Parte 2 ",
+        "imagem":"static/images/harry_potter_e_as_reliquias_da_morte_parte_dois.jpg",
+        "sinopse": "A batalha final entre as forças do bem e do mal culmina em uma grande vitória para os bruxos.",
+        "data_lancamento": "2005",
+        "avaliacao": 5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Animais Fantásticos e Onde Habitam",
+        "imagem":"static/images/animais_fantasticos_e_onde_habitam.webp",
+        "sinopse": "O magizoologista Newt Scamander viaja por Nova York e enfrenta as ameaças de um mago das trevas.",
+        "data_lancamento": "2016",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Animais Fantásticos: Os Crimes de Grindelwald",
+        "imagem":"static/images/animais_fantasticos_os_crimes_de_grindelwald.jpg",
+        "sinopse": "A busca por Grindelwald continua enquanto segredos sombrios do passado de Dumbledore vêm à tona.",
+        "data_lancamento": "2018",
+        "avaliacao": 3,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Animais Fantásticos: Os Segredos de Dumbledore",
+        "imagem":"static/images/animais_fantasticos_os_segredos_de_dumbledore.jpg",
+        "sinopse": "A luta entre o bem e o mal se intensifica enquanto segredos e alianças são revelados.",
+        "data_lancamento": "2022",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Alice no País das Maravilhas ",
+        "imagem":"static/images/alice_no_pais_das_maravilhas.jpg",
+        "sinopse": "Alice retorna ao País das Maravilhas, onde enfrenta novos desafios e encontra velhos amigos.",
+        "data_lancamento": "2010",
+        "avaliacao": 3,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Alice Através do Espelho",
+        "imagem":"static/images/alice_atraves_do_espelho.jpg",
+        "sinopse": "Alice retorna ao mundo mágico para salvar o Chapeleiro Maluco e enfrentar novas adversidades.",
+        "data_lancamento": "2016",
+        "avaliacao": 2.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+        "imagem":"static/images/as_cronicas_de_narnia_o_leao_a_feiticeira_e_o_guarda_roupa.jpg",
+        "sinopse": "Quatro irmãos descobrem um mundo mágico e se juntam a um leão para derrotar uma feiticeira malvada.",
+        "data_lancamento": "2005",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "As Crônicas de Nárnia: Príncipe Caspian",
+        "imagem":"static/images/as_cronicas_de_narnia_principe_caspian.jpg",
+        "sinopse": "Os irmãos retornam a Nárnia para ajudar o príncipe Caspian a recuperar o trono usurpado.",
+        "data_lancamento": "2008",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada",
+        "imagem":"static/images/as_cronicas_de_narnia_a_viagem_do_peregrino_da_alvorada.jpg",
+        "sinopse": "Os irmãos embarcam em uma jornada pelo mar, enfrentando perigos e aventuras em busca de um destino misterioso.",
+        "data_lancamento": "2010",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "A Bússola de Ouro",
+        "imagem":"static/images/a_bussola_de_ouro.jpg",
+        "sinopse": "Uma jovem menina parte em uma jornada para salvar seu amigo e desmascarar uma poderosa conspiração.",
+        "data_lancamento": "2007",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Stardust: O Mistério da Estrela ",
+        "imagem":"static/images/stardust_o_misterio_da_estrela.webp",
+        "sinopse": "Um jovem entra em um mundo mágico em busca de uma estrela caída e descobre segredos do seu próprio destino..",
+        "data_lancamento": "2007",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Labirinto",
+        "imagem":"static/images/o_labirinto.jpg",
+        "sinopse": "Uma garota se perde em um labirinto mágico para resgatar seu irmão, enfrentando criaturas fantásticas e desafios.",
+        "data_lancamento": "1986",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Ponte para Terabítia",
+        "imagem":"static/images/ponte_para_terabita.jpg",
+        "sinopse": "Dois amigos criam um mundo mágico, mas a tragédia muda suas vidas para sempre.",
+        "data_lancamento": "2007",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Abracadabra ",
+        "imagem":"static/images/abracadabra.jpg",
+        "sinopse": "Três bruxas são acidentalmente ressuscitadas em Salem e tentam ganhar a imortalidade, enquanto um grupo de jovens tenta impedi-las.",
+        "data_lancamento": "1993",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Malévola",
+        "imagem":"static/images/malevola.jpg",
+        "sinopse": " A história da vilã de A Bela Adormecida, revelando os motivos por trás de sua maldade.",
+        "data_lancamento": "2014",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Malévola: Dona do Mal",
+        "imagem":"static/images/malevola_dona_do_mal.jpg",
+        "sinopse": "Malévola luta para proteger sua filha adotiva de ameaças que podem destruir seu reino e a paz entre as fadas e os humanos.",
+        "data_lancamento": "2019",
+        "avaliacao": 3,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Encantada",
+        "imagem":"static/images/encantada.jpg",
+        "sinopse": "Uma princesa de um conto de fadas é transportada para o mundo real de Nova York e tenta encontrar uma maneira de voltar para casa.",
+        "data_lancamento": "2007",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Desencantada",
+        "imagem":"static/images/desencantada.jpg",
+        "sinopse": "A princesa Giselle lida com a vida em um mundo moderno, mas logo começa a enfrentar os desafios da mudança.",
+        "data_lancamento": "2022",
+        "avaliacao": 3,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Lar das Crianças Peculiares",
+        "imagem":"static/images/o_lar_das_criancas_peculiares.jpg",
+        "sinopse": "Um jovem encontra um orfanato cheio de crianças com habilidades especiais e precisa protegê-las de uma ameaça.",
+        "data_lancamento": "2016",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Percy Jackson e o Ladrão de Raios",
+        "imagem":"static/images/percy_jackson_e_o_ladrao_de_raios.jpg",
+        "sinopse": "Uma garota se perde em um labirinto mágico para resgatar seu irmão, enfrentando criaturas fantásticas e desafios.",
+        "data_lancamento": "1986",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Percy Jackson e o Mar de Monstros",
+        "imagem":"static/images/percy_jackson_e_o_mar_de_monstros.jpg",
+        "sinopse": "Percy e seus amigos partem em uma jornada para encontrar o Velocino de Ouro e salvar o Acampamento Meio-Sangue.",
+        "data_lancamento": "2013",
+        "avaliacao": 3,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "A Fantástica Fábrica de Chocolate",
+        "imagem":"static/images/a_fantastica_fabrica_de_chocolate.jpeg",
+        "sinopse": "Um garoto ganha a chance de visitar a misteriosa fábrica de chocolate de Willy Wonka, onde coisas incríveis acontecem.",
+        "data_lancamento": "2005",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Jumanji",
+        "imagem":"static/images/jumanji_orig.jpg",
+        "sinopse": "Dois irmãos descobrem um jogo de tabuleiro mágico que libera perigosas criaturas e desafios, colocando suas vidas em risco.",
+        "data_lancamento": "1995",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Jumanji: Bem-vindo à Selva",
+        "imagem":"static/images/jumanji_bem_vindo_a_selva.jpg",
+        "sinopse": "Quatro adolescentes são transportados para o jogo Jumanji e devem trabalhar juntos para sobreviver à selva cheia de perigos.",
+        "data_lancamento": "2017",
+        "avaliacao": 4,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Jumanji: Próxima Fase",
+        "imagem":"static/images/jumanji_proxima_fase.jpg",
+        "sinopse": "O grupo retorna ao mundo de Jumanji, onde novas aventuras e desafios os esperam.",
+        "data_lancamento": "2019",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Menino que Queria Ser Rei",
+        "imagem":"static/images/o_menino_que_queria_ser_rei.jpg",
+        "sinopse": "Um garoto encontra a espada Excalibur e, com a ajuda de seus amigos, enfrenta forças do mal para salvar o reino.",
+        "data_lancamento": "2019",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "A Viagem de Chihiro",
+        "imagem":"static/images/a_viagem_de_chihiro.jpg",
+        "sinopse": "Uma garota se vê presa em um mundo mágico e deve trabalhar para salvar seus pais e retornar ao mundo real.",
+        "data_lancamento": "2001",
+        "avaliacao": 5,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+      },
+      {
+        "titulo": "O Conto da Princesa Kaguya",
+        "imagem":"static/images/o_conto_da_princesa_kaguya.webp",
+        "sinopse": "A história de uma princesa que nasce de um bambu mágico e vive uma vida cheia de beleza, mas também de tristeza.",
+        "data_lancamento": "2013",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+      },
+      {
+        "titulo": "Eragon",
+        "imagem":"static/images/eragon.jpg",
+        "sinopse": "Um jovem encontra um ovo de dragão e se torna o cavaleiro de dragão, lutando contra um império tirânico.",
+        "data_lancamento": "2006",
+        "avaliacao": 2.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "O Dragão do Meu Pai",
+        "imagem":"static/images/o_dragao_do_meu_pai.jpg",
+        "sinopse": "Um jovem tenta encontrar uma conexão com o dragão lendário que habita as florestas ao redor de sua casa..",
+        "data_lancamento": "2022",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "titulo": "Homecoming: A Film by Beyoncé",
+        "imagem":"static/images/homecoming.jpg",
+        "sinopse": "Documentário que captura a performance histórica de Beyoncé no Coachella de 2018, mostrando seu processo criativo e sua jornada pessoal.",
+        "data_lancamento": "2019",
+        "avaliacao": 5,
+        "generos": ["Documentário", "Musical"]
+      },
+      {
+        "titulo": "A Última Floresta",
+        "imagem":"static/images/a_ultima_floresta.jpg",
+        "sinopse": "Documentário sobre as lutas do povo Yanomami contra a destruição da floresta amazônica e a invasão de suas terras.",
+        "data_lancamento": "2021",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "O Ato de Matar",
+        "imagem":"static/images/o_ato_de_matar.webp",
+        "sinopse": "Ex-para-militares indonésios reencenam seus próprios crimes de guerra em uma abordagem surreal e perturbadora.",
+        "data_lancamento": "2012",
+        "avaliacao": 4.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Britney vs. Spears ",
+        "imagem":"static/images/britney_vs_spears.jpg",
+        "sinopse": "Exame do controle sobre a vida de Britney Spears através da tutela que durou anos e a luta da cantora pela liberdade.",
+        "data_lancamento": "2021",
+        "avaliacao": 3,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Leaving Neverland",
+        "imagem":"static/images/leaving_neverland.png",
+        "sinopse": " Controvérsias e acusações de abuso sexual envolvendo Michael Jackson, vistas através das histórias de duas vítimas.",
+        "data_lancamento": "2019",
+        "avaliacao": 3.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Making a Murderer",
+        "imagem":"static/images/making_a_murderer.webp",
+        "sinopse": "Documentário sobre Steven Avery, que foi condenado por um crime que não cometeu e depois novamente acusado de outro crime.",
+        "data_lancamento": "2015",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "The Keepers",
+        "imagem":"static/images/the_keepers.jpg",
+        "sinopse": " Investigação sobre o assassinato de uma freira em Baltimore e os encobrimentos da Igreja Católica relacionados a abusos sexuais.",
+        "data_lancamento": "2017",
+        "avaliacao": 4.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Tiger King",
+        "imagem":"static/images/tiger_king.jpg",
+        "sinopse": " A vida excêntrica de Joe Exotic, dono de um zoológico de felinos, e as incríveis histórias que envolvem rivalidades e crimes.",
+        "data_lancamento": "2020",
+        "avaliacao": 3.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Jeffrey Epstein: Poder e Perversão",
+        "imagem":"static/images/jeffrey_epstein_poder_e_perversao.webp",
+        "sinopse": "Documentário sobre o bilionário Jeffrey Epstein, suas atividades criminosas e o sistema que permitiu sua impunidade.",
+        "data_lancamento": "2020",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "American Murder: A Família da Vizinhança",
+        "imagem":"static/images/american_murder_a_familia_da_vizinhanca.jpg",
+        "sinopse": "O desaparecimento de Shanann Watts e seus filhos, revelando segredos sombrios e uma verdade perturbadora sobre o autor do crime.",
+        "data_lancamento": "2020",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Don’t Fk with Cats",
+        "imagem":"static/images/dont_fuck_with_cats.jpg",
+        "sinopse": "Investigação sobre um caso viral que envolveu vídeos perturbadores de maus-tratos a gatos e a caça ao criminoso.",
+        "data_lancamento": "2019",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Inside Job",
+        "imagem":"static/images/inside_job.jpg",
+        "sinopse": "Uma análise sobre as causas da crise financeira global de 2008, revelando a corrupção e o colapso do sistema bancário mundial.",
+        "data_lancamento": "2010",
+        "avaliacao": 4.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Nosso Planeta",
+        "imagem":"static/images/nosso_planeta.webp",
+        "sinopse": "Um mergulho profundo nos oceanos, revelando o mundo submarino de forma deslumbrante e emocionante.",
+        "data_lancamento": "2019",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Planeta Azul II",
+        "imagem":"static/images/planeta_azul_ii.webp",
+        "sinopse": "Um mergulho profundo nos oceanos, revelando o mundo submarino de forma deslumbrante e emocionante.",
+        "data_lancamento": "2017",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Becoming",
+        "imagem":"static/images/becoming.jpg",
+        "sinopse": "Documentário sobre Michelle Obama, mostrando sua turnê e o impacto de sua história pessoal nas pessoas ao redor do mundo.",
+        "data_lancamento": "2020",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Val",
+        "imagem":"static/images/val.jpg",
+        "sinopse": "A vida de Val Kilmer, contado por ele mesmo, com filmagens de sua carreira e seu enfrentamento de uma doença grave.",
+        "data_lancamento": "2021",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Senna",
+        "imagem":"static/images/senna.jpg",
+        "sinopse": "Documentário sobre a vida e carreira do piloto de Fórmula 1 Ayrton Senna, focando em sua habilidade e legado.",
+        "data_lancamento": "2010",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Schumacher",
+        "imagem":"static/images/schumacher.jpg",
+        "sinopse": "Retrato de Michael Schumacher, um dos maiores pilotos de Fórmula 1, e sua batalha após o acidente que o deixou em coma.",
+        "data_lancamento": "2021",
+        "avaliacao": 3.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Diego Maradona",
+        "imagem":"static/images/diego_maradona.jpg",
+        "sinopse": "Uma análise profunda da vida do ícone do futebol argentino, Diego Maradona, focando em sua ascensão e queda.",
+        "data_lancamento": "2019",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Beastie Boys Story",
+        "imagem":"static/images/bestie_boys_story.jpg",
+        "sinopse": "Documentário sobre o legado dos Beastie Boys, desde suas origens até o impacto cultural do grupo.",
+        "data_lancamento": "2020",
+        "avaliacao": 4.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "The Social Dilemma",
+        "imagem":"static/images/the_social_dilemma.webp",
+        "sinopse": "Uma análise das redes sociais, mostrando como elas afetam nossa saúde mental e manipulam o comportamento.",
+        "data_lancamento": "2020",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Inside the Mind of a Cat",
+        "imagem":"static/images/inside_the_mind_of_a_cat.jpg",
+        "sinopse": "Exploração das mentes dos gatos, tentando entender o comportamento enigmático desses animais adorados.",
+        "data_lancamento": "2022",
+        "avaliacao": 3.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Os 13 Sobreviventes",
+        "imagem":"static/images/os_treze_sobreviventes.jpg",
+        "sinopse": "Documentário sobre o resgate dos 13 meninos tailandeses que ficaram presos em uma caverna por mais de duas semanas.",
+        "data_lancamento": "2022",
+        "avaliacao": 4,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Wild Wild Country",
+        "imagem":"static/images/wild_wild_country.jpg",
+        "sinopse": "A história do culto Rajneesh e a batalha de seus seguidores por poder em Oregon, EUA.",
+        "data_lancamento": "2018",
+        "avaliacao": 4.5,
+        "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Cosmos",
+        "imagem":"static/images/cosmos.jpg",
+        "sinopse": "Uma série que explora o universo e a ciência de forma fascinante, apresentando os mistérios do cosmos e do nosso planeta.",
+        "data_lancamento": "2014",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
       }
     ]
   }
