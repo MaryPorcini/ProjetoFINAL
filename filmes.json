@@ -41,30 +41,6 @@
         "generos": ["Ficção científica", "Aventura", "Ação"]
       },
       {
-        "titulo": "As crônicas de nárnia - a viagem do peregrino da alvorada",
-        "imagem": "static/images/as_Cronicas_de _Narnia _Peregrino_da_ alvorada.jpg",
-        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
-        "data_lancamento": "9 de dezembro de 2010",
-        "avaliacao": 4.1,
-        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
-      },
-      {
-        "titulo": "As Crônicas de Nárnia - O Leão, a Feiticeira e o Guarda-Roupa",
-        "imagem": "static/images/as_cronicas_de_narnia_1.jpg",
-        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
-        "data_lancamento": "9 de dezembro de 2005",
-        "avaliacao": 4.9,
-        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
-      },
-      {
-        "titulo": "As Crônicas de Nárnia - O Príncipe Caspian",
-        "imagem": "static/images/as_cronicas_de_narnia_caspian.jpg",
-        "sinopse": "Em As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada, Lucy, Edmund, Caspian e o fiel ratinho Reepicheep embarcam em uma jornada pelo oceano de Nárnia, enfrentando perigos e descobrindo novos territórios. ",
-        "data_lancamento": "30 de maio de 2008",
-        "avaliacao": 4.7,
-        "generos": ["Ficção científica", "Aventura", "Fantasia", "família" ]
-      },
-      {
         "titulo": "Avatar",
         "imagem": "static/images/avatar.jpg",
         "sinopse": "Em Avatar, Jake Sully, um ex-militar, se infiltra em um programa de exploração em Pandora, onde se envolve com os nativos Na'vi e luta para proteger seu novo lar. ",
