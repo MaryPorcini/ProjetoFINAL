@@ -667,30 +667,6 @@
         "generos": ["Fantasia", "Aventura"]
       },
       {
-        "titulo": "Jumanji",
-        "imagem":"static/images/jumanji_orig.jpg",
-        "sinopse": "Dois irmãos descobrem um jogo de tabuleiro mágico que libera perigosas criaturas e desafios, colocando suas vidas em risco.",
-        "data_lancamento": "1995",
-        "avaliacao": 3.5,
-        "generos": ["Fantasia", "Aventura"]
-      },
-      {
-        "titulo": "Jumanji: Bem-vindo à Selva",
-        "imagem":"static/images/jumanji_bem_vindo_a_selva.jpg",
-        "sinopse": "Quatro adolescentes são transportados para o jogo Jumanji e devem trabalhar juntos para sobreviver à selva cheia de perigos.",
-        "data_lancamento": "2017",
-        "avaliacao": 4,
-        "generos": ["Fantasia", "Aventura"]
-      },
-      {
-        "titulo": "Jumanji: Próxima Fase",
-        "imagem":"static/images/jumanji_proxima_fase.jpg",
-        "sinopse": "O grupo retorna ao mundo de Jumanji, onde novas aventuras e desafios os esperam.",
-        "data_lancamento": "2019",
-        "avaliacao": 3.5,
-        "generos": ["Fantasia", "Aventura"]
-      },
-      {
         "titulo": "O Menino que Queria Ser Rei",
         "imagem":"static/images/o_menino_que_queria_ser_rei.jpg",
         "sinopse": "Um garoto encontra a espada Excalibur e, com a ajuda de seus amigos, enfrenta forças do mal para salvar o reino.",
