@@ -2431,9 +2431,1078 @@
         "data_lancamento":  "25 de maio de 2011",
         "avaliacao": 4.4,
         "generos": ["Ação", "Aventura",  "Ficção científica"] 
-      }
-      
-      
-      
-    ]
+      },
+    {
+        "titulo": "Seoul-ui Bom",
+        "imagem": "static/images/seour_ui_bom.jpg",
+        "sinopse": "Em meio ao golpe militar de 1979 na Coreia do Sul, um general tenta impedir a tomada de poder por forças autoritárias.",
+        "avaliacao": 4.6,
+        "generos": ["Drama histórico", "Ação"]
+        
+    },
+    {
+        "titulo": "Menina dos Meus Olhos",
+        "imagem": "static/images/a_menina_dos_meus_olhos.webp",
+        "sinopse": "Um grupo de amigos de uma escola particular é apaixonado pela mesma colega de classe, a graciosa Seon-ah. Jinwoo é o único que alega não ser fascinado por ela, mas, apesar das diferenças, os dois acabam se aproximando.",
+        "data_lancamento": "2024-03-13",
+        "avaliacao": 4.6,
+        "generos": ["Romance", "Drama"]
+    },
+    {
+        "titulo": "Decisão de Partir",
+        "imagem": "static/images/decisão_de_partir.webp",
+        "sinopse": "O detetive Hae-joon investiga a morte misteriosa de um homem que caiu de uma montanha. Durante a investigação, ele começa a desenvolver interesse pela viúva da vítima, Seo-rae, que se torna a principal suspeita.",
+        "data_lancamento": "2022-06-29",
+        "avaliacao": 4.0,
+        "generos": ["Mistério", "Romance"]
+    },
+    {
+        "titulo": "Sweet & Sour",
+        "imagem":"static/images/sweet_e_sour.jpg",
+        "sinopse": "Jang-hyuk e Da-eun enfrentam os desafios de um relacionamento à distância quando Jang-hyuk recebe uma oportunidade de trabalho em outra cidade.",
+        "data_lancamento": "2021-06-04",
+        "avaliacao": 3.5,
+        "generos": ["Romance", "Drama"]
+    },
+    {
+        "titulo": "Love and Leashes",
+        "imagem":"static/images/love_and_leashes.jpg",
+        "sinopse": "Uma jovem descobre os gostos secretos de seu colega de trabalho e os dois iniciam um relacionamento contratual baseado em dominação e submissão.",
+        "data_lancamento": "2022-02-11",
+        "avaliacao": 3.8,
+        "generos": ["Romance", "Comédia"]
+    },
+    {
+        "titulo": "Carter",
+        "imagem":"static/images/carter.jpg",
+        "sinopse": "Um agente acorda sem memória e é forçado a participar de uma missão perigosa enquanto é perseguido por várias facções.",
+        "data_lancamento": "2022-08-05",
+        "avaliacao": 3.2,
+        "generos": ["Ação", "Suspense"]
+    },
+    {
+        "titulo": "A Noite das 8",
+        "imagem":"static/images/noite_das_8.jpg",
+        "sinopse": "Oito amigos se reúnem para um jantar durante um evento cósmico raro, desencadeando uma série de eventos misteriosos.",
+        "data_lancamento": "2021-09-17",
+        "avaliacao": 3.7,
+        "generos": ["Ficção Científica", "Suspense"]
+    },
+    {
+        "titulo": "Varredores Espaciais",
+        "imagem":"static/images/nova_ordem_espacial.jpg",
+        "sinopse": "Em 2092, uma equipe de coletores de lixo espacial descobre um robô humanóide que é uma arma de destruição em massa.",
+        "data_lancamento": "2021-02-05",
+        "avaliacao": 3.9,
+        "generos": ["Ficção Científica", "Ação"]
+    },
+    {
+        "titulo": "Pandora",
+        "imagem":"static/images/pandora.jpg",
+        "sinopse": "Após um terremoto danificar uma usina nuclear, um homem arrisca sua vida para salvar seu país de um desastre iminente.",
+        "data_lancamento": "2016-12-07",
+        "avaliacao": 3.8,
+        "generos": ["Drama", "Ação"]
+    },
+    {
+        "titulo": "Psicocinese",
+        "imagem":"static/images/psicocinese.jpg",
+        "sinopse": "Um homem comum adquire poderes telecinéticos e os usa para ajudar sua filha a salvar seu negócio de frango frito de uma empresa corrupta.",
+        "data_lancamento": "2018-01-31",
+        "avaliacao": 3.6,
+        "generos": ["Comédia", "Fantasia"]
+    },
+    {
+        "titulo": "Meu Nome é Loh Kiwan",
+        "imagem":"static/images/meu_nome_é_loh_kiwan.jpg",
+        "sinopse": "Um desertor norte-coreano luta para obter asilo na Bélgica enquanto enfrenta desafios de identidade e sobrevivência.",
+        "data_lancamento": "2024-04-20",
+        "avaliacao": 3.4,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Hopeless",
+        "imagem":"static/images/hopeless.jpg",
+        "sinopse": "Um jovem preso em um ambiente violento busca desesperadamente uma saída, enfrentando escolhas morais difíceis.",
+        "data_lancamento": "2023-10-11",
+        "avaliacao": 3.5,
+        "generos": ["Drama", "Crime"]
+    },
+    {
+        "titulo": "Project Silence",
+        "imagem":"static/images/project_silence.jpg",
+        "sinopse": "Durante uma evacuação de emergência, um grupo de pessoas fica preso em uma ponte onde criaturas misteriosas começam a atacar.",
+        "data_lancamento": "2023-07-15",
+        "avaliacao": 4.0,
+        "generos": ["Suspense", "Ficção Científica"]
+    },
+    {
+        "titulo": "The Childe",
+        "imagem":"static/images/the_childe.jpg",
+        "sinopse": "Um jovem descendente de coreanos e filipinos viaja para a Coreia do Sul em busca de seu pai biológico e se vê envolvido em uma perigosa conspiração.",
+        "data_lancamento": "2023-06-21",
+        "avaliacao": "3.8",
+        "generos": ["Ação", "Drama"]
+    },
+    {
+        "titulo": "Soulmate",
+        "imagem":"static/images/soulmate.jpg",
+        "sinopse": "Duas amigas inseparáveis enfrentam os desafios do crescimento e das mudanças em seu relacionamento ao longo dos anos.",
+        "data_lancamento": "2023-03-15",
+        "avaliacao": "3.6",
+        "generos": ["Drama", "Romance"]
+    },
+    {
+        "titulo": "Central do Brasil",
+        "imagem":"static/images/central_do_rasil.jpg",
+        "sinopse": "Uma ex-professora escreve cartas para analfabetos na estação Central do Brasil e embarca em uma jornada com um menino em busca de seu pai.",
+        "data_lancamento": "1998-02-20",
+        "avaliacao": 4.5,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Cidade de Deus",
+        "imagem":"static/images/cidade_de_deus.jpg",
+        "sinopse": "A ascensão do crime organizado na favela Cidade de Deus, no Rio de Janeiro, é contada através da perspectiva de um jovem fotógrafo.",
+        "data_lancamento": "2002-08-30",
+        "avaliacao": 4.7,
+        "generos": ["Crime", "Drama"]
+    },
+    {
+        "titulo": "O Auto da Compadecida",
+        "imagem":"static/images/o_auto_da_compadecida.jpg",
+        "sinopse": "As aventuras de João Grilo e Chicó, dois nordestinos pobres que usam sua astúcia para sobreviver, misturando comédia e crítica social.",
+        "data_lancamento": "2000-09-15",
+        "avaliacao": 4.6,
+        "generos": ["Comédia", "Drama"]
+    },    
+    {
+        "titulo": "Tropa de Elite",
+        "imagem": "static/images/tropa_de_elite.jpg",
+        "sinopse": "A rotina do BOPE no Rio de Janeiro e os desafios enfrentados pelo Capitão Nascimento em meio à violência urbana.",
+        "data_lancamento": "2007-10-12",
+        "avaliacao": 4.7,
+        "generos": ["Ação", "Crime", "Drama"]
+   },
+   {
+         "titulo": "Tropa de Elite 2: O Inimigo Agora é Outro",
+        "imagem": "static/images/tropa_de_elite_2_o_inimigo_agora_e_outro.jpg",
+        "sinopse": "Anos depois, Capitão Nascimento enfrenta novos desafios, agora dentro do sistema político e policial corrompido.",
+        "data_lancamento": "2010-10-08",
+        "avaliacao": 4.8,
+        "generos": ["Ação", "Crime", "Drama"]
+    },
+    {
+        "titulo": "Dona Flor e Seus Dois Maridos",
+        "imagem": "static/images/dona_flor_e_seus_dois_maridos.jpg",
+        "sinopse": "Após a morte de seu marido, Dona Flor se casa novamente, mas continua sendo visitada pelo espírito do falecido.",
+        "data_lancamento": "1976-11-22",
+        "avaliacao": 4.3,
+        "generos": ["Comédia", "Romance"]
+    },
+    {
+        "titulo": "Carandiru",
+        "imagem": "static/images/carandiru.jpg",
+        "sinopse": "Baseado em fatos reais, um médico trabalha no presídio de Carandiru e testemunha as duras condições dos detentos.",
+        "data_lancamento": "2003-04-11",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Crime"]
+    },
+    {
+        "titulo": "Pixote: A Lei do Mais Fraco",
+        "imagem": "static/images/pixote_a_lei_do_mais_fraco.jpg",
+        "sinopse": "Um garoto de rua sobrevive no mundo do crime após fugir de um reformatório brutal.",
+        "data_lancamento": "1981-09-10",
+        "avaliacao": 4.6,
+        "generos": ["Drama", "Crime"]
+    },
+    {
+        "titulo": "O Pagador de Promessas",
+        "imagem": "static/images/o_pagador_de_promessas.jpg",
+        "sinopse": "Zé do Burro tenta cumprir sua promessa carregando uma cruz até uma igreja, enfrentando a resistência do padre.",
+        "data_lancamento": "1962-08-17",
+        "avaliacao": 4.7,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Que Horas Ela Volta?",
+        "imagem": "static/images/que_horas_ela_volta.jpg",
+        "sinopse": "A chegada da filha de uma empregada doméstica à casa dos patrões expõe tensões sociais e desigualdades.",
+        "data_lancamento": "2015-08-27",
+        "avaliacao": 4.6,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Bicho de Sete Cabeças",
+        "imagem": "static/images/bicho_de_sete_cabeças.jpg",
+        "sinopse": "Um jovem é internado à força em um hospital psiquiátrico e enfrenta os abusos do sistema de saúde mental.",
+        "data_lancamento": "2000-10-20",
+        "avaliacao": 4.6,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "O Lobo Atrás da Porta",
+        "imagem": "static/images/lobo_atras_da_porta.jpg",
+        "sinopse": "O desaparecimento de uma criança leva a uma investigação que revela segredos e traições entre os envolvidos.",
+        "data_lancamento": "2013-09-27",
+        "avaliacao": 4.4,
+        "generos": ["Suspense", "Drama"]
+    },
+    {
+        "titulo": "O Animal Cordial",
+        "imagem": "static/images/o_animal_cordial.jpg",
+        "sinopse": "Um assalto em um restaurante desencadeia uma noite de terror e violência psicológica.",
+        "data_lancamento": "2017-08-09",
+        "avaliacao": 4.2,
+        "generos": ["Suspense", "Terror"]
+    },
+    {
+        "titulo": "Divino Amor",
+        "imagem": "static/images/divino_amor.jpg",
+        "sinopse": "Em um Brasil futurista e ultrarreligioso, uma mulher devota enfrenta uma crise de fé.",
+        "data_lancamento": "2019-06-27",
+        "avaliacao": 4.3,
+        "generos": ["Drama", "Ficção Científica"]
+    },
+    {
+        "titulo": "O Homem do Futuro",
+        "imagem": "static/images/Poster_o_homem_do_futuro.jpg",
+        "sinopse": "Um cientista viaja no tempo para mudar o passado e tentar consertar sua vida amorosa.",
+        "data_lancamento": "2011-09-02",
+        "avaliacao": 4.4,
+        "generos": ["Ficção Científica", "Romance", "Comédia"]
+    },
+    {
+        "titulo": "Cidade Baixa",
+        "imagem": "static/images/cidade_baixa.jpeg",
+        "sinopse": "Dois amigos apaixonam-se pela mesma mulher, colocando sua amizade à prova.",
+        "data_lancamento": "2005-05-19",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Romance"]
+    },
+    {
+        "titulo": "Alemão",
+        "imagem": "static/images/alemao.jpg",
+        "sinopse": "Cinco policiais infiltrados na favela do Alemão enfrentam um cerco iminente do tráfico de drogas.",
+        "data_lancamento": "2014-03-13",
+        "avaliacao": 4.1,
+        "generos": ["Ação", "Drama"]
+    },
+    {
+        "titulo": "A História da Eternidade",
+        "imagem": "static/images/a_história_da_eternidade.jpg",
+        "sinopse": "A vida de três mulheres em uma vila no sertão nordestino se entrelaça em sonhos, frustrações e esperança.",
+        "data_lancamento": "2014-10-16",
+        "avaliacao": 4.4,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Minha Mãe é uma Peça",
+        "imagem": "static/images/minha_mãe_é_uma_peça.jpg",
+        "sinopse": "Dona Hermínia é uma mãe superprotetora e hilária, que precisa lidar com os filhos e sua própria vida após um divórcio.",
+        "data_lancamento": "2013-06-21",
+        "avaliacao": 4.5,
+        "generos": ["Comédia"]
+    },
+    {
+        "titulo": "O Shaolin do Sertão",
+        "imagem": "static/images/o_shaolin_do_sertão.jpg",
+        "sinopse": "Aluízio Li, um fã de filmes de artes marciais, decide enfrentar um lutador profissional para defender sua cidade.",
+        "data_lancamento": "2016-10-13",
+        "avaliacao": 4.0,
+        "generos": ["Comédia", "Ação"]
+    },
+    {
+        "titulo": "Se Eu Fosse Você",
+        "imagem": "static/images/se_eu_fosse_você.jpg",
+        "sinopse": "Casal troca de corpos e precisa aprender a viver a vida do outro.",
+        "data_lancamento": "2006-01-06",
+        "avaliacao": 4.2,
+        "generos": ["Comédia", "Fantasia"]
+    },
+    {
+        "titulo": "De Pernas pro Ar",
+        "imagem": "static/images/de_pernas_pro_ar.jpg",
+        "sinopse": "Alice, uma mulher dedicada ao trabalho, vê sua vida mudar ao entrar no mundo dos produtos eróticos.",
+        "data_lancamento": "2010-12-31",
+        "avaliacao": 3.8,
+        "generos": ["Comédia"]
+    },
+    {
+        "titulo": "O Homem que Copiava",
+        "imagem": "static/images/o-homem-que-copiava.jpg",
+        "sinopse": "Um jovem operador de fotocopiadora se envolve em um plano para falsificar dinheiro e mudar de vida.",
+        "data_lancamento": "2003-05-16",
+        "avaliacao": 4.6,
+        "generos": ["Drama", "Crime"]
+    },
+    {
+        "titulo": "Lisbela e o Prisioneiro",
+        "imagem": "static/images/lisbela_e_o_prisioneiro.jpg",
+        "sinopse": "Uma jovem sonhadora se apaixona por um malandro aventureiro em uma história cheia de humor e romance.",
+        "data_lancamento": "2003-08-22",
+        "avaliacao": 4.3,
+        "generos": ["Comédia", "Romance"]
+    },
+    {
+        "titulo": "O Palhaço",
+        "imagem": "static/images/o_palhaco.jpg",
+        "sinopse": "Um palhaço começa a questionar sua vocação e embarca em uma jornada de autodescoberta.",
+        "data_lancamento": "2011-10-28",
+        "avaliacao": 4.7,
+        "generos": ["Drama", "Comédia"]
+    },
+    {
+        "titulo": "Saneamento Básico, o Filme",
+        "imagem": "static/images/saneamento_basico_o_filme.jpg",
+        "sinopse": "Moradores de uma pequena cidade decidem criar um filme para conseguir verbas para construir uma fossa.",
+        "data_lancamento": "2007-07-20",
+        "avaliacao": 4.1,
+        "generos": ["Comédia"]
+    },
+    {
+        "titulo": "Minha Vida em Marte",
+        "imagem": "static/images/minha_vida_em_marte.jpg",
+        "sinopse": "Fernanda enfrenta uma crise no casamento e embarca em uma jornada divertida ao lado do melhor amigo.",
+        "data_lancamento": "2018-12-25",
+        "avaliacao": 3.9,
+        "generos": ["Comédia"]
+    },
+    {
+        "titulo": "Vai Que Dá Certo",
+        "imagem": "static/images/vai_que_da_certo.jpg",
+        "sinopse": "Grupo de amigos falidos decide planejar um golpe para mudar de vida.",
+        "data_lancamento": "2013-03-22",
+        "avaliacao": 3.7,
+        "generos": ["Comédia"]
+    },
+    {
+        "titulo": "Bacurau",
+        "imagem": "static/images/bacurau.jpg",
+        "sinopse": "Após a morte da matriarca, um pequeno vilarejo começa a enfrentar eventos misteriosos e perigosos.",
+        "data_lancamento": "2019-08-29",
+        "avaliacao": 4.9,
+        "generos": ["Drama", "Ficção Científica", "Suspense"]
+    },
+    {
+        "titulo": "Aquarius",
+        "imagem": "static/images/aquarius.jpg",
+        "sinopse": "Uma mulher resiste às pressões para vender seu apartamento enquanto enfrenta lembranças do passado.",
+        "data_lancamento": "2016-09-01",
+        "avaliacao": 4.8,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Marighella",
+        "imagem": "static/images/marighella.jpg",
+        "sinopse": "A história do guerrilheiro Carlos Marighella na luta contra a ditadura militar no Brasil.",
+        "data_lancamento": "2021-11-04",
+        "avaliacao": 4.4,
+        "generos": ["Drama", "História"]
+    },
+    {
+        "titulo": "Lavoura Arcaica",
+        "imagem": "static/images/lavoura_arcaica_poster.jpg",
+        "sinopse": "Um jovem retorna à sua família após fugir para viver uma relação proibida.",
+        "data_lancamento": "2001-08-17",
+        "avaliacao": 4.7,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Cinema, Aspirinas e Urubus",
+        "imagem": "static/images/cinema_aspirinas_e_urubus.jpg",
+        "sinopse": "Durante a Segunda Guerra, um alemão viaja pelo sertão vendendo aspirinas e encontra um brasileiro em busca de uma nova vida.",
+        "data_lancamento": "2005-09-09",
+        "avaliacao": 4.5,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Hoje Eu Quero Voltar Sozinho",
+        "imagem": "static/images/hoje_eu_quero_voltar_sozinho.jpg",
+        "sinopse": "Leonardo, um adolescente cego, lida com a independência, a amizade e o primeiro amor.",
+        "data_lancamento": "2014-03-28",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Romance"]
+    },
+    {
+        "titulo": "O Som ao Redor",
+        "imagem": "static/images/o_som_ao_redor.jpg",
+        "sinopse": "O cotidiano de uma rua de classe média no Recife é abalado com a chegada de uma milícia privada.",
+        "data_lancamento": "2012-08-17",
+        "avaliacao": 4.2,
+        "generos": ["Drama", "Suspense"]
+    },
+    {
+        "titulo": "Três Verões",
+        "imagem": "static/images/tres_veroes.jpg",
+        "sinopse": "Através da história de uma empregada doméstica, o filme retrata a desigualdade social no Brasil.",
+        "data_lancamento": "2019-12-03",
+        "avaliacao": 4.0,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Mutum",
+        "imagem": "static/images/mutum.jpg",
+        "sinopse": "A história de um menino que descobre o mundo e as dificuldades da vida no sertão brasileiro.",
+        "data_lancamento": "2007-11-30",
+        "avaliacao": 4.3,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "O Céu de Suely",
+        "imagem": "static/images/o_céu_de_suely.jpg",
+        "sinopse": "Uma jovem mãe retorna ao sertão nordestino e decide rifar seu próprio corpo para recomeçar sua vida.",
+        "data_lancamento": "2006-10-13",
+        "avaliacao": 4.1,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Turma da Mônica: Laços",
+        "imagem": "static/images/turma_da_monica_lacos.jpg",
+        "sinopse": "Mônica e seus amigos embarcam em uma aventura para encontrar o cachorro Floquinho.",
+        "data_lancamento": "2019-06-27",
+        "avaliacao": 4.4,
+        "generos": ["Aventura", "Família"]
+    },
+    {
+        "titulo": "Menino Maluquinho O Filme",
+        "imagem": "static/images/menino_maluquinho_o_filme.jpg",
+        "sinopse": "A história de um menino travesso e criativo que encanta a todos ao seu redor.",
+        "data_lancamento": "1995-12-14",
+        "avaliacao": 4.0,
+        "generos": ["Família", "Comédia"]
+    },
+    {
+        "titulo": "O Grilo Feliz",
+        "imagem": "static/images/o_grilo_feliz.jpg",
+        "sinopse": "Um grilo talentoso enfrenta desafios para proteger sua floresta.",
+        "data_lancamento": "2001-07-20",
+        "avaliacao": 3.8,
+        "generos": ["Animação", "Aventura"]
+    },
+    {
+        "titulo": "Uma História de Amor e Fúria",
+        "imagem": "static/images/uma_historia_de_amor_e_furia.jpg",
+        "sinopse": "Um homem imortal testemunha 600 anos da história do Brasil, sempre em busca de sua amada.",
+        "data_lancamento": "2013-04-05",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Drama"]
+    },
+    {
+        "titulo": "Lino Uma Aventura de Sete Vidas",
+        "imagem": "static/images/lino_o_filme.jpg",
+        "sinopse": "Um animador de festas se transforma em seu próprio mascote e busca uma forma de voltar ao normal.",
+        "data_lancamento": "2017-09-07",
+        "avaliacao": 3.7,
+        "generos": ["Animação", "Comédia"]
+    },
+    {
+        "titulo": "Peixonauta O Filme",
+        "imagem": "static/images/peixonauta_o_filme.jpg",
+        "sinopse": "Peixonauta e seus amigos precisam resolver o mistério de uma cidade deserta.",
+        "data_lancamento": "2018-01-25",
+        "avaliacao": 3.5,
+        "generos": ["Animação", "Infantil"]
+    },
+    {
+        "titulo": "Boi Aruá",
+        "imagem": "static/images/boi_arua.jpg",
+        "sinopse": "Um boi misterioso desafia um vaqueiro em uma fábula cheia de elementos do folclore brasileiro.",
+        "data_lancamento": "1984-06-15",
+        "avaliacao": 3.9,
+        "generos": ["Animação", "Fantasia"]
+    },
+    {
+        "titulo": "O Menino e o Mundo",
+        "imagem": "static/images/o_menino_e_o_mundo.jpg",
+        "sinopse": "Um menino embarca em uma jornada pelo mundo, enfrentando desafios e descobrindo sua identidade.",
+        "data_lancamento": "2013-01-17",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Drama"]
+    },
+    {
+        "titulo": "As Aventuras do Avião Vermelho",
+        "imagem": "static/images/as_aventuras_do_aviao_vermelho.jpg",
+        "sinopse": "Um garoto embarca em uma aventura mágica ao lado de seu avião de brinquedo.",
+        "data_lancamento": "2014-12-11",
+        "avaliacao": 3.8,
+        "generos": ["Animação", "Aventura"]
+    },
+    {
+        "titulo": "Marte Um",
+        "imagem": "static/images/marte_um.jpg",
+        "sinopse": "Uma família negra da periferia de Belo Horizonte sonha com um futuro melhor.",
+        "data_lancamento": "2022-08-25",
+        "avaliacao": 4.6,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Pureza",
+        "imagem": "static/images/pureza.jpg",
+        "sinopse": "A luta de uma mãe para encontrar seu filho desaparecido no trabalho escravo na Amazônia.",
+        "data_lancamento": "2022-05-19",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Biografia"]
+    },
+    {
+        "titulo": "Medida Provisória",
+        "imagem": "static/images/medida_provisoria.jpg",
+        "sinopse": "Em um Brasil distópico, o governo ordena a deportação de cidadãos negros para a África.",
+        "data_lancamento": "2022-04-14",
+        "avaliacao": 4.4,
+        "generos": ["Drama", "Ficção Científica"]
+    },
+    {
+        "titulo": "A Vida Invisível",
+        "imagem": "static/images/a_vida_invisivel.jpg",
+        "sinopse": "Duas irmãs lutam contra as normas sociais no Rio de Janeiro dos anos 1950.",
+        "data_lancamento": "2019-11-21",
+        "avaliacao": 4.5,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Hoje Eu Quero Voltar Sozinho",
+        "imagem": "static/images/hoje_eu_quero_voltar_sozinho.jpg",
+        "sinopse": "A descoberta do amor e da independência por um adolescente cego.",
+        "data_lancamento": "2014-03-28",
+        "avaliacao": 4.6,
+        "generos": ["Drama", "Romance"]
+    },
+    {
+        "titulo": "Deserto Particular",
+        "imagem": "static/images/deserto_particular.jpg",
+        "sinopse": "Um policial desiludido viaja pelo Brasil em busca de um amor virtual.",
+        "data_lancamento": "2021-09-26",
+        "avaliacao": 4.4,
+        "generos": ["Drama", "Romance"]
+    },
+    {
+        "titulo": "Casa de Antiguidades",
+        "imagem": "static/images/a_casa_de_antiguidades.jpg",
+        "sinopse": "Um operário negro enfrenta o racismo e experiências sobrenaturais em uma cidade do Sul do Brasil.",
+        "data_lancamento": "2020-10-08",
+        "avaliacao": 4.2,
+        "generos": ["Drama", "Fantasia"]
+    },
+    {
+        "titulo": "Aquarius",
+        "imagem": "static/images/aquarius.jpg",
+        "sinopse": "Uma mulher luta contra a especulação imobiliária e a gentrificação em Recife.",
+        "data_lancamento": "2016-09-01",
+        "avaliacao": 4.5,
+        "generos": ["Drama"]
+    },
+    {
+        "titulo": "Narradores de Javé",
+        "imagem": "static/images/narradores_de_jave.jpg",
+        "sinopse": "Uma vila ameaçada de inundação tenta salvar sua história através da escrita.",
+        "data_lancamento": "2003-11-28",
+        "avaliacao": 4.3,
+        "generos": ["Drama", "Comédia"]
+    },
+    {
+        "titulo": "A Bela e a Fera",
+        "imagem": "static/images/a_bela_e_a_fera.jpg",
+        "sinopse": "Uma jovem e inteligente mulher se apaixona por uma fera amaldiçoada.",
+        "data_lancamento": "1991-11-22",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Fantasia", "Romance"]
+    },
+    {
+        "titulo": "Aladdin",
+        "imagem": "static/images/aladdin.jpg",
+        "sinopse": "Um jovem de rua encontra uma lâmpada mágica com um gênio que pode conceder três desejos.",
+        "data_lancamento": "1992-11-25",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Aventura", "Fantasia"]
+    },
+    {
+        "titulo": "Branca de Neve e os Sete Anões",
+        "imagem": "static/images/branca_de_neve_e_os_sete_anoes.jpg",
+        "sinopse": "Uma princesa foge de sua madrasta malvada e encontra refúgio com sete anões.",
+        "data_lancamento": "1937-12-21",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Fantasia", "Família"]
+    },
+    {
+        "titulo": "Pinóquio",
+        "imagem": "static/images/pinoquio.jpg",
+        "sinopse": "Um boneco de madeira ganha vida e sonha em se tornar um menino de verdade.",
+        "data_lancamento": "1940-02-07",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Fantasia", "Família"]
+    },
+    {
+        "titulo": "Bambi",
+        "imagem": "static/images/bambi.jpg",
+        "sinopse": "A vida de um jovem cervo enquanto ele cresce na floresta.",
+        "data_lancamento": "1942-08-21",
+        "avaliacao": 4.4,
+        "generos": ["Animação", "Drama", "Família"]
+    },
+    {
+        "titulo": "Dumbo",
+        "imagem": "static/images/dumbo.jpg",
+        "sinopse": "Um elefante de circo com orelhas enormes aprende que pode voar.",
+        "data_lancamento": "1941-10-23",
+        "avaliacao": 4.2,
+        "generos": ["Animação", "Fantasia", "Família"]
+    },
+    {
+        "titulo": "Cinderela",
+        "imagem": "static/images/cinderela.jpg",
+        "sinopse": "Uma jovem maltratada por sua madrasta recebe a ajuda de sua fada madrinha para ir ao baile.",
+        "data_lancamento": "1950-02-15",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Fantasia", "Romance"]
+    },
+    {
+        "titulo": "101 Dálmatas",
+        "imagem": "static/images/101_dalmatas.jpg",
+        "sinopse": "Um casal de dálmatas deve salvar seus filhotes da malvada Cruella de Vil.",
+        "data_lancamento": "1961-01-25",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Aventura", "Família"]
+    },
+    {
+        "titulo": "Procurando Nemo",
+        "imagem": "static/images/procurando_nemo.jpg",
+        "sinopse": "Um peixe-palhaço cruza o oceano para encontrar seu filho desaparecido.",
+        "data_lancamento": "2003-05-30",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Aventura", "Comédia"]
+    },
+    {
+        "titulo": "Os Incríveis",
+        "imagem": "static/images/os_incriveis.jpg",
+        "sinopse": "Uma família de super-heróis tenta levar uma vida normal enquanto enfrenta um vilão perigoso.",
+        "data_lancamento": "2004-11-05",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Ação", "Família"]
+    },
+    {
+        "titulo": "Up: Altas Aventuras",
+        "imagem": "static/images/up_altas_aventuras.jpg",
+        "sinopse": "Um idoso ranzinza embarca em uma aventura para realizar o sonho de sua falecida esposa.",
+        "data_lancamento": "2009-05-29",
+        "avaliacao": 4.9,
+        "generos": ["Animação", "Aventura", "Drama"]
+    },
+    {
+        "titulo": "Ratatouille",
+        "imagem": "static/images/ratatui.jpg",
+        "sinopse": "Um rato talentoso sonha em se tornar um chef de cozinha em Paris.",
+        "data_lancamento": "2007-06-29",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Comédia", "Família"]
+    },
+    {
+        "titulo": "Moana",
+        "imagem": "static/images/moana.jpg",
+        "sinopse": "Uma jovem aventureira parte em uma jornada para salvar sua ilha e descobrir seu verdadeiro destino.",
+        "data_lancamento": "2016-11-23",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Aventura", "Fantasia"]
+    },
+    {
+        "titulo": "Frozen",
+        "imagem": "static/images/frozem.jpg",
+        "sinopse": "Uma princesa embarca em uma jornada para encontrar sua irmã e acabar com o inverno eterno.",
+        "data_lancamento": "2013-11-27",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Fantasia", "Musical"]
+    },
+    {
+        "titulo": "Zootopia",
+        "imagem": "static/images/zootopia.jpg",
+        "sinopse": "Uma coelha policial e uma raposa trapaceira se unem para resolver um mistério na cidade de Zootopia.",
+        "data_lancamento": "2016-03-04",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Comédia", "Aventura"]
+    },
+    {
+        "titulo": "Viva: A Vida é uma Festa",
+        "imagem": "static/images/viva_a_vida_e_uma_festa.jpg",
+        "sinopse": "Um garoto apaixonado por música embarca em uma jornada pelo mundo dos mortos para descobrir seu legado familiar.",
+        "data_lancamento": "2017-10-27",
+        "avaliacao": 4.9,
+        "generos": ["Animação", "Fantasia", "Drama"]
+    },
+    {
+        "titulo": "Encanto",
+        "imagem": "static/images/encanto.jpg",
+        "sinopse": "Uma jovem sem dons mágicos tenta salvar sua família e sua casa encantada.",
+        "data_lancamento": "2021-11-24",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Fantasia", "Musical"]
+    },
+    {
+        "titulo": "Meu Amigo Totoro",
+        "imagem": "static/images/meu_amigo_totoro.jpg",
+        "sinopse": "Duas irmãs fazem amizade com espíritos mágicos em uma floresta encantada.",
+        "data_lancamento": "1988-04-16",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Fantasia", "Família"]
+    }, 
+    {
+        "titulo": "Princesa Mononoke",
+        "imagem": "static/images/princesa_monoke.jpg",
+        "sinopse": "Um jovem príncipe envolvido em uma luta entre os deuses da floresta e os humanos.",
+        "data_lancamento": "1997-07-12",
+        "avaliacao": 4.8,
+        "generos": ["Aventura", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "O Serviço de Entregas da Kiki",
+        "imagem": "static/images/o_serviço_de_entregas_da_kiki.jpg",
+        "sinopse": "Uma jovem bruxa de 13 anos inicia sua jornada de independência em uma nova cidade.",
+        "data_lancamento": "1989-07-29",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "Túmulo dos Vagalumes",
+        "imagem": "static/images/tumulo_dos_vagalumes.jpg",
+        "sinopse": "Dois irmãos tentam sobreviver no Japão durante a Segunda Guerra Mundial.",
+        "data_lancamento": "1988-04-16",
+        "avaliacao": 4.9,
+        "generos": ["Drama", "Guerra", "Animação"]
+    },
+    {
+        "titulo": "Ponyo: Uma Amizade que Veio do Mar",
+        "imagem": "static/images/ponyo.jpg",
+        "sinopse": "Uma peixinha dourada deseja se tornar humana após se apaixonar por um menino.",
+        "data_lancamento": "2008-07-19",
+        "avaliacao": 4.2,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "Your Name",
+        "imagem": "static/images/your_name.jpg",
+        "sinopse": "Dois jovens conectados por um fenômeno misterioso trocam de corpos inesperadamente.",
+        "data_lancamento": "2016-08-26",
+        "avaliacao": 4.7,
+        "generos": ["Romance", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "A Garota que Conquistou o Tempo",
+        "imagem": "static/images/a_garota_que_conquistou_o_tempo.jpg",
+        "sinopse": "Uma estudante descobre que tem a capacidade de viajar no tempo.",
+        "data_lancamento": "2006-07-15",
+        "avaliacao": 4.3,
+        "generos": ["Fantasia", "Ficção Científica", "Animação"]
+    },
+    {
+        "titulo": "O Conto da Princesa Kaguya",
+        "imagem": "static/images/o_conto_da_princesa_kaguya.jpg",
+        "sinopse": "Uma princesa crescida na Terra precisa encarar seu destino celestial.",
+        "data_lancamento": "2013-11-23",
+        "avaliacao": 4.8,
+        "generos": ["Drama", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "Madagascar",
+        "imagem": "static/images/madagascar.jpg",
+        "sinopse": "Animais do zoológico de Nova York acidentalmente vão parar na ilha de Madagascar.",
+        "data_lancamento": "2005-05-27",
+        "avaliacao": 4.0,
+        "generos": ["Comédia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "Kung Fu Panda",
+        "imagem": "static/images/kung_fu_panda.jpg",
+        "sinopse": "Um panda desajeitado precisa se tornar um mestre do kung fu para salvar o vale.",
+        "data_lancamento": "2008-06-06",
+        "avaliacao": 4.5,
+        "generos": ["Ação", "Comédia", "Animação"]
+    },
+    {
+        "titulo": "Como Treinar o Seu Dragão",
+        "imagem": "static/images/como_treinar_seu_dragao.jpg",
+        "sinopse": "Um jovem viking desafia tradições ao formar uma amizade com um dragão.",
+        "data_lancamento": "2010-03-26",
+        "avaliacao": 4.7,
+        "generos": ["Aventura", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "Megamente",
+        "imagem": "static/images/megamente.jpg",
+        "sinopse": "Um vilão finalmente derrota seu arqui-inimigo, mas descobre que sua vida perdeu sentido.",
+        "data_lancamento": "2010-10-28",
+        "avaliacao": 4.2,
+        "generos": ["Comédia", "Ação", "Animação"]
+    },
+    {
+        "titulo": "O Poderoso Chefinho",
+        "imagem": "static/images/poderoso_chefinho.jpg",
+        "sinopse": "Um bebê falante com um terno tenta impedir uma conspiração contra os bebês.",
+        "data_lancamento": "2017-03-31",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Família", "Animação"]
+    },
+    {
+        "titulo": "A Origem dos Guardiões",
+        "imagem": "static/images/a_origem_dos_guardioes.jpg",
+        "sinopse": "Os Guardiões precisam deter o Bicho-Papão antes que ele destrua os sonhos das crianças.",
+        "data_lancamento": "2012-11-21",
+        "avaliacao": 4.3,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "Bee Movie",
+        "imagem": "static/images/bee_movie.jpg",
+        "sinopse": "Uma abelha processa os humanos por explorarem o mel das colmeias.",
+        "data_lancamento": "2007-10-28",
+        "avaliacao": 3.5,
+        "generos": ["Comédia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "Os Croods",
+        "imagem": "static/images/os_croods.jpg",
+        "sinopse": "Uma família pré-histórica embarca em uma aventura após a destruição de sua caverna.",
+        "data_lancamento": "2013-03-22",
+        "avaliacao": 4.1,
+        "generos": ["Aventura", "Comédia", "Animação"]
+    },
+    {
+        "titulo": "Gato de Botas",
+        "imagem": "static/images/gato_de_botas.jpg",
+        "sinopse": "O famoso Gato de Botas embarca em uma jornada para recuperar feijões mágicos.",
+        "data_lancamento": "2011-10-28",
+        "avaliacao": 4.0,
+        "generos": ["Aventura", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "O Menino e o Mundo",
+        "imagem": "static/images/o_menino_e_o_mundo.jpg",
+        "sinopse": "Um garoto viaja por um mundo surreal em busca de seu pai desaparecido.",
+        "data_lancamento": "2013-01-17",
+        "avaliacao": 4.6,
+        "generos": ["Drama", "Fantasia", "Animação"]
+    },
+    {
+        "titulo": "Persepolis",
+        "imagem": "static/images/persepolis.jpg",
+        "sinopse": "A vida de uma jovem iraniana durante a Revolução Islâmica.",
+        "data_lancamento": "2007-05-23",
+        "avaliacao": 4.7,
+        "generos": ["Drama", "História", "Animação"]
+    },
+    {
+        "titulo": "Kubo e as Cordas Mágicas",
+        "imagem": "static/images/kubo_e_as_cordas_magicas.jpg",
+        "sinopse": "Um jovem contador de histórias embarca em uma aventura para descobrir seu passado.",
+        "data_lancamento": "2016-08-19",
+        "avaliacao": 4.5,
+        "generos": ["Fantasia", "Aventura", "Animação"]
+    },
+    {
+        "titulo": "A Noiva Cadáver",
+        "imagem": "static/images/a_noiva_cadaver.jpg",
+        "sinopse": "Um homem acidentalmente se casa com uma noiva cadáver no submundo.",
+        "data_lancamento": "2005-09-23",
+        "avaliacao": 4.4,
+        "generos": ["Fantasia", "Terror", "Animação"]
+    },
+    {
+        "titulo": "Wallace & Gromit: A Batalha dos Vegetais",
+        "imagem": "static/images/wallace_e_gromit_a_batalha_dos_vegetais.jpg",
+        "sinopse": "Wallace e seu fiel cão Gromit enfrentam uma praga de coelhos em uma competição de vegetais.",
+        "data_lancamento": "2005-09-04",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Comédia", "Aventura"]
+    },
+    {
+        "titulo": "A Fuga das Galinhas",
+        "imagem": "static/images/a_fuga_das_galinhas.jpg",
+        "sinopse": "Um grupo de galinhas elabora um plano ousado para escapar de uma fazenda antes que virem torta.",
+        "data_lancamento": "2000-06-23",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Comédia", "Aventura"]
+    },
+    {
+        "titulo": "Os Mitchell Contra as Máquinas",
+        "imagem": "static/images/os_mitchell_contra_as_maquinas.jpg",
+        "sinopse": "Uma família excêntrica se torna a última esperança da humanidade contra uma revolta das máquinas.",
+        "data_lancamento": "2021-04-30",
+        "avaliacao": 4.7,
+        "generos": ["Animação", "Comédia", "Ficção Científica"]
+    },
+    {
+        "titulo": "Lilo & Stitch",
+        "imagem": "static/images/lilo_e_stitch.jpg",
+        "sinopse": "Uma menina havaiana adota um alienígena travesso disfarçado de cachorro.",
+        "data_lancamento": "2002-06-21",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Comédia", "Família"]
+    },
+    {
+        "titulo": "Tainá: Uma Aventura na Amazônia",
+        "imagem": "static/images/taina_uma_aventura_na_amazonia.jpg",
+        "sinopse": "Uma menina indígena defende a floresta amazônica contra caçadores ilegais.",
+        "data_lancamento": "2001-01-19",
+        "avaliacao": 4.2,
+        "generos": ["Aventura", "Família"]
+    },
+    {
+        "titulo": "Hércules",
+        "imagem": "static/images/hercules.jpg",
+        "sinopse": "O filho de Zeus precisa provar sua força e se tornar um verdadeiro herói.",
+        "data_lancamento": "1997-06-27",
+        "avaliacao": 4.4,
+        "generos": ["Animação", "Aventura", "Fantasia"]
+    },
+    {
+        "titulo": "Tarzan",
+        "imagem": "static/images/tarzan.jpg",
+        "sinopse": "Criado por gorilas, Tarzan descobre sua verdadeira origem ao encontrar exploradores humanos.",
+        "data_lancamento": "1999-06-18",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Aventura", "Família"]
+    },
+    {
+        "titulo": "O Corcunda de Notre Dame",
+        "imagem": "static/images/o_corcunda_de_notre_dame.jpg",
+        "sinopse": "Quasímodo luta para encontrar seu lugar na sociedade e proteger sua amiga Esmeralda.",
+        "data_lancamento": "1996-06-21",
+        "avaliacao": 4.6,
+        "generos": ["Animação", "Drama", "Musical"]
+    },
+    {
+        "titulo": "Mulan",
+        "imagem": "static/images/mulan.jpg",
+        "sinopse": "Uma jovem chinesa se disfarça de homem para lutar no exército e salvar seu pai.",
+        "data_lancamento": "1998-06-19",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Aventura", "Família"]
+    },
+    {
+        "titulo": "Pocahontas",
+        "imagem": "static/images/pocahontas.jpg",
+        "sinopse": "A filha do chefe Powhatan se apaixona por um explorador inglês e tenta evitar uma guerra.",
+        "data_lancamento": "1995-06-23",
+        "avaliacao": 4.2,
+        "generos": ["Animação", "Romance", "Família"]
+    },
+    {
+        "titulo": "Atlantis: O Reino Perdido",
+        "imagem": "static/images/atlantis_o_reino_perdido.jpg",
+        "sinopse": "Um jovem cartógrafo embarca em uma missão para descobrir a cidade perdida de Atlântida.",
+        "data_lancamento": "2001-06-15",
+        "avaliacao": 4.0,
+        "generos": ["Animação", "Aventura", "Ficção Científica"]
+    },
+    {
+        "titulo": "O Planeta do Tesouro",
+        "imagem": "static/images/o_planeta_do_tesouro.jpg",
+        "sinopse": "Uma versão futurista da clássica história de 'A Ilha do Tesouro'.",
+        "data_lancamento": "2002-11-27",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Aventura", "Ficção Científica"]
+    },
+    {
+        "titulo": "Bernardo e Bianca",
+        "imagem": "static/images/bernardo_e_bianca.jpg",
+        "sinopse": "Dois ratinhos partem em uma missão para resgatar uma menina sequestrada.",
+        "data_lancamento": "1977-06-22",
+        "avaliacao": 4.1,
+        "generos": ["Animação", "Aventura", "Família"]
+    },
+    {
+        "titulo": "Robin Hood",
+        "imagem": "static/images/robin_hood.jpg",
+        "sinopse": "A clássica lenda de Robin Hood contada com animais antropomórficos.",
+        "data_lancamento": "1973-11-08",
+        "avaliacao": 4.3,
+        "generos": ["Animação", "Aventura", "Comédia"]
+    },
+    {
+        "titulo": "Irmão Urso",
+        "imagem": "static/images/irmão_urso.jpg",
+        "sinopse": "Um jovem transforma-se em urso e embarca em uma jornada de autoconhecimento.",
+        "data_lancamento": "2003-10-24",
+        "avaliacao": 4.2,
+        "generos": ["Animação", "Drama", "Família"]
+    },
+    {
+        "titulo": "Divertida Mente",
+        "imagem": "static/images/divertidamente.jpg",
+        "sinopse": "As emoções dentro da mente de uma garota tentam ajudá-la a lidar com mudanças na vida.",
+        "data_lancamento": "2015-06-19",
+        "avaliacao": 4.9,
+        "generos": ["Animação", "Comédia", "Drama"]
+    },
+    {
+        "titulo": "Soul",
+        "imagem": "static/images/soul.jpg",
+        "sinopse": "Um músico de jazz tem uma experiência fora do corpo que o faz refletir sobre a vida.",
+        "data_lancamento": "2020-12-25",
+        "avaliacao": 4.8,
+        "generos": ["Animação", "Ficção", "Drama"]
+    },
+    {
+        "titulo": "Luca",
+        "imagem": "static/images/luca.jpg",
+        "sinopse": "Dois jovens monstros marinhos exploram a vida humana em uma vila costeira italiana.",
+        "data_lancamento": "2021-06-18",
+        "avaliacao": 4.4,
+        "generos": ["Animação", "Aventura", "Comédia"]
+    },
+    {
+        "titulo": "Red: Crescer é uma Fera",
+        "imagem": "static/images/red_crescer_e_uma_fera.jpg",
+        "sinopse": "Uma garota de 13 anos descobre que se transforma em um panda-vermelho quando fica emocionada.",
+        "data_lancamento": "2022-03-11",
+        "avaliacao": 4.5,
+        "generos": ["Animação", "Comédia", "Família"]
+    },
+    {
+        "titulo": "Elementos",
+        "imagem": "static/images/elementos.jpg",
+        "sinopse": "Em uma cidade habitada por elementos naturais, duas pessoas improváveis criam uma conexão.",
+        "data_lancamento": "2023-06-16",
+        "avaliacao": 4.2,
+        "generos": ["Animação", "Fantasia", "Romance"]
+    },
+    {
+        "titulo": "Carros",
+        "imagem": "static/images/carros.jpg",
+        "sinopse": "Relâmpago McQueen descobre o verdadeiro significado da amizade em uma pequena cidade.",
+        "data_lancamento": "2006-06-09",
+        "avaliacao": 4.3,
+        "generos": ["Animação", "Esporte", "Família"]
+    },
+    {
+        "titulo": "Valente",
+        "imagem": "static/images/valente.jpg",
+        "sinopse": "A princesa Merida desafia tradições para traçar seu próprio destino.",
+        "data_lancamento": "2012-06-22",
+        "avaliacao": 4.0,
+        "generos": ["Animação", "Fantasia", "Aventura"]
+    },
+    {
+        "titulo": "Lightyear",
+        "imagem": "static/images/lightyear.jpg",
+        "sinopse": "A origem do herói Buzz Lightyear que inspirou o brinquedo de Toy Story.",
+        "data_lancamento": "2022-06-17",
+        "avaliacao": 3.5,
+        "generos": ["Animação", "Ficção Científica", "Ação"]
+    },
+    {
+        "titulo": "WALL-E",
+        "imagem": "static/images/wall_e.jpg",
+        "sinopse": "Um robô solitário embarca em uma jornada que pode mudar o futuro da humanidade.",
+        "data_lancamento": "2008-06-27",
+        "avaliacao": 4.9,
+        "generos": ["Animação", "Ficção Científica", "Aventura"]
+    },
+    {
+        "titulo": "Procurando Dory",
+        "imagem": "static/images/procurando_dory.jpg",
+        "sinopse": "A peixinha Dory parte em uma aventura para reencontrar sua família.",
+        "data_lancamento": "2016-06-17",
+        "avaliacao": 4.2,
+        "generos": ["Animação", "Aventura", "Comédia"]
+    }
+  ]
   }
