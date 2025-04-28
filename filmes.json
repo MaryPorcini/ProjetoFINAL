@@ -1,6 +1,7 @@
 {
     "filmes": [
       {
+
         "titulo": "A autopsia de Jane Doe",
         "imagem": "static/images/a_autopsia_de_jane_doe.jpg",
         "sinopse": "Dois legistas, pai e filho, realizam a autópsia de um corpo desconhecido, Jane Doe. Durante o exame, eles descobrem mistérios e fenômenos sobrenaturais, que os levam a uma investigação assustadora sobre a identidade da mulher e os eventos que a cercam.",
@@ -604,7 +605,7 @@
 
       },
       {
-<<<<<<< HEAD
+
         "titulo": "Pânico 5",
         "imagem": "static/images/panico_5.jpg",
         "sinopse": "Pânico é a quinta parte da franquia clássica de terror iniciada nos anos 90, sendo uma sequência direta dos acontecimentos do filme de 2011, que mostrará uma mulher voltando para sua cidade natal e tentando descobrir quem está cometendo os atuais crimes cruéis, vinte e cinco anos depois que uma série de assassinatos brutais chocou a pacata cidade de Woodsboro, na Califórnia.",
@@ -617,17 +618,240 @@
         "imagem": "static/images/piratas_do_caribe_navegando.jfif",
         "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
         "data_lancamento": "2011-05-07",
-        "avaliacao": 3.8,
-        "generos": ["Aventura", "Ação", "Fantasia"]
-      },      
+
+        "titulo": "O Lado Bom da Vida",
+        "imagem": "static/images/o_lado_bom_da_vida.jpg",
+        "sinopse": "Após sair de uma instituição psiquiátrica, Pat tenta reconstruir sua vida e se aproxima de Tiffany, uma mulher igualmente problemática.",
+        "data_lancamento": "2012-09-08",
+        "avaliacao": 4.0,
+        "generos": ["Drama", "Romance", "Comédia"]
+      },
       {
+        "titulo": "Ele Não Está Tão Afim de Você",
+        "imagem": "static/images/ele_nao_esta_tao_a_fim_de_voce.jpg",
+        "sinopse": "Um grupo de amigos enfrenta os desafios dos relacionamentos modernos, tentando decifrar os sinais do amor e as diferenças entre expectativas e realidade.",
+        "data_lancamento": "2009-02-06",
+        "avaliacao": 3.8,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "Como Se Fosse a Primeira Vez",
+        "imagem": "static/images/como_se_fosse_a_primeira_vez.jpg",
+        "sinopse": "Henry se apaixona por Lucy, mas descobre que ela perde a memória todos os dias. Determinado, ele tenta conquistá-la repetidamente.",
+        "data_lancamento": "2004-02-13",
+        "avaliacao": 4.2,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "O Casamento de Rachel",
+        "imagem": "static/images/o_casamento_de_rachel.jpg",
+        "sinopse": "Kym volta para casa para o casamento da irmã após sair da reabilitação, reacendendo antigas tensões familiares.",
+        "data_lancamento": "2008-10-03",
+        "avaliacao": 3.7,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "10 Coisas que Eu Odeio em Você",
+        "imagem": "static/images/dez_coisas_que_eu_odeio_em_voce.jpg",
+        "sinopse": "Para sair com a garota dos seus sonhos, Cameron precisa encontrar alguém que aceite namorar a irmã dela, a rebelde Kat.",
+        "data_lancamento": "1999-03-31",
+        "avaliacao": 5.0,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "A Culpa é das Estrelas",
+        "imagem": "static/images/a_culpa_e_das_estrelas.jpg",
+        "sinopse": "Dois adolescentes com câncer, Hazel e Gus, se apaixonam enquanto enfrentam os desafios da vida e da doença.",
+        "data_lancamento": "2014-05-16",
+        "avaliacao": 4.1,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "A Proposta",
+        "imagem": "static/images/a_proposta.jpg",
+        "sinopse": "Para evitar a deportação, uma executiva canadense força seu assistente a se casar com ela, mas o plano se complica quando eles visitam a família dele.",
+        "data_lancamento": "2009-06-19",
+        "avaliacao": 4.0,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Legalmente Loira",
+        "imagem": "static/images/legalmente_loira.jpg",
+        "sinopse": "Elle Woods, uma jovem determinada e estilosa, decide provar sua inteligência ao entrar para Harvard e se tornar advogada após ser desprezada pelo ex-namorado.",
+        "data_lancamento": "2001-07-13",
+        "avaliacao": 4.2,
+        "generos": ["Comédia"]
+      },
+      {
+        "titulo": "O Diário de Bridget Jones",
+        "imagem": "static/images/o_diario_de_bridget_jones.jpg",
+        "sinopse": "Bridget Jones é uma mulher solteira tentando equilibrar sua vida amorosa e profissional enquanto busca felicidade e autoaceitação.",
+        "data_lancamento": "2001-04-13",
+        "avaliacao": 4.1,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Amor à Distância",
+        "imagem": "static/images/amor_a_distancia.jpg",
+        "sinopse": "Erin e Garrett mantêm um relacionamento à distância enquanto enfrentam os desafios do amor e da carreira.",
+        "data_lancamento": "2009-08-21",
+        "avaliacao": 3.9,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "Simplesmente Amor",
+        "imagem": "static/images/simplesmente_amor.jpg",
+        "sinopse": "Vários personagens lidam com questões de amor e relacionamentos enquanto se aproximam do Natal em Londres.",
+        "data_lancamento": "2003-11-14",
+        "avaliacao": 4.3,
+        "generos": ["Comédia", "Romance"]
+      }, 
+      {
+        "titulo": "A Verdade Nua e Crua",
+        "imagem": "static/images/a_verdade_nua_e_crua.jpg",
+        "sinopse": "Uma apresentadora de TV e um especialista em relacionamentos se envolvem em uma batalha de vontades e sentimentos, enquanto tentam lidar com suas próprias inseguranças.",
+        "data_lancamento": "2009-07-24",
+        "avaliacao": 3.9,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "A Mentira",
+        "imagem": "static/images/a_mentira.jpg",
+        "sinopse": "Após uma mentira inocente, Olive é forçada a criar uma fachada sobre sua vida, mas logo ela se vê em uma situação que foge ao seu controle.",
+        "data_lancamento": "2010-09-17",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Drama"]
+      },
+      {
+        "titulo": "O Melhor Amigo da Noiva",
+        "imagem": "static/images/o_melhor_amigo_da_noiva.jpg",
+        "sinopse": "Quando o melhor amigo de uma mulher descobre que está apaixonado por ela, ele tenta impedir o casamento dela com outro homem.",
+        "data_lancamento": "2008-04-18",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Meia-Noite em Paris",
+        "imagem": "static/images/meia_noite_em_paris.jpg",
+        "sinopse": "Durante uma viagem a Paris, um escritor se vê transportado para a década de 1920, onde encontra figuras famosas e redescobre seu amor pela cidade.",
+        "data_lancamento": "2011-05-20",
+        "avaliacao": 4.1,
+        "generos": ["Comédia", "Romance", "Fantasia"]
+      },
+      {
+        "titulo": "Comer, Rezar, Amar",
+        "imagem": "static/images/comer_rezar_amar.jpg",
+        "sinopse": "Após um divórcio, Elizabeth começa uma jornada de autodescoberta viajando pelo mundo, tentando encontrar equilíbrio e felicidade.",
+        "data_lancamento": "2010-09-24",
+        "avaliacao": 4.0,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "O Amor Não Tira Férias",
+        "imagem": "static/images/o_amor_nao_tira_ferias.jpg",
+        "sinopse": "Duas mulheres trocam de casa durante o Natal e acabam se apaixonando por homens locais, enquanto buscam superar seus próprios corações partidos.",
+        "data_lancamento": "2006-12-08",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "O Fabuloso Destino de Amélie Poulain",
+        "imagem": "static/images/o_fabuloso_destino_de_amelie_poulain.jpg",
+        "sinopse": "Amélie, uma jovem parisiense, decide melhorar a vida das pessoas ao seu redor de maneira encantadora e excêntrica, enquanto tenta encontrar o amor.",
+        "data_lancamento": "2001-04-25",
+        "avaliacao": 4.5,
+        "generos": ["Comédia", "Romance", "Drama"]
+      },
+      {
+        "titulo": "Do Que as Mulheres Gostam",
+        "imagem": "static/images/do_que_as_mulheres_gostam.jpg",
+        "sinopse": "Um publicitário que pode ouvir os pensamentos das mulheres tenta usar seu novo poder para conquistar o sucesso, mas acaba se apaixonando por uma delas.",
+        "data_lancamento": "2000-12-15",
+        "avaliacao": 3.6,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "O Príncipe e Eu",
+        "imagem": "static/images/o_principe_e_eu.jpg",
+        "sinopse": "Uma universitária se apaixona por um príncipe disfarçado e, sem saber, acaba se envolvendo com os desafios de sua vida real.",
+        "data_lancamento": "2004-03-12",
+        "avaliacao": 3.7,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "A Casa do Lago",
+        "imagem": "static/images/a_casa_do_lago.jpg",
+        "sinopse": "Dois amantes que moram em anos diferentes começam a se comunicar através de cartas trocadas em uma casa à beira de um lago, desenvolvendo um relacionamento profundo.",
+        "data_lancamento": "2006-08-04",
+        "avaliacao": 3.8,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Querido John",
+        "imagem": "static/images/querido_john.jpg",
+        "sinopse": "John, um soldado, começa um relacionamento com Savannah, uma jovem universitária. Eles tentam manter o amor vivo enquanto ele é enviado para o exterior.",
+        "data_lancamento": "2010-02-05",
+        "avaliacao": 3.8,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "A Grande Beleza",
+        "imagem": "static/images/a_grande_beleza.jpg",
+        "sinopse": "Jep Gambardella, um escritor e jornalista, reflete sobre a vida e a decadência da sociedade romana enquanto lida com suas próprias frustrações.",
+        "data_lancamento": "2013-05-21",
+        "avaliacao": 4.2,
+        "generos": ["Drama"]
+      },
+      {
+        "titulo": "Antes do Amanhecer",
+        "imagem": "static/images/antes_do_amanhecer.jpg",
+        "sinopse": "Durante um curto período de tempo, dois jovens se encontram em um trem na Europa e têm uma conversa profunda enquanto exploram Viena juntos.",
+        "data_lancamento": "1995-01-27",
+        "avaliacao": 4.3,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "Antes do Pôr-do-Sol",
+        "imagem": "static/images/antes_do_por_do_sol.jpg",
+        "sinopse": "Nove anos após se encontrarem pela primeira vez, Jesse e Céline se encontram novamente em Paris, onde revivem a conexão que tinham.",
+        "data_lancamento": "2004-02-20",
+        "avaliacao": 4.2,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "O Sonho de Cassandra",
+        "imagem": "static/images/o_sonho_de_cassandra.jpg",
+        "sinopse": "Dois irmãos tentam resolver problemas financeiros ao se envolverem em um esquema criminoso, mas as consequências não são o que eles esperavam.",
+        "data_lancamento": "2007-09-07",
+        "avaliacao": 3.6,
+        "generos": ["Drama", "Crime"]
+      },
+      {
+        "titulo": "Encontros e Desencontros",
+        "imagem": "static/images/encontros_e_desencontros.jpg",
+        "sinopse": "Um ator americano e uma jovem mulher se encontram em Tóquio e formam uma conexão única enquanto lidam com suas próprias crises existenciais.",
+        "data_lancamento": "2003-09-19",
+        "avaliacao": 4.0,
+        "generos": ["Drama", "Comédia"]
+      },
+      {
+        "titulo": "Amor e Outras Drogas",
+        "imagem": "static/images/amor_e_outras_drogas.jpg",
+        "sinopse": "Jamie, um vendedor de remédios, se apaixona por Maggie, uma mulher com doença de Parkinson. Eles tentam encontrar o equilíbrio entre amor e suas vidas complicadas.",
+        "data_lancamento": "2010-11-24",
+>>>>>>> giovanna_zanini
+        "avaliacao": 3.8,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+
         "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
         "imagem": "static/images/indiana_jones.jpg",
         "sinopse": "Indiana Jones se envolve em uma conspiração soviética para descobrir o segredo por trás de artefatos misteriosos conhecidos como as Caveiras de Cristal.",
         "data_lancamento": "2008-05-18",
         "avaliacao": 4.1,
         "generos": ["Aventura", "Ação"]
-=======
+
       "titulo": "Zodíaco",
         "imagem": "static/images/zodiaco.jpg",
         "sinopse": "Baseado em fatos reais, o filme segue a busca implacável de jornalistas e policiais para desvendar a identidade do assassino conhecido como Zodíaco, que aterrorizou a área da baía de São Francisco nos anos 1960 e 1970. A investigação leva a uma obsessão crescente por parte dos envolvidos.",
@@ -680,3 +904,417 @@
       }
     ]
   }
+
+        "titulo": "Noivas em Guerra",
+        "imagem": "static/images/noivas_em_guerra.jpg",
+        "sinopse": "Duas amigas de infância se tornam rivais quando competem por um espaço em um luxuoso local de casamento, transformando uma amizade em uma guerra.",
+        "data_lancamento": "2009-06-26",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Romance"]
+      }, 
+      {
+        "titulo": "À Procura da Felicidade",
+        "imagem": "static/images/a_procura_da_felicidade.jpg",
+        "sinopse": "Chris Gardner luta para superar a pobreza e prover para seu filho, enquanto persegue seu sonho de ser um corretor de ações bem-sucedido.",
+        "data_lancamento": "2006-12-15",
+        "avaliacao": 4.3,
+        "generos": ["Drama"]
+      },
+      {
+        "titulo": "Amigos, Amigos, Mulheres à Parte",
+        "imagem": "static/images/amigos_amigos_mulheres_a_parte.jpg",
+        "sinopse": "Três amigos enfrentam os altos e baixos do relacionamento com mulheres, enquanto lidam com questões sobre amizade e amor.",
+        "data_lancamento": "2006-09-08",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Drama"]
+      },
+      {
+        "titulo": "Moulin Rouge: Amor em Vermelho",
+        "imagem": "static/images/moulin_rouge_amor_em_vermelho.jpg",
+        "sinopse": "Em Paris, um jovem escritor se apaixona por uma cortesã em um cabaré, em meio a intrigas, música e cores vibrantes.",
+        "data_lancamento": "2001-06-01",
+        "avaliacao": 4.0,
+        "generos": ["Musical", "Romance", "Drama"]
+      },
+      {
+        "titulo": "Doce Lar",
+        "imagem": "static/images/doce_lar.jpg",
+        "sinopse": "Uma mulher divorciada retorna à sua cidade natal e reexamina sua vida, o amor e sua relação com seu ex-marido, enquanto reconcilia o passado com o presente.",
+        "data_lancamento": "2008-09-26",
+        "avaliacao": 3.9,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "A Criada",
+        "imagem": "static/images/a_criada.jpg",
+        "sinopse": "Em uma sociedade coreana, uma jovem mulher se infiltra na casa de uma herdeira rica, com planos de manipulação e traição, mas a trama toma rumos inesperados.",
+        "data_lancamento": "2016-06-01",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Mistério", "Romance"]
+      },
+      {
+        "titulo": "O que Esperar Quando Você Está Esperando",
+        "imagem": "static/images/o_que_esperar_quando_voce_esta_esperando.jpg",
+        "sinopse": "Baseado no best-seller, o filme segue vários casais enquanto eles lidam com as alegrias e dificuldades da gravidez e da paternidade.",
+        "data_lancamento": "2012-05-18",
+        "avaliacao": 3.6,
+        "generos": ["Comédia", "Drama"]
+      },
+      {
+        "titulo": "A Princesa e o Plebeu",
+        "imagem": "static/images/a_princesa_e_o_plebeu.jpg",
+        "sinopse": "Uma princesa e um plebeu trocam de identidade e acabam descobrindo o mundo real, enquanto enfrentam suas próprias questões e a atração mútua.",
+        "data_lancamento": "1953-06-04",
+        "avaliacao": 4.1,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Sob o Sol da Toscana",
+        "imagem": "static/images/sob_o_sol_da_toscana.jpg",
+        "sinopse": "Após um divórcio, Frances compra uma villa na Toscana e tenta recomeçar sua vida, enquanto lida com novos amores e amizades.",
+        "data_lancamento": "2003-07-25",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Vingança de Uma Mulher",
+        "imagem": "static/images/vinganca_de_uma_mulher.jpg",
+        "sinopse": "Uma mulher, em busca de vingança, tenta retomar sua vida após ser abandonada e humilhada, lutando contra um sistema patriarcal.",
+        "data_lancamento": "2008-04-25",
+        "avaliacao": 3.8,
+        "generos": ["Drama", "Ação"]
+      },
+      {
+        "titulo": "Meu Namorado é um Zumbi",
+        "imagem": "static/images/meu_namorado_e_um_zumbi.jpg",
+        "sinopse": "Uma jovem mulher se apaixona por um zumbi e tenta devolver sua humanidade enquanto lida com os perigos de um apocalipse zumbi.",
+        "data_lancamento": "2013-02-01",
+        "avaliacao": 3.7,
+        "generos": ["Comédia", "Romance", "Terror"]
+      },
+      {
+        "titulo": "Sim, Senhor!",
+        "imagem": "static/images/sim_senhor.jpg",
+        "sinopse": "Um homem entediado com sua vida começa a responder 'sim' a tudo o que aparece em seu caminho, o que o leva a grandes mudanças em sua vida.",
+        "data_lancamento": "2008-11-14",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Fantasia"]
+      },
+      {
+        "titulo": "Uma Linda Mulher",
+        "imagem": "static/images/uma_linda_mulher.jpg",
+        "sinopse": "Um homem de negócios milionário se apaixona por uma prostituta que ele contrata para acompanhá-lo durante uma semana.",
+        "data_lancamento": "1990-03-23",
+        "avaliacao": 4.3,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Proposta Indecente",
+        "imagem": "static/images/proposta_indecente.jpg",
+        "sinopse": "Um casal enfrenta uma crise quando uma rica mulher oferece uma grande quantia de dinheiro para passar uma noite com o marido dela.",
+        "data_lancamento": "1993-04-09",
+        "avaliacao": 3.7,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "Juntos pelo Acaso",
+        "imagem": "static/images/juntos_pelo_acaso.jpg",
+        "sinopse": "Dois desconhecidos se tornam responsáveis por um bebê e começam a formar uma improvável amizade enquanto cuidam do recém-nascido.",
+        "data_lancamento": "2010-02-26",
+        "avaliacao": 3.6,
+        "generos": ["Comédia", "Drama"]
+      },
+      {
+        "titulo": "O Amor é Cego",
+        "imagem": "static/images/o_amor_e_cego.jpg",
+        "sinopse": "Um homem superficial e obcecado pela aparência é obrigado a mudar sua visão sobre o mundo quando conhece uma mulher que não se encaixa nos padrões de beleza.",
+        "data_lancamento": "2001-03-23",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "O Fim da Escuridão",
+        "imagem": "static/images/o_fim_da_escuridao.jpg",
+        "sinopse": "Um escritor recluso se vê forçado a confrontar seus demônios pessoais ao tentar escrever o final de sua última obra.",
+        "data_lancamento": "2012-09-14",
+        "avaliacao": 3.5,
+        "generos": ["Drama", "Mistério"]
+      },
+      {
+        "titulo": "Eu, Você e a Garota que Vai Morrer",
+        "imagem": "static/images/eu_voce_e_a_garota_que_vai_morrer.jpg",
+        "sinopse": "Dois amigos de longa data se aproximam de uma garota doente terminal, o que muda completamente a perspectiva de suas vidas e amizades.",
+        "data_lancamento": "2015-03-25",
+        "avaliacao": 4.0,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "O Casamento do Meu Melhor Amigo",
+        "imagem": "static/images/o_casamento_do_meu_melhor_amigo.jpg",
+        "sinopse": "Uma mulher tenta impedir o casamento de seu melhor amigo quando percebe que está apaixonada por ele.",
+        "data_lancamento": "1997-06-20",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Ela",
+        "imagem": "static/images/ela.jpg",
+        "sinopse": "Um homem se apaixona por um sistema operacional altamente avançado, levando-o a questionar a natureza do amor e da tecnologia.",
+        "data_lancamento": "2013-12-18",
+        "avaliacao": 4.2,
+        "generos": ["Drama", "Romance", "Ficção Científica"]
+      },
+      {
+        "titulo": "Todos Menos Você",
+        "imagem": "static/images/todos_menos_voce.jpg",
+        "sinopse": "Um homem e uma mulher se encontram em circunstâncias improváveis, desafiando as expectativas e conceitos que tinham sobre o amor.",
+        "data_lancamento": "2023-10-12",
+        "avaliacao": 4.0,
+        "generos": ["Comédia", "Romance"]
+      },
+      {
+        "titulo": "Diário de Uma Paixão",
+        "imagem": "static/images/diario_de_uma_paixao.jpg",
+        "sinopse": "A história de um amor de verão que atravessa as barreiras do tempo e das adversidades, com um casal envelhecido recordando o romance de sua juventude.",
+        "data_lancamento": "2004-06-25",
+        "avaliacao": 4.5,
+        "generos": ["Drama", "Romance"]
+      },
+      {
+        "titulo": "Pai em Dose Dupla 2",
+        "imagem": "static/images/pai_em_dose_dupla_2.jpg",
+        "sinopse": "O pai biológico de duas crianças retorna, causando confusão e tensão na família e colocando os pais adotivos em uma situação complicada.",
+        "data_lancamento": "2017-11-10",
+        "avaliacao": 3.5,
+        "generos": ["Comédia"]
+      },
+      {
+        "titulo": "Norbit",
+        "imagem": "static/images/norbit.jpg",
+        "sinopse": "Norbit, um homem bondoso e tímido, tenta salvar sua vida e escapar de um casamento com uma mulher abusiva, enquanto se reconecta com seu primeiro amor.",
+        "data_lancamento": "2007-02-09",
+        "avaliacao": 2.9,
+        "generos": ["Comédia"]
+      },
+      {
+        "titulo": "Os Batutinhas",
+        "imagem": "static/images/os_batutinhas.jpg",
+        "sinopse": "Um grupo de crianças travessas tem de lutar para salvar seu clube secreto e garantir que suas ideias criativas prevaleçam sobre as regras do mundo dos adultos.",
+        "data_lancamento": "1994-08-05",
+        "avaliacao": 3.8,
+        "generos": ["Comédia", "Família"]
+      },
+      {
+        "titulo": "A Fuga das Galinhas",
+        "imagem": "static/images/a_fuga_das_galinhas.jpg",
+        "sinopse": "Um grupo de galinhas tenta escapar de uma fazenda para evitar ser transformadas em tortas de frango, usando criatividade e inteligência.",
+        "data_lancamento": "2000-06-23",
+        "avaliacao": 4.0,
+        "generos": ["Animação", "Aventura", "Comédia"]
+      },
+      {
+        "titulo": "Tá Chovendo Hambúrguer",
+        "imagem": "static/images/ta_chovendo_hamburguer.jpg",
+        "sinopse": "Um inventor cria uma máquina que faz chover comida, mas as coisas fogem do controle e as consequências são inesperadas.",
+        "data_lancamento": "2009-09-18",
+        "avaliacao": 3.9,
+        "generos": ["Animação", "Comédia", "Família"]
+      },
+      {
+        "titulo": "O Máskara",
+        "imagem": "static/images/o_maskara.jpg",
+        "sinopse": "Um homem comum encontra uma máscara mágica que o transforma em um ser irreconhecível e excêntrico, capaz de fazer tudo o que quiser.",
+        "data_lancamento": "1994-07-29",
+        "avaliacao": 4.2,
+        "generos": ["Comédia", "Fantasia"]
+      },
+      {
+        "titulo": "O Grinch",
+        "imagem": "static/images/o_grinch.jpg",
+        "sinopse": "O Grinch, um ser rabugento e solitário, tenta roubar o Natal da pequena cidade de Quemlândia, mas aprende lições valiosas sobre o verdadeiro significado da festividade.",
+        "data_lancamento": "2018-11-09",
+        "avaliacao": 3.7,
+        "generos": ["Animação", "Comédia", "Fantasía"]
+      },
+      {
+        "titulo": "Minions",
+        "imagem": "static/images/minions.jpg",
+        "sinopse": "Os adoráveis e travessos Minions tentam encontrar um vilão para servir, enquanto enfrentam uma série de desventuras hilárias.",
+        "data_lancamento": "2015-06-11",
+        "avaliacao": 4.0,
+        "generos": ["Animação", "Aventura", "Comédia"]
+      },
+      {
+        "titulo": "As Branquelas",
+        "imagem": "/static/images/as_branquelas.jpg",
+        "sinopse": "Dois agentes do FBI disfarçados de socialites brancas tentam resolver um caso de sequestro, mas acabam se envolvendo em situações cômicas e absurdas.",
+        "data_lancamento": "2004-06-23",
+        "avaliacao": 5.0,
+        "generos": ["Comédia"]
+      },
+      {
+        "titulo": "Um Lugar Chamado Notting Hill",
+        "imagem": "/static/images/.jpg",
+        "sinopse": "A vida de um livreiro muda completamente quando ele conhece e se apaixona por uma famosa atriz de Hollywood.",
+        "data_lancamento": "1999-05-28",
+        "avaliacao": 4.8,
+        "generos": ["Romance", "Comédia"]
+      },
+      {
+        "titulo": "P.S. Eu Te Amo",
+        "imagem": "/static/images/ps_eu_te_amo.jpg",
+        "sinopse": "Uma jovem viúva descobre cartas deixadas pelo marido falecido, guiando-a para seguir em frente.",
+        "data_lancamento": "2007-12-21",
+        "avaliacao": 4.7,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Simplesmente Acontece",
+        "imagem": "/static/images/simplesmente_acontece.jpg",
+        "sinopse": "Dois melhores amigos vivem anos de desencontros e oportunidades perdidas antes de perceberem seus verdadeiros sentimentos.",
+        "data_lancamento": "2014-10-22",
+        "avaliacao": 4.6,
+        "generos": ["Romance", "Drama", "Comédia"]
+      },
+      {
+        "titulo": "Questão de Tempo",
+        "imagem": "/static/images/questao_de_tempo.jpg",
+        "sinopse": "Um jovem descobre que pode viajar no tempo e decide usar esse dom para conquistar seu grande amor.",
+        "data_lancamento": "2013-09-04",
+        "avaliacao": 4.8,
+        "generos": ["Romance", "Fantasia", "Comédia"]
+      },
+      {
+        "titulo": "Orgulho e Preconceito",
+        "imagem": "/static/images/orgulho_e_preconceito.jpg",
+        "sinopse": "Elizabeth Bennet e Mr. Darcy enfrentam seus próprios preconceitos e orgulho antes de reconhecerem seu amor um pelo outro.",
+        "data_lancamento": "2005-09-16",
+        "avaliacao": 4.9,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Razão e Sensibilidade",
+        "imagem": "/static/images/razao_e_sensibilidade.jpg",
+        "sinopse": "Duas irmãs lidam de maneiras diferentes com o amor e a perda em meio a restrições sociais da época.",
+        "data_lancamento": "1995-12-13",
+        "avaliacao": 4.7,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Adoráveis Mulheres",
+        "imagem": "/static/images/adoraveis_mulheres.jpg",
+        "sinopse": "A jornada de quatro irmãs em busca de felicidade e independência durante a Guerra Civil Americana.",
+        "data_lancamento": "2019-12-25",
+        "avaliacao": 4.8,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Amor Além da Vida",
+        "imagem": "/static/images/amor_alem_da_vida.jpg",
+        "sinopse": "Após sua morte, um homem embarca em uma jornada pelo além em busca de sua esposa falecida.",
+        "data_lancamento": "1998-10-02",
+        "avaliacao": 4.5,
+        "generos": ["Romance", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Te Amarei para Sempre",
+        "imagem": "/static/images/te_amarei_para_sempre.jpg",
+        "sinopse": "Um homem com uma condição rara que o faz viajar no tempo tenta manter seu relacionamento com a mulher que ama.",
+        "data_lancamento": "2009-08-14",
+        "avaliacao": 4.6,
+        "generos": ["Romance", "Drama", "Ficção Científica"]
+      },
+      {
+        "titulo": "Um Porto Seguro",
+        "imagem": "/static/images/um_porto_seguro.jpg",
+        "sinopse": "Uma mulher misteriosa chega a uma pequena cidade e encontra o amor enquanto foge de um passado sombrio.",
+        "data_lancamento": "2013-02-14",
+        "avaliacao": 4.4,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Cartas para Julieta",
+        "imagem": "/static/images/cartas_para_julieta.jpg",
+        "sinopse": "Uma jovem descobre uma carta de amor perdida há décadas e embarca em uma jornada romântica pela Itália.",
+        "data_lancamento": "2010-05-14",
+        "avaliacao": 4.5,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "O Melhor de Mim",
+        "imagem": "/static/images/o_melhor_de_mim.jpg",
+        "sinopse": "Dois amantes separados pelo destino se reencontram anos depois e enfrentam os desafios do passado.",
+        "data_lancamento": "2014-10-17",
+        "avaliacao": 4.6,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Um Homem de Sorte",
+        "imagem": "/static/images/um_homem_de_sorte.jpg",
+        "sinopse": "Um fuzileiro naval encontra uma fotografia misteriosa durante a guerra e acredita que ela é seu amuleto da sorte.",
+        "data_lancamento": "2012-04-20",
+        "avaliacao": 4.4,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Para Sempre",
+        "imagem": "/static/images/para_sempre.jpg",
+        "sinopse": "Após um acidente, uma mulher perde a memória e seu marido luta para reconquistar seu amor.",
+        "data_lancamento": "2012-02-10",
+        "avaliacao": 4.5,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "O Grande Gatsby",
+        "imagem": "/static/images/o_grande_gatsby.jpg",
+        "sinopse": "A trágica história de amor e obsessão entre um milionário misterioso e uma mulher da alta sociedade.",
+        "data_lancamento": "2013-05-10",
+        "avaliacao": 4.7,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Me Chame Pelo Seu Nome",
+        "imagem": "/static/images/me_chame_pelo_seu_nome.jpg",
+        "sinopse": "Durante um verão na Itália, um jovem descobre o amor e a dor de uma paixão intensa.",
+        "data_lancamento": "2017-11-24",
+        "avaliacao": 4.8,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Brooklyn",
+        "imagem": "/static/images/brooklyn.jpg",
+        "sinopse": "Uma jovem irlandesa se muda para os EUA e se vê dividida entre dois mundos e dois amores.",
+        "data_lancamento": "2015-11-06",
+        "avaliacao": 4.6,
+        "generos": ["Romance", "Drama"]
+      },
+      {
+        "titulo": "Antes Que Termine o Dia",
+        "imagem": "/static/images/antes_que_termine_o_dia.jpg",
+        "sinopse": "Após perder a mulher que ama, um homem recebe uma segunda chance para reviver seu último dia juntos.",
+        "data_lancamento": "2004-07-16",
+        "avaliacao": 4.5,
+        "generos": ["Romance", "Drama", "Fantasia"]
+      },
+      {
+        "titulo": "Querido Evan Hansen",
+        "imagem": "/static/images/querido_evan_hansen.jpg",
+        "sinopse": "Um adolescente ansioso se envolve em uma mentira inesperada que muda sua vida.",
+        "data_lancamento": "2021-09-24",
+        "avaliacao": 4.2,
+        "generos": ["Romance", "Drama", "Musical"]
+      },
+      {
+        "titulo": "Nasce uma Estrela",
+        "imagem": "/static/images/nasce_uma_estrela.jpg",
+        "sinopse": "Um cantor famoso ajuda uma jovem talentosa a alcançar o estrelato enquanto lida com seus próprios demônios.",
+        "data_lancamento": "2018-10-05",
+        "avaliacao": 4.8,
+        "generos": ["Romance", "Drama", "Musical"]
+      } ]
+}
+                
+          
+
+  
+>>>>>>> giovanna_zanini
