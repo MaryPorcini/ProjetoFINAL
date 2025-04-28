@@ -617,8 +617,9 @@
         "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
         "imagem": "static/images/piratas_do_caribe_navegando.jfif",
         "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-        "data_lancamento": "2011-05-07",
-
+        "data_lancamento": "2011-05-07"
+      },
+      {
         "titulo": "O Lado Bom da Vida",
         "imagem": "static/images/o_lado_bom_da_vida.jpg",
         "sinopse": "Após sair de uma instituição psiquiátrica, Pat tenta reconstruir sua vida e se aproxima de Tiffany, uma mulher igualmente problemática.",
@@ -839,7 +840,6 @@
         "imagem": "static/images/amor_e_outras_drogas.jpg",
         "sinopse": "Jamie, um vendedor de remédios, se apaixona por Maggie, uma mulher com doença de Parkinson. Eles tentam encontrar o equilíbrio entre amor e suas vidas complicadas.",
         "data_lancamento": "2010-11-24",
->>>>>>> giovanna_zanini
         "avaliacao": 3.8,
         "generos": ["Romance", "Drama"]
       },
@@ -851,7 +851,8 @@
         "data_lancamento": "2008-05-18",
         "avaliacao": 4.1,
         "generos": ["Aventura", "Ação"]
-
+      },
+      {
       "titulo": "Zodíaco",
         "imagem": "static/images/zodiaco.jpg",
         "sinopse": "Baseado em fatos reais, o filme segue a busca implacável de jornalistas e policiais para desvendar a identidade do assassino conhecido como Zodíaco, que aterrorizou a área da baía de São Francisco nos anos 1960 e 1970. A investigação leva a uma obsessão crescente por parte dos envolvidos.",
@@ -894,17 +895,8 @@
         "data_lancamento": "2005-07-08",
         "avaliacao": 4.5,
         "generos": [ "Suspense", "Terror" , "Misterio"] 
-      
-      
-        
-        
-      
-
->>>>>>> rafaela_mendes
-      }
-    ]
-  }
-
+      },
+      {
         "titulo": "Noivas em Guerra",
         "imagem": "static/images/noivas_em_guerra.jpg",
         "sinopse": "Duas amigas de infância se tornam rivais quando competem por um espaço em um luxuoso local de casamento, transformando uma amizade em uma guerra.",
@@ -1311,10 +1303,6 @@
         "data_lancamento": "2018-10-05",
         "avaliacao": 4.8,
         "generos": ["Romance", "Drama", "Musical"]
-      } ]
-}
-                
-          
-
-  
->>>>>>> giovanna_zanini
+      } 
+    ]
+  }
