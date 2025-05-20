@@ -19,7 +19,7 @@ def filmes():
 
 
 
-@app.route("/generos")
+@app.route('/generos')
 def pagina_generos():
     generos = [
         "Ficção", "Ação", "Aventura", "Romance", "Comédia", "Dorama", "Animação",
@@ -30,8 +30,9 @@ def pagina_generos():
 @app.route("/generos/<nome>")
 def filmes_do_genero(nome):
     filmes = carregar_filmes()
+    print("Nome da URL:", nome)
+    print("Gêneros disponíveis:", [f["genero"] for f in filmes])
     filmes_genero = [f for f in filmes if f["genero"].lower() == nome.lower()]
-
     return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
 
 

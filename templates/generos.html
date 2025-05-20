@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes</title>
+    <title>Genêros</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <header>
+   <header>
         <h1>CINEpixel</h1>
         <nav>
             <ul>
@@ -19,5 +19,13 @@
             </ul>
         </nav>
     </header>
+
+    <main class="generos-grid">
+        {% for genero in generos %}
+            <a href="{{ url_for('filmes_do_genero', nome=genero) }}" class="genero-card">
+                <span>{{ genero }}</span>
+            </a>
+        {% endfor %}
+    </main>
 </body>
 </html>
