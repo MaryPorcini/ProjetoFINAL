@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gêneros - CINEpixel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header a {
+            color: #66ccff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .generos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .genero-card {
+            background-color: #2a2a2a;
+            border-radius: 12px;
+            padding: 2rem 1rem;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .genero-card:hover {
+            background-color: #444;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore por Gênero</h1>
+        <a href="/">🏠 Voltar ao Início</a>
+    </header>
+
+    <main class="generos-grid">
+        {% for genero in generos %}
+            <a href="{{ url_for('filmes_do_genero', nome=genero) }}" class="genero-card">
+                <span>{{ genero }}</span>
+            </a>
+        {% endfor %}
+    </main>
+</body>
+</html>

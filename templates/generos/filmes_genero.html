@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ genero }} - CINEpixel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header a {
+            color: #66ccff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .filmes-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .card-filme {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 1rem;
+            width: 220px;
+            text-align: center;
+        }
+
+        .card-filme img {
+            width: 100%;
+            border-radius: 5px;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .card-filme h3 {
+            margin-top: 0.5rem;
+        }
+
+        .card-filme p {
+            font-size: 0.9rem;
+            margin: 0.3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filmes de {{ genero }}</h1>
+        <a href="{{ url_for('pagina_generos') }}">⬅ Voltar para Gêneros</a>
+    </header>
+
+    <main class="filmes-grid">
+        {% for filme in filmes %}
+            <div class="card-filme">
+                <img src="{{ url_for('static', filename='imagens/' + filme.imagem) }}" alt="{{ filme.titulo }}">
+                <h3>{{ filme.titulo }}</h3>
+                <p><strong>Ano:</strong> {{ filme.ano }}</p>
+                <p><strong>Avaliação:</strong> {{ filme.avaliacao }}</p>
+                <p>{{ filme.sinopse }}</p>
+            </div>
+        {% else %}
+            <p>Nenhum filme encontrado neste gênero.</p>
+        {% endfor %}
+    </main>
+</body>
+</html>

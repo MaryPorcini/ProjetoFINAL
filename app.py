@@ -11,5 +11,29 @@ def index():
     filmes = carregar_filmes()
     return render_template('index.html', filmes=filmes)
 
-if __name__ == '_main_':
+
+@app.route('/filmes')
+def filmes():
+    filmes = carregar_filmes()
+    return render_template('filmes.html', filmes=filmes)
+
+
+
+@app.route("/generos")
+def pagina_generos():
+    generos = [
+        "Ficção", "Ação", "Aventura", "Romance", "Comédia", "Dorama", "Animação",
+        "Drama", "Terror", "Mistério", "Suspense", "Musical", "Fantasia", "Documentário"
+    ]
+    return render_template("generos.html", generos=generos)
+
+@app.route("/generos/<nome>")
+def filmes_do_genero(nome):
+    filmes = carregar_filmes()
+    filmes_genero = [f for f in filmes if f["genero"].lower() == nome.lower()]
+
+    return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
+
+
+if __name__ == '__main__':
     app.run(debug=True)
