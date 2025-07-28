@@ -1,4 +1,4 @@
-from flask import Flask, render_template, json
+from flask import Flask, render_template, json, request
 
 app = Flask(__name__)
 
@@ -11,13 +11,10 @@ def index():
     filmes = carregar_filmes()
     return render_template('index.html', filmes=filmes)
 
-
 @app.route('/filmes')
 def filmes():
     filmes = carregar_filmes()
     return render_template('filmes.html', filmes=filmes)
-
-
 
 @app.route('/generos')
 def pagina_generos():
@@ -30,11 +27,15 @@ def pagina_generos():
 @app.route("/generos/<nome>")
 def filmes_do_genero(nome):
     filmes = carregar_filmes()
-    print("Nome da URL:", nome)
-    print("Gêneros disponíveis:", [f["genero"] for f in filmes])
-    filmes_genero = [f for f in filmes if f["genero"].lower() == nome.lower()]
+    filmes_genero = [f for f in filmes if nome.lower() in [g.lower() for g in f["generos"]]]
     return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
 
+@app.route('/buscar')
+def buscar():
+    termo = request.args.get('q', '').lower()
+    filmes = carregar_filmes()
+    resultados = [f for f in filmes if termo in f['titulo'].lower()]
+    return render_template('buscar.html', termo=termo, resultados=resultados)
 
 if __name__ == '__main__':
     app.run(debug=True)

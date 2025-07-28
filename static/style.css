@@ -200,3 +200,51 @@ main.generos-grid {
     color: #0d0d0d;
     cursor: pointer;
 }
+
+#busca {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.form-busca {
+    width: 90%;
+    max-width: 600px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    padding: 10px 16px;
+    border: 1px solid #444;
+}
+
+.search-box .icon {
+    color: #5c5b5b;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.search-box .mic {
+    margin-left: auto;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fffdfd;
+    font-size: 16px;
+    padding: 8px 0;
+    font-family: inherit;
+}
+
+.search-box input::placeholder {
+    color: #777;
+}
