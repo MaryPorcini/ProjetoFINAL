@@ -288,3 +288,76 @@ footer {
     min-width: 220px;
     flex-shrink: 0;
 }
+
+/* Links nos cards dos filmes */
+.filme-card a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.filme-card a:hover {
+    color: #ffffff;
+}
+
+.filme-card a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.filme-card a:hover {
+    color: #ffffff;
+}
+
+/* Página de detalhes */
+.detalhes-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.detalhes-container h2 {
+    color: #ff0000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.detalhes-container img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.detalhes-container p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    color: #66ccff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.botao-voltar:hover {
+    color: #ffffff;
+}

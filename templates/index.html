@@ -11,8 +11,8 @@
         <h1>CINEpixel</h1>
         <nav>
             <ul>
-                <li><a href="/">Menu</a></li>
-                <li><a href="/filmes">Filmes</a></li>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
                 <li><a href="/generos">Gêneros</a></li>
                 <li><a href="#">Personalizado</a></li>
                 <li><a href="#">Resenhas</a></li>
@@ -32,12 +32,16 @@
     <!-- SEÇÃO: Destaques -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Grandes Sucessos</h2>
-        <div class="carrossel" id="carrossel-sucessos">
+        <div class="carrossel" id="carrossel-destaques">
             {% for filme in filmes %}
                 {% if filme.avaliacao > 4.5 %}
                 <div class="filme-card">
-                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
-                    <h3>{{ filme.titulo }}</h3>
+                    <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                        <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                    </a>
+                    <h3>
+                        <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
+                    </h3>
                     <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
                     <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
@@ -50,12 +54,16 @@
     <!-- SEÇÃO: Velozes e Furiosos -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Velozes e Furiosos</h2>
-        <div class="carrossel" id="carrossel-furiosos">
+        <div class="carrossel" id="carrossel-toretto">
             {% for filme in filmes %}
                 {% if 'velozes' in filme.titulo.lower() or 'furiosos' in filme.titulo.lower() %}
                 <div class="filme-card">
-                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
-                    <h3>{{ filme.titulo }}</h3>
+                    <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                        <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                    </a>
+                    <h3>
+                        <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
+                    </h3>
                     <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
                     <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
@@ -65,31 +73,39 @@
         </div>
     </section>
 
-        <!-- CARROSSEL ANIMAÇÃO -->
+    <!-- SEÇÃO: Filmes para a família -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Filmes para a família</h2>
-        <div class="carrossel" id="carrossel-fantasia">
+        <div class="carrossel" id="carrossel-familia">
             {% for filme in filmes if 'Animação' in filme['generos'] %}
             <div class="filme-card">
-                <img src="{{ filme['imagem'] }}" alt="{{ filme['titulo'] }}">
-                <h3>{{ filme['titulo'] }}</h3>
-                <p><strong>Gêneros:</strong> {{ ', '.join(filme['generos']) }}</p>
-                <p><strong>Lançamento:</strong> {{ filme['data_lancamento'] }}</p>
-                <p><strong>Avaliação:</strong> ⭐ {{ filme['avaliacao'] }}</p>
+                <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                </a>
+                <h3>
+                    <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
+                </h3>
+                <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
+                <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
             </div>
             {% endfor %}
         </div>
     </section>
 
-    <!-- SEÇÃO: HARRY POTTER -->
+    <!-- SEÇÃO: Harry Potter -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Harry Potter</h2>
-        <div class="carrossel" id="carrossel-harry">
+        <div class="carrossel" id="carrossel-potter">
             {% for filme in filmes %}
                 {% if 'harry' in filme.titulo.lower() or 'potter' in filme.titulo.lower() %}
                 <div class="filme-card">
-                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
-                    <h3>{{ filme.titulo }}</h3>
+                    <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                        <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                    </a>
+                    <h3>
+                        <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
+                    </h3>
                     <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
                     <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
@@ -98,7 +114,6 @@
             {% endfor %}
         </div>
     </section>
-
 
     <footer>
         <p>&copy; 2025 CINEpixel</p>
@@ -125,8 +140,10 @@
             }, 3000);
         }
 
-        iniciarCarrosselPingPong('carrossel-destaques');
-        iniciarCarrosselPingPong('carrossel-velozes');
+        iniciarCarrosselPingPong('carrossel-sucessos');
+        iniciarCarrosselPingPong('carrossel-furiosos');
+        iniciarCarrosselPingPong('carrossel-fantasia');
+        iniciarCarrosselPingPong('carrossel-harry');
     </script>
 </body>
 </html>
