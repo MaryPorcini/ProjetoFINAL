@@ -2,30 +2,57 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genêros</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Gêneros</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #e50914; /* Cor vermelha do Netflix */
+        }
+
+        .genero-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Espaçamento entre os botões */
+            margin-top: 30px;
+        }
+
+        .genero-btn {
+            background-color: #1c1c1c; /* Fundo escuro do botão */
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px; /* Cantos mais arredondados */
+            cursor: pointer;
+            transition: background 0.3s; /* Transição suave ao passar o mouse */
+            color: white;
+            text-decoration: none; /* Remover sublinhado do link */
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Sombra suave */
+        }
+
+        .genero-btn:hover {
+            background-color: #e50914; /* Mudar para vermelho ao passar o mouse */
+            color: white;
+        }
+    </style>
 </head>
 <body>
-   <header>
-        <h1>CINEpixel</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Menu</a></li>
-                <li><a href="/filmes">Filmes</a></li>
-                <li><a href="/generos">Genêros</a></li>
-                <li><a href="#">Personalizado</a></li>
-                <li><a href="#">Resenhas</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1>Escolha um Gênero</h1>
 
-    <main class="generos-grid">
+    <div class="genero-container">
         {% for genero in generos %}
-            <a href="{{ url_for('filmes_do_genero', nome=genero) }}" class="genero-card">
-                <span>{{ genero }}</span>
+            <a class="genero-btn" href="{{ url_for('filmes_do_genero', nome=genero) }}">
+                {{ genero }}
             </a>
         {% endfor %}
-    </main>
+    </div>
 </body>
 </html>

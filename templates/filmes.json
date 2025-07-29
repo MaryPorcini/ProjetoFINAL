@@ -1,0 +1,22 @@
+   {
+    "filmes": [
+      {
+
+        "titulo": "vingadores_ultimat.jpg",
+        "imagem": "static/images/vingadores_",
+        "sinopse": "Dois legistas, pai e filho, realizam a autópsia de um corpo desconhecido, Jane Doe. Durante o exame, eles descobrem mistérios e fenômenos sobrenaturais, que os levam a uma investigação assustadora sobre a identidade da mulher e os eventos que a cercam.",
+        "data_lancamento": "2016-12-21",
+        "avaliacao": 4.0,
+        "generos": ["Terror", "Mistério", "Suspense"]
+      
+      },
+   {
+        "titulo": "Cosmos",
+        "imagem":"static/images/cosmos.jpg",
+        "sinopse": "Uma série que explora o universo e a ciência de forma fascinante, apresentando os mistérios do cosmos e do nosso planeta.",
+        "data_lancamento": "2014",
+        "avaliacao": 5,
+        "generos": ["Documentário"]
+      }
+    ]
+  }
