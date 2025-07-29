@@ -615,9 +615,11 @@
       },      
       {
         "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas_do_caribe_navegando.jfif",
+        "imagem": "static/images/piratas_do_caribe_navegando_por_aguas_misteriosas.jpg",
         "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-        "data_lancamento": "2011-05-07"
+        "data_lancamento": "2011-05-07",       
+        "avaliacao": 4.5,
+        "generos": ["Aventura", "Romance"]
       },
       {
         "titulo": "O Lado Bom da Vida",
@@ -1146,7 +1148,7 @@
       },
       {
         "titulo": "Um Lugar Chamado Notting Hill",
-        "imagem": "/static/images/.jpg",
+        "imagem": "/static/images/um_lugar.jpg",
         "sinopse": "A vida de um livreiro muda completamente quando ele conhece e se apaixona por uma famosa atriz de Hollywood.",
         "data_lancamento": "1999-05-28",
         "avaliacao": 4.8,

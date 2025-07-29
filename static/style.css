@@ -247,4 +247,44 @@ main.generos-grid {
 
 .search-box input::placeholder {
     color: #777;
+} 
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    border-top: 4px solid #ff0000;
+}
+
+/* Carrossel */
+.carrossel-section {
+    margin: 40px 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.titulo-carrossel {
+    font-size: 2em;
+    color: #ff0000;
+    margin: 15px 0 15px 10px;
+}
+
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.carrossel::-webkit-scrollbar {
+    display: none; /* Esconde a barra de rolagem */
+}
+
+.carrossel .filme-card {
+    min-width: 220px;
+    flex-shrink: 0;
 }

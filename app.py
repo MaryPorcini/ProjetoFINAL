@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 def carregar_filmes():
     with open('filmes.json', 'r', encoding='utf-8') as arquivo:
-        return json.load(arquivo)['filmes']
+        filmes = json.load(arquivo)['filmes']
+        for f in filmes:
+            f['avaliacao'] = float(f['avaliacao'])  # converte para número
+        return filmes
+
 
 @app.route('/')
 def index():
@@ -29,6 +33,7 @@ def filmes_do_genero(nome):
     filmes = carregar_filmes()
     filmes_genero = [f for f in filmes if nome.lower() in [g.lower() for g in f["generos"]]]
     return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
+
 
 @app.route('/buscar')
 def buscar():

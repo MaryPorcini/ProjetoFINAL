@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes</title>
+    <title>CINEpixel</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -13,11 +13,39 @@
             <ul>
                 <li><a href="/">Menu</a></li>
                 <li><a href="/filmes">Filmes</a></li>
-                <li><a href="/generos">Genêros</a></li>
+                <li><a href="/generos">Gêneros</a></li>
                 <li><a href="#">Personalizado</a></li>
                 <li><a href="#">Resenhas</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- BARRA DE PESQUISA -->
+    <section id="busca">
+        <form action="/buscar" method="GET" class="form-busca">
+            <div class="search-box">
+                <input type="text" name="q" placeholder="Search" required>
+            </div>
+        </form>
+    </section>
+
+    <section id="filmes">
+        <div class="filmes-container">
+            {% for filme in filmes %}
+            <div class="filme-card">
+                <img src="{{ filme['imagem'] }}" alt="{{ filme['titulo'] }}">
+                <h3>{{ filme['titulo'] }}</h3>
+                <p><strong>Gêneros:</strong> {{ ', '.join(filme['generos']) }}</p>
+                <p><strong>Data de Lançamento:</strong> {{ filme['data_lancamento'] }}</p>
+                <p><strong>Avaliação:</strong> ⭐ {{ filme['avaliacao'] }}</p>
+                <p>{{ filme['sinopse'] }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CINEpixel</p>
+    </footer>
 </body>
 </html>
