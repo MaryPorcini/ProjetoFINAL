@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEpixel - Personalizado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Personalizado</a></li>
+                <li><a href="#">Resenhas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="filtros-container">
+        <h2>Personalize sua recomendação</h2>
+        <form action="/resultado_personalizado" method="POST" class="form-filtro">
+            <fieldset>
+                <legend>Gêneros</legend>
+                {% for genero in ["Ficção", "Ação", "Aventura", "Romance", "Comédia", "Dorama", "Animação", "Drama", "Terror", "Mistério", "Suspense", "Musical", "Fantasia", "Documentário", "Sobrenatural"] %}
+                    <label><input type="checkbox" name="generos" value="{{ genero }}"> {{ genero }}</label>
+                {% endfor %}
+            </fieldset>
+
+            <fieldset>
+                <legend>Ano de Lançamento</legend>
+                <label>De: <input type="number" name="ano_min" placeholder="Ex: 2000"></label>
+                <label>Até: <input type="number" name="ano_max" placeholder="Ex: 2024"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Avaliação mínima</legend>
+                <select name="avaliacao_min">
+                    <option value="">Qualquer</option>
+                    <option value="5">⭐ 5.0</option>
+                    <option value="4">⭐ 4.0+</option>
+                    <option value="3">⭐ 3.0+</option>
+                    <option value="2">⭐ 2.0+</option>
+                    <option value="1">⭐ 1.0+</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Ver Recomendações</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CINEpixel</p>
+    </footer>
+</body>
+</html>

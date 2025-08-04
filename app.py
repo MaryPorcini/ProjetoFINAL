@@ -9,8 +9,7 @@ def carregar_filmes():
         filmes = json.load(arquivo)['filmes']
         for f in filmes:
             f['avaliacao'] = float(f['avaliacao'])  # garante que avaliação é número
-            # cria slug a partir do título (ex: "A Bruxa" -> "a-bruxa")
-            f['slug'] = re.sub(r'[^a-z0-9]+', '-', f['titulo'].lower()).strip('-')
+            f['slug'] = re.sub(r'[^a-z0-9]+', '-', f['titulo'].lower()).strip('-')  # cria slug
         return filmes
 
 @app.route('/')
@@ -44,7 +43,6 @@ def buscar():
     resultados = [f for f in filmes if termo in f['titulo'].lower()]
     return render_template('buscar.html', termo=termo, resultados=resultados)
 
-# NOVA ROTA PARA DETALHES DO FILME
 @app.route('/filme/<slug>')
 def detalhes_filme(slug):
     filmes = carregar_filmes()
@@ -53,6 +51,50 @@ def detalhes_filme(slug):
         return render_template('detalhes.html', filme=filme)
     else:
         return "Filme não encontrado", 404
+
+@app.route('/personalizado')
+def personalizado():
+    filmes = carregar_filmes()
+    return render_template('personalizado.html', filmes=filmes)
+
+@app.route('/resultado_personalizado', methods=['POST'])
+def resultado_personalizado():
+    filmes = carregar_filmes()
+    generos_selecionados = request.form.getlist('generos')
+    ano_min = request.form.get('ano_min')
+    ano_max = request.form.get('ano_max')
+    avaliacao_min = request.form.get('avaliacao_min')
+
+    filtrados = []
+    for f in filmes:
+        # Gêneros
+        genero_ok = any(g in f['generos'] for g in generos_selecionados) if generos_selecionados else True
+        
+        # Ano de lançamento
+        try:
+            ano_lancamento = int(f['data_lancamento'].split('-')[0])
+        except:
+            ano_lancamento = 0  # ou continue se preferir ignorar filmes sem data válida
+
+        ano_ok = True
+        if ano_min and ano_lancamento < int(ano_min):
+            ano_ok = False
+        if ano_max and ano_lancamento > int(ano_max):
+            ano_ok = False
+
+        # Avaliação mínima
+        avaliacao_ok = True
+        if avaliacao_min:
+            try:
+                avaliacao_ok = f['avaliacao'] >= float(avaliacao_min)
+            except:
+                avaliacao_ok = False
+
+        # Adiciona se passou em todos os filtros
+        if genero_ok and ano_ok and avaliacao_ok:
+            filtrados.append(f)
+
+    return render_template('resultado_personalizado.html', filmes=filtrados)
 
 if __name__ == '__main__':
     app.run(debug=True)
