@@ -29,10 +29,10 @@
         </form>
     </section>
 
-    <!-- SEÇÃO: Destaques -->
+    <!-- SEÇÃO: Grandes Sucessos -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Grandes Sucessos</h2>
-        <div class="carrossel" id="carrossel-destaques">
+        <div class="carrossel" id="carrossel-sucessos">
             {% for filme in filmes %}
                 {% if filme.avaliacao > 4.5 %}
                 <div class="filme-card">
@@ -54,7 +54,7 @@
     <!-- SEÇÃO: Velozes e Furiosos -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Velozes e Furiosos</h2>
-        <div class="carrossel" id="carrossel-toretto">
+        <div class="carrossel" id="carrossel-furiosos">
             {% for filme in filmes %}
                 {% if 'velozes' in filme.titulo.lower() or 'furiosos' in filme.titulo.lower() %}
                 <div class="filme-card">
@@ -96,7 +96,7 @@
     <!-- SEÇÃO: Harry Potter -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Harry Potter</h2>
-        <div class="carrossel" id="carrossel-potter">
+        <div class="carrossel" id="carrossel-harry">
             {% for filme in filmes %}
                 {% if 'harry' in filme.titulo.lower() or 'potter' in filme.titulo.lower() %}
                 <div class="filme-card">
@@ -128,7 +128,6 @@
 
             setInterval(() => {
                 const maxScroll = container.scrollWidth - container.clientWidth;
-
                 if (scrollAmount >= maxScroll) direction = -1;
                 if (scrollAmount <= 0) direction = 1;
 
@@ -142,7 +141,7 @@
 
         iniciarCarrosselPingPong('carrossel-sucessos');
         iniciarCarrosselPingPong('carrossel-furiosos');
-        iniciarCarrosselPingPong('carrossel-fantasia');
+        iniciarCarrosselPingPong('carrossel-familia');
         iniciarCarrosselPingPong('carrossel-harry');
     </script>
 </body>

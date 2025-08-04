@@ -21,7 +21,7 @@
 
     <main class="detalhes-container">
         <h2>{{ filme.titulo }}</h2>
-        <img src="{{ url_for('static', filename=filme.imagem.split('static/')[-1]) }}" alt="{{ filme.titulo }}">
+        <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
         <p><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
         <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
         <p><strong>Data de lançamento:</strong> {{ filme.data_lancamento }}</p>

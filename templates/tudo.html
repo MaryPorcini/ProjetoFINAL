@@ -34,12 +34,14 @@
         <div class="filmes-container">
             {% for filme in filmes %}
             <div class="filme-card">
-                <img src="{{ filme['imagem'] }}" alt="{{ filme['titulo'] }}">
-                <h3>{{ filme['titulo'] }}</h3>  <!-- mantido o <h3> com estilo vermelho -->
-                <p><strong>Gêneros:</strong> {{ ', '.join(filme['generos']) }}</p>
-                <p><strong>Data de Lançamento:</strong> {{ filme['data_lancamento'] }}</p>
-                <p><strong>Avaliação:</strong> ⭐ {{ filme['avaliacao'] }}</p>
-                <p>{{ filme['sinopse'] }}</p>
+                <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                </a>
+                <h3>{{ filme.titulo }}</h3>
+                <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
+                <p><strong>Data de Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                <p>{{ filme.sinopse }}</p>
             </div>
             {% endfor %}
         </div>
