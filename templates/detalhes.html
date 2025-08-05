@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ filme.titulo }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Personalizado</a></li>
+                <li><a href="#">Resenhas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detalhes-container">
+        <h2>{{ filme.titulo }}</h2>
+        <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
+        <p><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
+        <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
+        <p><strong>Data de lançamento:</strong> {{ filme.data_lancamento }}</p>
+        <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+        <a href="/tudo" class="botao-voltar">← Voltar</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CINEpixel</p>
+    </footer>
+</body>
+</html>

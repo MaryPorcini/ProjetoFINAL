@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados da Busca - CINEpixel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Personalizado</a></li>
+                <li><a href="#">Resenhas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="busca">
+        <form action="/buscar" method="GET" class="form-busca">
+            <div class="search-box">
+                <span class="icon">&#128269;</span>
+                <input type="text" name="q" placeholder="Search" value="{{ termo }}" required>
+            </div>
+        </form>
+    </section>
+
+    <section id="resultados">
+        <h2>Você buscou por: "{{ termo }}"</h2>
+
+        {% if resultados %}
+            <div class="filmes-container">
+                {% for filme in resultados %}
+                <div class="filme-card">
+                    <img src="{{ filme['imagem'] }}" alt="{{ filme['titulo'] }}">
+                    <h3>{{ filme['titulo'] }}</h3>
+                    <p><strong>Gêneros:</strong> {{ ', '.join(filme['generos']) }}</p>
+                    <p><strong>Data de Lançamento:</strong> {{ filme['data_lancamento'] }}</p>
+                    <p><strong>Avaliação:</strong> ⭐ {{ filme['avaliacao'] }}</p>
+                    <p>{{ filme['sinopse'] }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p style="text-align:center; margin-top: 30px;">Nenhum filme encontrado com esse nome.</p>
+        {% endif %}
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CINEpixel</p>
+    </footer>
+</body>
+</html>

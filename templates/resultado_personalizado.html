@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Recomendações Personalizadas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Personalizado</a></li>
+                <li><a href="#">Resenhas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="resultados-container">
+        <h2>Filmes recomendados</h2>
+        {% if filmes %}
+            <div class="filmes-grid">
+                {% for filme in filmes %}
+                    <div class="filme-card">
+                        <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                            <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
+                        </a>
+                        <h3>{{ filme.titulo }}</h3>
+                        <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
+                        <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                        <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>Nenhum filme encontrado com os critérios selecionados.</p>
+        {% endif %}
+        <a href="/personalizado" class="botao-voltar">← Voltar</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CINEpixel</p>
+    </footer>
+</body>
+</html>
