@@ -95,11 +95,12 @@ def resultado_personalizado():
             filtrados.append(f)
 
     return render_template('resultado_personalizado.html', filmes=filtrados)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
 @app.route('/login')
 def login():
     filmes = carregar_filmes()
     return render_template('login.html', filmes=filmes)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+

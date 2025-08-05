@@ -8,38 +8,49 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     
 </head>
-<body>
-<form>
-    <h3>Login</h3>
-    <label>Email</label>
-    <input type="email" name="email" id="email" required />
-    <br><br>
-    <label>Senha</label>
-    <input type="password" name="senha" id="senha" required />
-    <br><br>
-    <button type="button" onclick="validarLogin();">Entrar</button>
-</form>
+<body class="auth-body">
 
-<h1 id="mensagem"></h1>
+    <div class="auth-wrapper">
 
-<script>
-    function validarLogin() {
-        // Pegando os valores dos campos
-        let email = document.getElementById("email").value;
-        let senha = document.getElementById("senha").value;
-        
-        let mensagem = document.getElementById("mensagem");
-        
-        // Verificando se os dados estão corretos
-        if (email === "admin@admin.com" && senha === "admin") {
-            mensagem.innerHTML = "Usuário logado!";
-            mensagem.style.color = "green"; // Adiciona cor verde para indicar sucesso
-        } else {
-            mensagem.innerHTML = "Erros no formulário!";
-            mensagem.style.color = "red"; // Adiciona cor vermelha para indicar erro
-        }
-    }
-</script>
+        <div class="auth-container">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-senha">Senha</label>
+                    <input type="password" id="login-senha" name="senha" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+
+        <div class="auth-container">
+            <h1>Cadastro</h1>
+            <form action="/cadastro" method="post">
+                <div class="form-group">
+                    <label for="cadastro-nome">Nome</label>
+                    <input type="text" id="cadastro-nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadastro-email">Email</label>
+                    <input type="email" id="cadastro-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadastro-senha">Senha</label>
+                    <input type="password" id="cadastro-senha" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadastro-confirma-senha">Confirmar Senha</label>
+                    <input type="password" id="cadastro-confirma-senha" name="confirma-senha" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+    </div>
 
 </body>
 </html>

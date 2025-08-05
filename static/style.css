@@ -974,62 +974,92 @@ footer {
     cursor: pointer;
 }
 
-.login-body {
-background-color: #000;
-font-family: sans-serif;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-margin: 0;
+/* Estilo geral para a página de login e cadastro */
+.auth-body {
+    background-color: #000;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
 }
 
-.login-container {
-background-color: #1a1a1a;
-padding: 30px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-width: 400px;
-text-align: center;
+/* Container principal que agrupa os dois formulários */
+.auth-wrapper {
+    display: flex;
+    gap: 30px; /* Espaço entre os formulários */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que os formulários se quebrem em telas pequenas */
 }
 
-h1 {
-color: #e50914;
-margin-bottom: 20px;
+/* Estilo para cada formulário individual (Login e Cadastro) */
+.auth-container {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
 }
 
+/* Estilo para os títulos */
+.auth-container h1 {
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada grupo de label + input */
 .form-group {
-margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-label {
-display: block;
-color: #fff;
-margin-bottom: 5px;
-text-align: left;
+/* Estilo para os labels */
+.form-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
 }
 
-input {
-width: calc(100% - 22px);
-padding: 10px;
-border: 1px solid #333;
-border-radius: 3px;
-background-color: #333;
-color: #fff;
-box-sizing: border-box;
+/* Estilo para todos os campos de input */
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-button {
-background-color: #e50914;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 3px;
-cursor: pointer;
-font-size: 16px;
-transition: background-color 0.3s ease;
+/* Estilo para os botões de envio */
+.auth-container button {
+    width: 100%;
+    background-color: #e50914;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-button:hover {
-background-color: #c40812;
+/* Efeito de hover nos botões */
+.auth-container button:hover {
+    background-color: #c40812;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 900px) {
+    .auth-wrapper {
+        flex-direction: column; /* Empilha os formulários em telas pequenas */
+        align-items: center;
+    }
 }
