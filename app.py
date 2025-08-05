@@ -98,3 +98,8 @@ def resultado_personalizado():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+@app.route('/login')
+def login():
+    filmes = carregar_filmes()
+    return render_template('login.html', filmes=filmes)

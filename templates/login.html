@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+<form>
+    <h3>Login</h3>
+    <label>Email</label>
+    <input type="email" name="email" id="email" required />
+    <br><br>
+    <label>Senha</label>
+    <input type="password" name="senha" id="senha" required />
+    <br><br>
+    <button type="button" onclick="validarLogin();">Entrar</button>
+</form>
+
+<h1 id="mensagem"></h1>
+
+<script>
+    function validarLogin() {
+        // Pegando os valores dos campos
+        let email = document.getElementById("email").value;
+        let senha = document.getElementById("senha").value;
+        
+        let mensagem = document.getElementById("mensagem");
+        
+        // Verificando se os dados estão corretos
+        if (email === "admin@admin.com" && senha === "admin") {
+            mensagem.innerHTML = "Usuário logado!";
+            mensagem.style.color = "green"; // Adiciona cor verde para indicar sucesso
+        } else {
+            mensagem.innerHTML = "Erros no formulário!";
+            mensagem.style.color = "red"; // Adiciona cor vermelha para indicar erro
+        }
+    }
+</script>
+
+</body>
+</html>
