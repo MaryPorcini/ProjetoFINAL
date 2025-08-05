@@ -1063,3 +1063,36 @@ footer {
         align-items: center;
     }
 }
+
+.auth-body {
+    background-color: #000;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center; /* Centraliza verticalmente o grupo */
+    align-items: center; /* Centraliza horizontalmente o grupo */
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Novo: Estilo para o contêiner do logo */
+.logo-container {
+    margin-bottom: 30px; /* Espaçamento abaixo do logo */
+}
+
+.logo-container h1 {
+    color: #e50914;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Atualizado: auth-wrapper agora coloca os formulários lado a lado */
+.auth-wrapper {
+    display: flex;
+    gap: 30px; /* Espaço entre os formulários */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
