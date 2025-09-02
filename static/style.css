@@ -1,29 +1,48 @@
-/* Reset de estilos */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+/* --- Variáveis e Reset de Estilos --- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+}
+
+:root {
+    --cor-principal: #ff0000; /* Vermelho vibrante */
+    --cor-fundo: #0d0d0d; /* Preto ultra escuro */
+    --cor-secundaria: #ffffff; /* Branco para textos e ícones */
+    --cor-card-fundo: #1e1e1e; /* Fundo de card mais claro */
+    --cor-borda: #444; /* Borda sutil */
+    --cor-destaque: #66ccff; /* Ciano para destaque em links */
+    --cor-avaliacao: #FFD700; /* Dourado para a avaliação */
+    --cor-cinza-claro: #bbbbbb;
+    --cor-cinza-medio: #777;
+    --cor-cinza-escuro: #111;
 }
 
 body {
-    background-color: #0d0d0d;
-    color: #ffffff;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
+/* --- Cabeçalho e Navegação --- */
 header {
     background: linear-gradient(to right, #1c1c1c, #292929);
     padding: 30px 0;
-    border-bottom: 4px solid #ff0000;
+    border-bottom: 4px solid var(--cor-principal);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
+    font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     font-weight: bold;
-    color: #ff0000;
+    color: var(--cor-principal);
     letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -40,7 +59,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--cor-secundaria);
     font-size: 1.5em;
     font-weight: bold;
     padding: 12px 18px;
@@ -48,11 +67,15 @@ nav ul li a {
     border-radius: 5px;
 }
 
-nav ul li a:hover {
-    background-color: #ff0000;
-    color: #0d0d0d;
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
 }
 
+/* --- Seções de Carrossel e Filmes --- */
 .filmes-container {
     display: flex;
     flex-wrap: wrap;
@@ -61,205 +84,6 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
-.filme-card {
-    background-color: #222;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.filme-card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.filme-card h3 {
-    color: #ff0000;
-    margin: 15px 0 10px;
-}
-
-.filme-card p {
-    font-size: 1em;
-    color: #bbbbbb;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #111;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.2em;
-    color: #ffffff;
-    border-top: 4px solid #ff0000;
-}
-body {
-    background-color: #121212;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #1f1f1f;
-    padding: 1rem;
-    text-align: center;
-}
-
-header a {
-    color: #66ccff;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
-h1 {
-    margin-bottom: 0.5rem;
-}
-
-.generos-grid {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-gap: 1rem;
-padding: 2rem;
-}
-
-.genero-card {
-    background-color: #2a2a2a;
-    border-radius: 12px;
-    padding: 2rem 1rem;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.genero-card:hover {
-    background-color: #444;
-    cursor: pointer;
-}
-
-header a:hover {
-    color: #ffffff;
-}
-
-main.generos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 20px;
-    padding: 40px 20px;
-}
-
-/* Estilo específico para a página de gêneros */
-.header-generos {
-    background: linear-gradient(to right, #1c1c1c, #292929);
-    padding: 30px 0 10px;
-    border-bottom: 4px solid #ff0000;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.header-generos h1 {
-    color: #ff0000;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.header-generos a {
-    color: #66ccff;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.generos-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.genero-card {
-    background-color: #1e1e1e;
-    border-radius: 20px;
-    padding: 2.5rem 1rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
-
-.genero-card:hover {
-    transform: scale(1.05);
-    background-color: #ff0000;
-    color: #0d0d0d;
-    cursor: pointer;
-}
-
-#busca {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-}
-
-.form-busca {
-    width: 90%;
-    max-width: 600px;
-}
-
-.search-box {
-    display: flex;
-    align-items: center;
-    background-color: #1e1e1e;
-    border-radius: 30px;
-    padding: 10px 16px;
-    border: 1px solid #444;
-}
-
-.search-box .icon {
-    color: #5c5b5b;
-    font-size: 20px;
-    margin-right: 10px;
-    cursor: default;
-}
-
-.search-box .mic {
-    margin-left: auto;
-    color: #aaa;
-    cursor: pointer;
-}
-
-.search-box input[type="text"] {
-    flex: 1;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fffdfd;
-    font-size: 16px;
-    padding: 8px 0;
-    font-family: inherit;
-}
-
-.search-box input::placeholder {
-    color: #777;
-} 
-
-/* Footer */
-footer {
-    background-color: #111;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.2em;
-    color: #ffffff;
-    border-top: 4px solid #ff0000;
-}
-
-/* Carrossel */
 .carrossel-section {
     margin: 40px 0;
     padding: 0 20px;
@@ -267,9 +91,11 @@ footer {
 }
 
 .titulo-carrossel {
-    font-size: 2em;
-    color: #ff0000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    color: var(--cor-principal);
     margin: 15px 0 15px 10px;
+    letter-spacing: 1.5px;
 }
 
 .carrossel {
@@ -289,11 +115,55 @@ footer {
     flex-shrink: 0;
 }
 
-/* Links nos cards dos filmes */
+/* --- Estilo unificado para os Cards de Filme --- */
+.filme-card {
+    background-color: var(--cor-card-fundo);
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.filme-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
+}
+
+.filme-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+.filme-card:hover img {
+    transform: scale(1.05);
+}
+
+.filme-card h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--cor-principal);
+    margin: 10px 0;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+.filme-card p {
+    font-size: 1rem;
+    color: var(--cor-cinza-claro);
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
 .filme-card a {
     text-decoration: none;
-    color: #ff0000;
-    font-size: 1.2em;
+    color: var(--cor-principal);
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
@@ -301,28 +171,244 @@ footer {
 }
 
 .filme-card a:hover {
-    color: #ffffff;
+    color: var(--cor-secundaria);
 }
 
-.filme-card a {
-    text-decoration: none;
-    color: #ff0000;
-    font-size: 1.2em;
+/* --- Seção de Gêneros --- */
+.generos-grid, main.generos-grid, .generos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5rem;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.genero-card {
+    background-color: var(--cor-card-fundo);
+    border-radius: 12px;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--cor-secundaria);
     font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.genero-card:hover {
+    transform: scale(1.05);
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.6);
+}
+
+/* --- Seção de Busca --- */
+#busca {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.form-busca {
+    width: 90%;
+    max-width: 600px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-card-fundo);
+    border-radius: 30px;
+    padding: 10px 16px;
+    border: 1px solid var(--cor-borda);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-box:focus-within {
+    box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.3);
+}
+
+.search-box .icon {
+    color: var(--cor-cinza-medio);
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.search-box .mic {
+    margin-left: auto;
+    color: var(--cor-cinza-claro);
+    cursor: pointer;
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    padding: 8px 0;
+    font-family: inherit;
+}
+
+.search-box input::placeholder {
+    color: var(--cor-cinza-medio);
+}
+
+/* --- Página de Personalização de Filtros --- */
+.filtros-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: var(--cor-card-fundo);
+    border-radius: 15px;
+    color: var(--cor-secundaria);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.filtros-container h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: var(--cor-principal);
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.form-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-filtro fieldset {
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: var(--cor-fundo);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-filtro legend {
+    font-size: 1.5rem;
+    color: var(--cor-avaliacao); /* Dourado para a legenda */
+    padding: 0 10px;
+    margin-left: -10px;
+    font-weight: bold;
+    background-color: var(--cor-fundo);
+    border-radius: 5px;
+}
+
+.form-filtro label {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    color: var(--cor-cinza-claro);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.form-filtro label:hover {
+    color: var(--cor-principal);
+}
+
+.form-filtro input[type="checkbox"] {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--cor-principal);
+    border-radius: 5px;
+    margin-right: 12px;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--cor-fundo);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-filtro input[type="checkbox"]:checked {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-avaliacao);
+}
+
+.form-filtro input[type="checkbox"]:checked::before {
+    content: '✓';
     display: block;
-    margin-bottom: 10px;
-    transition: color 0.3s;
+    color: var(--cor-fundo);
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.filme-card a:hover {
-    color: #ffffff;
+.form-filtro input[type="number"],
+.form-filtro select {
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-borda);
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: auto;
+    max-width: none;
+    margin-top: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Página de detalhes */
+.form-filtro input[type="number"]:focus,
+.form-filtro select:focus {
+    border-color: var(--cor-principal);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.3);
+}
+
+fieldset:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.form-filtro button {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+}
+
+.form-filtro button:hover {
+    background-color: #cc0000;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.6);
+}
+
+/* --- Página de Detalhes --- */
 .detalhes-container {
     max-width: 800px;
     margin: 40px auto;
-    background-color: #1f1f1f;
+    background-color: var(--cor-card-fundo);
     padding: 30px;
     border-radius: 15px;
     text-align: left;
@@ -330,9 +416,11 @@ footer {
 }
 
 .detalhes-container h2 {
-    color: #ff0000;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--cor-principal);
     font-size: 2.5rem;
     margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .detalhes-container img {
@@ -346,88 +434,31 @@ footer {
 .detalhes-container p {
     font-size: 1.1rem;
     margin-bottom: 15px;
-    color: #ddd;
+    color: var(--cor-cinza-claro);
 }
 
 .botao-voltar {
     display: inline-block;
     margin-top: 20px;
-    color: #66ccff;
+    color: var(--cor-destaque);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .botao-voltar:hover {
-    color: #ffffff;
-}
-/* Página de Personalização */
-.filtros-container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #1f1f1f;
-    border-radius: 15px;
-    color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-    text-align: left;
+    color: var(--cor-secundaria);
 }
 
-.filtros-container h2 {
+/* --- Rodapé --- */
+footer {
+    background-color: var(--cor-cinza-escuro);
     text-align: center;
-    color: #ff0000;
-    margin-bottom: 30px;
-    font-size: 2rem;
-}
-
-.form-filtro fieldset {
-    border: none;
-    margin-bottom: 25px;
-}
-
-.form-filtro legend {
-    font-size: 1.3rem;
-    color: #66ccff;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.form-filtro label {
-    display: block;
-    margin: 8px 0;
-    font-size: 1rem;
-    color: #ccc;
-}
-
-.form-filtro input[type="number"],
-.form-filtro select {
-    background-color: #2a2a2a;
-    color: #fff;
-    border: 1px solid #444;
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 1rem;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 5px;
-}
-
-.form-filtro button {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 12px 24px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: block;
-    margin: 20px auto 0;
-}
-
-.form-filtro button:hover {
-    background-color: #cc0000;
+    padding: 20px;
+    font-size: 1.2em;
+    color: var(--cor-secundaria);
+    border-top: 4px solid var(--cor-principal);
+    margin-top: 60px;
 }
 
 /* Resultado personalizado */
@@ -441,39 +472,80 @@ footer {
 .resultados-container h2 {
     color: #ff0000;
     margin-bottom: 30px;
-    font-size: 2rem;
+    font-size: 2.5rem; /* Ajustado para um tamanho mais impactante */
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
+/* Alterações para a grade de filmes */
 .filmes-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid; /* Usar grid é mais flexível e responsivo que flex */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Permite que os cards se adaptem */
     gap: 30px;
     justify-content: center;
+    padding: 0 10px; /* Adiciona um pequeno padding para telas pequenas */
 }
 
+/* Estilo para os cartões de filme */
 .filmes-grid .filme-card {
-    background-color: #222;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
+    background-color: #1e1e1e; /* Um tom de cinza mais escuro para o fundo do card */
+    padding: 15px;
+    border-radius: 12px;
     text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6); /* Sombra mais forte para dar profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+    border: 1px solid #333; /* Borda sutil */
+    overflow: hidden; /* Garante que a imagem respeite o border-radius */
+}
+
+.filmes-grid .filme-card:hover {
+    transform: translateY(-8px); /* Card "levanta" ao passar o mouse */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8); /* Sombra mais intensa no hover */
 }
 
 .filmes-grid .filme-card img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    height: 350px; /* Altura fixa para uniformidade */
+    object-fit: cover; /* Recorta a imagem para preencher o espaço */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+    margin-bottom: 12px;
+    transition: transform 0.3s ease; /* Transição para o zoom */
+}
+
+.filmes-grid .filme-card:hover img {
+    transform: scale(1.05); /* Pequeno zoom na imagem ao passar o mouse */
 }
 
 .filmes-grid .filme-card h3 {
     color: #ff0000;
     margin: 10px 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* Título um pouco maior */
+    line-height: 1.2;
 }
 
 .filmes-grid .filme-card p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #bbbbbb;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+/* Adicionando um estilo para a avaliação */
+.filmes-grid .filme-card p.avaliacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffd700; /* Cor dourada para a avaliação */
+}
+
+.filmes-grid .filme-card p.avaliacao strong {
+    font-weight: normal;
+}
+
+/* Responsividade adicional */
+@media (max-width: 500px) {
+    .filmes-grid {
+        grid-template-columns: 1fr; /* Em telas muito pequenas, uma coluna por filme */
+        padding: 0 20px;
+    }
 }
