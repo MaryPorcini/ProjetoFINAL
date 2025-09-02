@@ -22,19 +22,6 @@ def tudo():
     filmes = carregar_filmes()
     return render_template('tudo.html', filmes=filmes)
 
-@app.route('/generos')
-def pagina_generos():
-    generos = [
-        "Ficção", "Ação", "Aventura", "Romance", "Comédia", "Dorama", "Animação",
-        "Drama", "Terror", "Mistério", "Suspense", "Musical", "Fantasia", "Documentário"
-    ]
-    return render_template("generos.html", generos=generos)
-
-@app.route("/generos/<nome>")
-def filmes_do_genero(nome):
-    filmes = carregar_filmes()
-    filmes_genero = [f for f in filmes if nome.lower() in [g.lower() for g in f["generos"]]]
-    return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
 
 @app.route('/buscar')
 def buscar():
