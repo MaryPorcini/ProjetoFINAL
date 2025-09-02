@@ -3,7 +3,7 @@ import re
 
 app = Flask(__name__)
 
-# Função para carregar filmes do arquivo JSON e adicionar o slug
+# Mariany
 def carregar_filmes():
     with open('filmes.json', 'r', encoding='utf-8') as arquivo:
         filmes = json.load(arquivo)['filmes']
@@ -12,17 +12,19 @@ def carregar_filmes():
             f['slug'] = re.sub(r'[^a-z0-9]+', '-', f['titulo'].lower()).strip('-')  # cria slug
         return filmes
 
+#mariany
 @app.route('/')
 def index():
     filmes = carregar_filmes()
     return render_template('index.html', filmes=filmes)
 
+#mariany
 @app.route('/tudo')
 def tudo():
     filmes = carregar_filmes()
     return render_template('tudo.html', filmes=filmes)
 
-
+#mariany
 @app.route('/buscar')
 def buscar():
     termo = request.args.get('q', '').lower()
@@ -30,6 +32,7 @@ def buscar():
     resultados = [f for f in filmes if termo in f['titulo'].lower()]
     return render_template('buscar.html', termo=termo, resultados=resultados)
 
+#mariany
 @app.route('/filme/<slug>')
 def detalhes_filme(slug):
     filmes = carregar_filmes()
@@ -39,11 +42,13 @@ def detalhes_filme(slug):
     else:
         return "Filme não encontrado", 404
 
+#mariany
 @app.route('/personalizado')
 def personalizado():
     filmes = carregar_filmes()
     return render_template('personalizado.html', filmes=filmes)
 
+#mariany
 @app.route('/resultado_personalizado', methods=['POST'])
 def resultado_personalizado():
     filmes = carregar_filmes()
