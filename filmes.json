@@ -2543,7 +2543,7 @@
         "imagem":"static/images/the_childe.jpg",
         "sinopse": "Um jovem descendente de coreanos e filipinos viaja para a Coreia do Sul em busca de seu pai biológico e se vê envolvido em uma perigosa conspiração.",
         "data_lancamento": "2023-06-21",
-        "avaliacao": "3.8",
+        "avaliacao": 3.8,
         "generos": ["Ação", "Drama"]
     },
     {
@@ -2551,7 +2551,7 @@
         "imagem":"static/images/soulmate.jpg",
         "sinopse": "Duas amigas inseparáveis enfrentam os desafios do crescimento e das mudanças em seu relacionamento ao longo dos anos.",
         "data_lancamento": "2023-03-15",
-        "avaliacao": "3.6",
+        "avaliacao": 3.6,
         "generos": ["Drama", "Romance"]
     },
     {
