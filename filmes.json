@@ -615,7 +615,7 @@
       },      
       {
         "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-        "imagem": "static/images/piratas_do_caribe_navegando_por_aguas_misteriosas.jpg",
+        "imagem": "static/images/navegando_aguas.jpg",
         "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
         "data_lancamento": "2011-05-07",       
         "avaliacao": 4.5,
@@ -3537,15 +3537,7 @@
             "data_lancamento": "2022-01-13",
             "avaliacao": 4.1,
             "generos": ["Terror"]
-          },      
-          {
-            "titulo": "Piratas do Caribe: Navegando por Aguás Misteriosas",
-            "imagem": "static/images/piratas do caribe- navegando.jfif",
-            "sinopse": "Jack Sparrow e Barbossa embarcam em uma busca para encontrar a elusiva fonte da juventude, apenas para descobrir que Barba Negra e a filha também estão atrás dela.",
-            "data_lancamento": "2011-05-07",
-            "avaliacao": 3.8,
-            "generos": ["Aventura", "Ação", "Fantasia"]
-          },      
+          },           
           {
             "titulo": "Indiana Jones e o Reino da Caveira de Cristal",
             "imagem": "static/images/indiana jones.jpg",
@@ -4411,6 +4403,254 @@
         "data_lancamento": "2014",
         "avaliacao": 5,
         "generos": ["Documentário"]
+      },
+      {
+        "titulo": "Para Todos os Garotos que Ja Amei ",
+        "imagem":"static/images/para_todos_os_garotos_que_ja_amei.jpg",
+        "sinopse": "Lara Jean escreve cartas secretas para seus antigos amores, mas tudo muda quando essas cartas são enviadas por engano, expondo seus sentimentos e bagunçando sua vida amorosa.",
+        "data_lancamento": "17 de agosto de 2018",
+        "avaliacao": 4.1,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "Para Todos os Garotos que Ja Amei 2",
+        "imagem":"static/images/para_todos_os_garotos_que_ja_amei_2.jpg",
+        "sinopse": "Lara Jean está oficialmente namorando Peter, mas tudo se complica quando um antigo amor — outro destinatário de suas cartas .",
+        "data_lancamento": "12 de fevereiro de 2020",
+        "avaliacao": 3.9,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "Para Todos os Garotos que Ja Amei 3",
+        "imagem":"static/images/para_todos_os_garotos_que_ja_amei_3.jpg",
+        "sinopse": "No último ano do ensino médio, Lara Jean precisa decidir seu futuro — e se seu relacionamento com Peter fará parte dele.",
+        "data_lancamento": "12 de fevereiro de 2021. ",
+        "avaliacao": 4.5,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "A barraca do Beijo",
+        "imagem":"static/images/barraca_do_beijo.jpg",
+        "sinopse": "Elle se apaixona pelo irmão do seu melhor amigo, mas precisa escolher entre seguir seu coração ou manter uma amizade antiga.",
+        "data_lancamento": "11 de maio de 2018. ",
+        "avaliacao": 4.3,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "A barraca do Beijo 2",
+        "imagem":"static/images/barraca_do_beijo_2.jpg",
+        "sinopse": "Com Noah longe na faculdade, Elle enfrenta a distância, novas tentações e decisões importantes sobre seu futuro.",
+        "data_lancamento": "24 de julho de 2020",
+        "avaliacao": 4.3,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "A barraca do Beijo 3",
+        "imagem":"static/images/barraca_do_beijo_3.jpg",
+        "sinopse": "No verão antes da faculdade, Elle precisa escolher entre seguir Noah ou ir para a universidade com seu melhor amigo e decidir quem ela realmente quer ser.",
+        "data_lancamento": "11 de agosto de 2021  ",
+        "avaliacao": 2.5,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "Capitaes de areia",
+        "imagem":"static/images/capitaes_de_areia.jpg",
+        "sinopse": " Um grupo de meninos de rua luta para sobreviver em Salvador, enfrentando a pobreza, a exclusão e a busca por liberdade.",
+        "data_lancamento": "1937  ",
+        "avaliacao": 4.8,
+        "generos": ["Ficção"]
+      },
+      {
+        "titulo": "A Substancia",
+        "imagem":"static/images/a_substancia.jpg",
+        "sinopse": "Uma atriz de sucesso em decadência experimenta uma droga clandestina que cria uma versão mais jovem de si mesma mas agora precisa lidar com as consequências perturbadoras dessa nova versão.",
+        "data_lancamento": "20 de setembro de 2024",
+        "avaliacao": 2.5,
+        "generos": ["Terror"]
+      },
+      {
+        "titulo": "Aladdin - live Action",
+        "imagem":"static/images/aladdin_live_action.jpg",
+        "sinopse": "Um jovem ladrão encontra uma lâmpada mágica, liberta um gênio e tenta conquistar o coração da princesa Jasmine enquanto enfrenta um vilão ambicioso.",
+        "data_lancamento": "23 de maio de 2019",
+        "avaliacao": 4.5,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Prícipe da Pérsia",
+        "imagem":"static/images/principe_da_persia.jpg",
+        "sinopse": "Um príncipe rebelde une forças com uma princesa misteriosa para proteger uma adaga mágica capaz de controlar o tempo das mãos do mal.",
+        "data_lancamento": "3 de junho de 2010",
+        "avaliacao": 4.0,
+        "generos": ["Ação"]
+      },
+      {
+        "titulo": "Deuses do egito ",
+        "imagem":"static/images/deuses_do_egito.jpg",
+        "sinopse": " Um mortal se junta ao deus Hórus para salvar o Egito das garras de Set, o deus do caos, em uma batalha épica entre deuses e homens.",
+        "data_lancamento": "24 de fevereiro de 2016",
+        "avaliacao": 3.9,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Piratas do caribe a maldição do perola negra  ",
+        "imagem":"static/images/piratas_do_caribe_a_maldicao_do_perola_negra.jpg",
+        "sinopse": "O pirata Jack Sparrow se une a um ferreiro para resgatar a filha do governador e enfrentar uma tripulação amaldiçoada em busca de ouro roubado.",
+        "data_lancamento": "29 de agosto de 2003",
+        "avaliacao": 4.9,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Piratas do caribe - Báu da Morte  ",
+        "imagem":"static/images/piratas_do_caribe_bau_da_morte.jpg",
+        "sinopse": "Jack Sparrow descobre que deve pagar uma dívida com Davy Jones e parte em busca do lendário Baú da Morte para escapar de seu destino.",
+        "data_lancamento": "21 de julho de 2006",
+        "avaliacao": 4.9,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Piratas do caribe - No Fim do Mundo  ",
+        "imagem":"static/images/piratas_do_caribe_no_fim_do_mundo.jpg",
+        "sinopse": "Will, Elizabeth e o Capitão Barbossa embarcam em uma jornada perigosa para resgatar Jack Sparrow do mundo dos mortos e enfrentar uma guerra entre os piratas e a Companhia das Índias.",
+        "data_lancamento": "25 de maio de 2007",
+        "avaliacao": 4.9,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Piratas do caribe - A Vingança de Salazar ",
+        "imagem":"static/images/piratas_do_caribe_a_vinganca_de_salazar.jpg",
+        "sinopse": "O Capitão Jack Sparrow enfrenta o temível Capitão Salazar, que escapou do Triângulo do Diabo decidido a destruir todos os piratas, começando por Jack",
+        "data_lancamento": "25 de maio de 2017",
+        "avaliacao": 3.5,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Ainda Estou Aqui ",
+        "imagem":"static/images/ainda_estou_aqui.jpg",
+        "sinopse": "Eunice Paiva, mãe de família, transforma sua dor em luta após o desaparecimento do marido durante a ditadura militar",
+        "data_lancamento": "7 de novembro de 2024",
+        "avaliacao": 4.6,
+        "generos": ["Drama histórico"]
+      },
+      {
+        "titulo": "Wicked  ",
+        "imagem":"static/images/wicked.jpg",
+        "sinopse": "Duas jovens bruxas de Oz seguem caminhos opostos, entre amizade, magia e escolhas que moldam seus destinos.",
+        "data_lancamento": "22 de novembro de 2024",
+        "avaliacao": 4.1,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "Cinderella live Action  ",
+        "imagem":"static/images/cinderella_live_action.jpg",
+        "sinopse": "A bondosa Ella, forçada a servir sua própria família após a morte do pai, mantém a esperança até conhecer um príncipe e receber a ajuda de uma fada madrinha mágica que mudará seu destino",
+        "data_lancamento": "3 de setembro de 2021",
+        "avaliacao": 4.3,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "A Pequena Sereia live Action   ",
+        "imagem":"static/images/a_pequena_sereia_live_action.jpg",
+        "sinopse": "Ariel, uma jovem sereia fascinada pelo mundo humano, faz um acordo com a bruxa do mar Úrsula para viver na superfície, sacrifica sua voz e enfrenta novos desafios ao buscar o amor e descobrir sua própria voz.",
+        "data_lancamento": " 25 de maio de 2023",
+        "avaliacao": 3.0,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "A Pequena Sereia live Action   ",
+        "imagem":"static/images/a_pequena_sereia_live_action.jpg",
+        "sinopse": "Ariel, uma jovem sereia fascinada pelo mundo humano, faz um acordo com a bruxa do mar Úrsula para viver na superfície, sacrifica sua voz e enfrenta novos desafios ao buscar o amor e descobrir sua própria voz.",
+        "data_lancamento": " 25 de maio de 2023",
+        "avaliacao": 3.0,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "A Pequena Sereia",
+        "imagem":"static/images/a_pequena_sereia.jpg",
+        "sinopse": "Ariel, uma jovem sereia fascinada pelo mundo humano, faz um acordo com a bruxa do mar Úrsula para viver na superfície, sacrifica sua voz e enfrenta novos desafios ao buscar o amor e descobrir sua própria voz.",
+        "data_lancamento": "17 de novembro de 1989 ",
+        "avaliacao": 4.3,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "A Pequena Sereia 2",
+        "imagem":"static/images/a_pequena_sereia_2.jpg",
+        "sinopse": "Melody, filha de Ariel e Eric, é mantida longe do mar para protegê-la de Morgana, irmã de Úrsula. Mas, ao descobrir seu passado, ela se transforma em sereia e enfrenta perigos para salvar o reino subaquático.",
+        "data_lancamento": "19 de setembro de 2000 ",
+        "avaliacao": 3.6,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "A Pequena Sereia 3",
+        "imagem":"static/images/a_pequena_sereia_3.jpg",
+        "sinopse": "Ariel desafia regras para trazer a música de volta ao reino subaquático.",
+        "data_lancamento": "17 de setembro de 2008",
+        "avaliacao": 3.0,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "Branca de Neve live Action ",
+        "imagem":"static/images/branca_de_neve_live_action.jpg",
+        "sinopse": "Branca de Neve foge da madrasta má e une forças com os sete anões para salvar seu reino..",
+        "data_lancamento": "20 de março de 2025",
+        "avaliacao": 3.0,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "Espelho Espelho meu ",
+        "imagem":"static/images/espelho_espelho_meu.jpg",
+        "sinopse": "Uma jovem princesa embarca em uma aventura para recuperar seu reino das garras da madrasta malvada, com a ajuda de sete anões muito especiais.",
+        "data_lancamento": "30 de março de 2012",
+        "avaliacao": 3.5,
+        "generos": ["Fantasia"]
+      },
+      {
+        "titulo": "O Diário da Princesa ",
+        "imagem":"static/images/o_diario_da_princesa.jpg",
+        "sinopse": "Mia descobre que é princesa e precisa aprender a viver como realeza para assumir seu trono.",
+        "data_lancamento": "18 de janeiro de 2002",
+        "avaliacao": 4.8,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "O Diário da Princesa 2",
+        "imagem":"static/images/diario_da_princesa_2.jpg",
+        "sinopse": "Mia precisa se casar em 30 dias para se tornar rainha, mas descobre que o amor verdadeiro nem sempre segue regras reais.",
+        "data_lancamento": "7 de agosto de 2004",
+        "avaliacao": 4.5,
+        "generos": ["Romance"]
+      },
+      {
+        "titulo": "O Diabo Veste Prada",
+        "imagem":"static/images/o_diabo_veste_prada.jpg",
+        "sinopse": "Uma jovem aspirante a jornalista começa a trabalhar para uma exigente editora de moda e vê sua vida virar de cabeça para baixo..",
+        "data_lancamento": "22 de setembro de 2006",
+        "avaliacao": 4.8,
+        "generos": ["Comédia"]
+      },
+      {
+        "titulo": "Como Treinar o Seu Dragão 2",
+        "imagem":"static/images/como_treinar_seu_dragao_2.jpg",
+        "sinopse": "Soluço e Banguela descobrem uma caverna secreta com centenas de dragões e enfrentam uma nova ameaça que pode destruir a paz entre humanos e dragões",
+        "data_lancamento": "19 de junho de 2014",
+        "avaliacao": 4.8,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Como Treinar o Seu Dragão 3",
+        "imagem":"static/images/como_treinar_seu_dragao_3.jpg",
+        "sinopse": "Soluço e Banguela partem em busca de um mundo oculto para proteger os dragões, enquanto enfrentam um caçador perigoso e a difícil decisão de seguir caminhos diferentes",
+        "data_lancamento": "17 de janeiro de 2019",
+        "avaliacao": 4.8,
+        "generos": ["Aventura"]
+      },
+      {
+        "titulo": "Como Treinar o Seu Dragão - Live Action",
+        "imagem":"static/images/como_treinar_seu_dragao_live_action.jpg",
+        "sinopse": "Um jovem viking faz amizade com um dragão e desafia as tradições do seu povo, mudando o destino de ambos.",
+        "data_lancamento": "13 de junho de 2025",
+        "avaliacao": 4.5,
+        "generos": ["Aventura"]
       }
     ]
   }
