@@ -32,8 +32,9 @@ def index():
 @app.route('/tudo')
 def tudo():
     filmes = carregar_filmes()
-    return render_template('tudo.html', filmes=filmes)
     return render_template('index.html', filmes=all_filmes)
+    return render_template('tudo.html', filmes=filmes)
+    
 
 # Rota for the all movies page (filmes.html)
 @app.route('/filmes')
@@ -58,9 +59,17 @@ def pagina_generos():
 # Rota to display movies of a specific genre
 @app.route("/generos/<nome>")
 def filmes_do_genero(nome):
-    filmes = carregar_filmes()
-    filmes_genero = [f for f in filmes if nome.lower() in [g.lower() for g in f["generos"]]]
-    return render_template("filmes_genero.html", genero=nome, filmes=filmes_genero)
+    # Filter movies where the genre (lowercase) is in the movie's genre list
+    filmes_genero = [f for f in all_filmes if nome.lower() in [g.lower() for g in f.get("generos", [])]]
+    
+    # Debug prints for specific genre filtering
+    print(f"Buscando filmes para o gênero: '{nome}'")
+    print(f"Número de filmes encontrados para '{nome}': {len(filmes_genero)}")
+    # Uncomment the line below to see the actual filtered movies (for extensive debugging)
+    # print(filmes_genero)
+
+    # Render the filmes_generos.html template with the genre and filtered movies
+    return render_template("filmes_generos.html", genero=nome, filmes=filmes_genero)
 
 @app.route('/buscar')
 def buscar():
@@ -121,17 +130,7 @@ def resultado_personalizado():
             filtrados.append(f)
 
     return render_template('resultado_personalizado.html', filmes=filtrados)
-    # Filter movies where the genre (lowercase) is in the movie's genre list
-    filmes_genero = [f for f in all_filmes if nome.lower() in [g.lower() for g in f.get("generos", [])]]
     
-    # Debug prints for specific genre filtering
-    print(f"Buscando filmes para o gênero: '{nome}'")
-    print(f"Número de filmes encontrados para '{nome}': {len(filmes_genero)}")
-    # Uncomment the line below to see the actual filtered movies (for extensive debugging)
-    # print(filmes_genero)
-
-    # Render the filmes_generos.html template with the genre and filtered movies
-    return render_template("filmes_generos.html", genero=nome, filmes=filmes_genero)
 
 # Entry point to run the Flask application
 if __name__ == '__main__':

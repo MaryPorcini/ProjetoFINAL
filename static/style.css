@@ -326,6 +326,6 @@ header-generos {
 
 .search-box .mic {
     margin-left: auto;
-    color: var(--cor-cinza-claro);
+    color: #0d0d0d;
     cursor: pointer;
 }

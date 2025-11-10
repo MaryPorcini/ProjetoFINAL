@@ -1,14 +1,12 @@
 {
     "filmes": [
       {
-
         "titulo": "A autopsia de Jane Doe",
         "imagem": "static/images/a_autopsia_de_jane_doe.jpg",
         "sinopse": "Dois legistas, pai e filho, realizam a autópsia de um corpo desconhecido, Jane Doe. Durante o exame, eles descobrem mistérios e fenômenos sobrenaturais, que os levam a uma investigação assustadora sobre a identidade da mulher e os eventos que a cercam.",
         "data_lancamento": "2016-12-21",
         "avaliacao": 4.0,
         "generos": ["Terror", "Mistério", "Suspense"]
-      
       },
       {
        "titulo": "A Bruxa de blair",
