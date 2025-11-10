@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ filme.titulo }} - Detalhes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Estilos básicos para esta página de detalhes, você pode mover para style.css */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Fundo escuro */
+            color: #e0e0e0; /* Texto claro */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #333; /* Fundo do container mais claro */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para o container */
+            text-align: left;
+        }
+        h1 {
+            color: #e50914; /* Vermelho Netflix */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        strong {
+            color: #ccc;
+        }
+        .genre-list span {
+            display: inline-block;
+            background-color: #e50914;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #e50914;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #b20710;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ filme.titulo }}</h1>
+        <p><strong>Ano:</strong> {{ filme.ano }}</p>
+        <p><strong>Gêneros:</strong>
+            <span class="genre-list">
+                {% for genero in filme.generos %}
+                    <span>{{ genero }}</span>
+                {% endfor %}
+            </span>
+        </p>
+        <p><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
+        
+        <a href="javascript:history.back()" class="back-button">Voltar</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ genero }} - Filmes</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #e50914;
+            margin: 20px;
+        }
+        .filme-container { /* Adicionado para centralizar e organizar os filmes */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .filme-card { /* Renomeado de .filme para .filme-card para melhor clareza */
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 10px;
+            width: 200px; /* Largura fixa para os cards */
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+        .filme-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; /* Cantos levemente arredondados para a imagem */
+            object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+            aspect-ratio: 2/3; /* Proporção típica de pôster de filme */
+        }
+        .filme-card h3 {
+            margin-top: 10px;
+            font-size: 16px;
+            color: white;
+            min-height: 40px; /* Para manter o alinhamento se os títulos tiverem tamanhos diferentes */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .no-movies {
+            color: #ccc;
+            font-size: 1.2em;
+            margin-top: 50px;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            background-color: #e50914;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #ff3d47;
+        }
+    </style>
+</head>
+<body>
+    <h1>Filmes de {{ genero }}</h1>
+
+    <div class="filme-container">
+        {% if filmes %}
+            {% for filme in filmes %}
+                <div class="filme-card">
+                    <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
+                    <h3>{{ filme.titulo }}</h3>
+                    </div>
+            {% endfor %}
+        {% else %}
+            <p class="no-movies">Nenhum filme encontrado para esse gênero.</p>
+        {% endif %}
+    </div>
+
+    <a href="{{ url_for('pagina_generos') }}" class="back-button">Voltar aos Gêneros</a>
+</body>
+</html>

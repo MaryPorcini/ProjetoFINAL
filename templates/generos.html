@@ -2,13 +2,93 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genêros</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Gêneros - CINEpixel</title> {# <-- Título da aba #}
+    <style>
+        /* --- ESTILOS DO CABEÇALHO GLOBAL (Copie e Cole) --- */
+        .navbar {
+            background-color: #222;
+            padding: 15px 0;
+            border-bottom: 3px solid #e50914;
+            text-align: center;
+        }
+        .navbar .logo {
+            color: #e50914;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: block;
+            text-decoration: none;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .navbar ul li {
+            margin: 0 25px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .navbar ul li a:hover {
+            color: #e50914;
+        }
+        /* --- FIM DOS ESTILOS DO CABEÇALHO GLOBAL --- */
+
+        /* Seu estilo existente de generos.html (mantenha) */
+        body {
+            background-color: #111;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 0; /* Remova padding para evitar duplicidade com container */
+            margin: 0; /* Remova margem padrão do body */
+        }
+
+        h1 {
+            color: #e50914; /* Cor vermelha do Netflix */
+            margin-top: 40px; /* Adicione margem para afastar do cabeçalho */
+        }
+
+        .genero-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Espaçamento entre os botões */
+            margin-top: 30px;
+            padding: 20px; /* Adicione padding aqui, não no body */
+        }
+
+        .genero-btn {
+            background-color: #1c1c1c; /* Fundo escuro do botão */
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px; /* Cantos mais arredondados */
+            cursor: pointer;
+            transition: background 0.3s; /* Transição suave ao passar o mouse */
+            color: white;
+            text-decoration: none; /* Remover sublinhado do link */
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Sombra suave */
+        }
+
+        .genero-btn:hover {
+            background-color: #e50914; /* Mudar para vermelho ao passar o mouse */
+            color: white;
+        }
+    </style>
 </head>
 <body>
-   <header>
-        <h1>CINEpixel</h1>
+    <header class="navbar"> {# <-- COPIE E COLE ESTE BLOCO DE HTML #}
+        <a href="{{ url_for('index') }}" class="logo">CINEpixel</a>
         <nav>
             <ul>
                 <li><a href="/">Página Inicial</a></li>
@@ -18,14 +98,16 @@
                 <li><a href="#">Resenhas</a></li>
             </ul>
         </nav>
-    </header>
+    </header> {# <-- FIM DO BLOCO #}
 
-    <main class="generos-grid">
+    <h1>Escolha um Gênero</h1>
+
+    <div class="genero-container">
         {% for genero in generos %}
-            <a href="{{ url_for('filmes_do_genero', nome=genero) }}" class="genero-card">
-                <span>{{ genero }}</span>
+            <a class="genero-btn" href="{{ url_for('filmes_do_genero', nome=genero) }}">
+                {{ genero }}
             </a>
         {% endfor %}
-    </main>
+    </div>
 </body>
 </html>
