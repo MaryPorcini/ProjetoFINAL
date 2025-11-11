@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+
+
     <header>
         <h1>CINEpixel</h1>
         <nav>
@@ -20,7 +22,12 @@
     </header>
 
     <main class="resultados-container">
+
+        <a href="/personalizado" class="botao-voltar">← Voltar</a>
+
         <h2>Filmes recomendados</h2>
+
+
         {% if filmes %}
             <div class="filmes-grid">
                 {% for filme in filmes %}
@@ -38,11 +45,13 @@
         {% else %}
             <p>Nenhum filme encontrado com os critérios selecionados.</p>
         {% endif %}
+
         <a href="/personalizado" class="botao-voltar">← Voltar</a>
     </main>
 
     <footer>
         <p>&copy; 2025 CINEpixel</p>
     </footer>
+
 </body>
 </html>

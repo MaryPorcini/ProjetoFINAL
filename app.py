@@ -17,13 +17,11 @@ def carregar_filmes():
         print("Erro: O arquivo 'filmes.json' está mal formatado. Verifique a sintaxe JSON.")
         return []
 
-# Load all movies once when the app starts
+
 all_filmes = carregar_filmes()
 print(f"Total de filmes carregados na inicialização: {len(all_filmes)}")
-# Uncomment the line below to see all loaded movies (for extensive debugging)
-# print(all_filmes)
 
-# Rota for the home page (index.html)
+
 @app.route('/')
 def index():
     filmes = carregar_filmes()
@@ -32,28 +30,21 @@ def index():
 @app.route('/tudo')
 def tudo():
     filmes = carregar_filmes()
-    return render_template('index.html', filmes=all_filmes)
     return render_template('tudo.html', filmes=filmes)
     
 
-# Rota for the all movies page (filmes.html)
 @app.route('/filmes')
 def filmes():
     return render_template('filmes.html', filmes=all_filmes)
-
-# Rota for the genre listing page (generos.html)
+    
 @app.route('/generos')
 def pagina_generos():
-    # Define a fixed list of genres you want to display
-    # 'Ficção' foi alterado para 'Ficção Científica'
     generos_desejados = [
         "Romance", "Comédia", "Terror", "Suspense", "Animação",
         "Ação", "Aventura", "Ficção Científica", "Drama", "Mistério", "Fantasia", # <-- ALTERADO AQUI
         "Documentário", "Musical"
     ]
     
-    # Optional: You can still filter these based on what's actually in your movies.
-    # For now, we'll just use the desired list directly.
     return render_template("generos.html", generos=sorted(generos_desejados))
 
 # Rota to display movies of a specific genre
@@ -65,10 +56,8 @@ def filmes_do_genero(nome):
     # Debug prints for specific genre filtering
     print(f"Buscando filmes para o gênero: '{nome}'")
     print(f"Número de filmes encontrados para '{nome}': {len(filmes_genero)}")
-    # Uncomment the line below to see the actual filtered movies (for extensive debugging)
-    # print(filmes_genero)
 
-    # Render the filmes_generos.html template with the genre and filtered movies
+
     return render_template("filmes_generos.html", genero=nome, filmes=filmes_genero)
 
 @app.route('/buscar')

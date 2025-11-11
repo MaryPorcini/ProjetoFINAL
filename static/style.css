@@ -75,7 +75,7 @@ nav ul li a.active {
     box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
 }
 
-/* --- Seções de Carrossel e Filmes --- */
+/* --- Seções de Filmes --- */
 .filmes-container {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ nav ul li a.active {
     flex-shrink: 0;
 }
 
-/* --- Estilo unificado para os Cards de Filme --- */
+/* --- Estilo dos Cards de Filme --- */
 .filme-card {
     background-color: var(--cor-card-fundo);
     padding: 20px;
@@ -160,6 +160,7 @@ nav ul li a.active {
     margin-bottom: 10px;
 }
 
+/* --- Rodapé --- */
 footer {
     background-color: #111;
     text-align: center;
@@ -167,98 +168,6 @@ footer {
     font-size: 1.2em;
     color: #ffffff;
     border-top: 4px solid #ff0000;
-}
-body {
-    background-color: #121212;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #1f1f1f;
-    padding: 1rem;
-    text-align: center;
-}
-
-header a {
-    color: #66ccff;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
-h1 {
-    margin-bottom: 0.5rem;
-}
-
-.generos-grid {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-gap: 1rem;
-padding: 2rem;
-}
-
-.genero-card {
-    background-color: #2a2a2a;
-    border-radius: 12px;
-    padding: 2rem 1rem;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.genero-card:hover {
-    background-color: #444;
-    cursor: pointer;
-}
-
-header a:hover {
-    color: #ffffff;
-}
-
-main.generos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 20px;
-    padding: 40px 20px;
-}
-
-header-generos {
-    background: linear-gradient(to right, #1c1c1c, #292929);
-    padding: 30px 0 10px;
-    border-bottom: 4px solid #ff0000;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.header-generos h1 {
-    color: #ff0000;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.header-generos a {
-    color: #66ccff;
-    text-decoration: none;
-    font-size: 1rem;
-    color: var(--cor-cinza-claro);
-    margin-bottom: 6px;
-    line-height: 1.4;
-}
-
-.filme-card a {
-    text-decoration: none;
-    color: var(--cor-principal);
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-    transition: color 0.3s;
-}
-
-.filme-card a:hover {
-    color: var(--cor-secundaria);
 }
 
 /* --- Seção de Gêneros --- */
@@ -291,7 +200,7 @@ header-generos {
     box-shadow: 0 8px 15px rgba(255, 0, 0, 0.6);
 }
 
-/* --- Seção de Busca --- */
+/* --- Busca --- */
 #busca {
     display: flex;
     justify-content: center;
@@ -306,26 +215,204 @@ header-generos {
 .search-box {
     display: flex;
     align-items: center;
-    background-color: var(--cor-card-fundo);
+    background-color: #1a1a1a;
     border-radius: 30px;
     padding: 10px 16px;
-    border: 1px solid var(--cor-borda);
-    transition: box-shadow 0.3s ease;
+    border: 1px solid #444;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.05);
 }
 
 .search-box:focus-within {
-    box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.3);
+    border-color: var(--cor-principal);
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
 }
 
 .search-box .icon {
     color: var(--cor-cinza-medio);
     font-size: 20px;
     margin-right: 10px;
-    cursor: default;
 }
 
-.search-box .mic {
-    margin-left: auto;
-    color: #0d0d0d;
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    flex: 1;
+    padding: 8px;
+}
+
+.search-box input::placeholder {
+    color: var(--cor-cinza-medio);
+    opacity: 0.8;
+}
+
+.search-box input:focus {
+    color: var(--cor-secundaria);
+}
+
+/* --- PÁGINA DE FILTRO PERSONALIZADO --- */
+.filtros-container {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: #1a1a1a;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    border: 1px solid #333;
+    text-align: left;
+}
+
+.filtros-container h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: var(--cor-principal);
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}
+
+/* Fieldsets */
+.form-filtro fieldset {
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    background-color: #111;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.form-filtro legend {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+    padding: 0 10px;
+}
+
+/* Gêneros em grade */
+.form-filtro fieldset:first-of-type {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px 20px;
+}
+
+.form-filtro label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    color: var(--cor-cinza-claro);
     cursor: pointer;
+    transition: color 0.2s;
+}
+
+.form-filtro input[type="checkbox"] {
+    accent-color: var(--cor-principal);
+    width: 18px;
+    height: 18px;
+}
+
+.form-filtro label:hover {
+    color: var(--cor-destaque);
+}
+
+/* Inputs numéricos */
+.form-filtro input[type="number"] {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #fff;
+    padding: 8px 10px;
+    width: 120px;
+    transition: border-color 0.3s;
+}
+
+.form-filtro input[type="number"]:focus {
+    border-color: var(--cor-principal);
+    outline: none;
+}
+
+/* Select */
+.form-filtro select {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    width: 160px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-filtro select:focus {
+    border-color: var(--cor-principal);
+}
+
+/* Botão */
+.form-filtro button {
+    display: block;
+    width: 100%;
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.form-filtro button:hover {
+    background-color: #ff3333;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+/* --- RESULTADO PERSONALIZADO --- */
+.resultados-container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resultados-container h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: var(--cor-principal);
+    margin-bottom: 30px;
+}
+
+.filmes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid var(--cor-principal);
+    color: var(--cor-principal);
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.botao-voltar:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    transform: translateY(-2px);
+}
+.topo-voltar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
 }

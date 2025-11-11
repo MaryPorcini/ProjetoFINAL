@@ -2,9 +2,25 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Gêneros - CINEpixel</title> {# <-- Título da aba #}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEpixel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Filtro</a></li>
+                <li><a href="#">Resenhas</a></li>
+            </ul>
+        </nav>
+    </header>
     <style>
-        /* --- ESTILOS DO CABEÇALHO GLOBAL (Copie e Cole) --- */
+
         .navbar {
             background-color: #222;
             padding: 15px 0;
@@ -40,66 +56,64 @@
         .navbar ul li a:hover {
             color: #e50914;
         }
-        /* --- FIM DOS ESTILOS DO CABEÇALHO GLOBAL --- */
 
-        /* Seu estilo existente de generos.html (mantenha) */
-        body {
-            background-color: #111;
-            color: white;
-            font-family: sans-serif;
-            text-align: center;
-            padding: 0; /* Remova padding para evitar duplicidade com container */
-            margin: 0; /* Remova margem padrão do body */
-        }
+        
+    body {
+        background-color: var(--cor-fundo);
+        color: var(--cor-secundaria);
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+    }
 
-        h1 {
-            color: #e50914; /* Cor vermelha do Netflix */
-            margin-top: 40px; /* Adicione margem para afastar do cabeçalho */
-        }
+ 
+    header {
+        background: linear-gradient(to right, #1c1c1c, #292929);
+        padding: 30px 0;
+        border-bottom: 4px solid var(--cor-principal);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3em;
+        font-weight: bold;
+        color: var(--cor-principal);
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
 
         .genero-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 15px; /* Espaçamento entre os botões */
+            gap: 15px; 
             margin-top: 30px;
-            padding: 20px; /* Adicione padding aqui, não no body */
+            padding: 20px; 
         }
 
         .genero-btn {
-            background-color: #1c1c1c; /* Fundo escuro do botão */
+            background-color: #1c1c1c; 
             border: none;
             padding: 12px 20px;
-            border-radius: 12px; /* Cantos mais arredondados */
+            border-radius: 12px; 
             cursor: pointer;
-            transition: background 0.3s; /* Transição suave ao passar o mouse */
+            transition: background 0.3s; 
             color: white;
-            text-decoration: none; /* Remover sublinhado do link */
+            text-decoration: none; 
             font-weight: bold;
             font-size: 14px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Sombra suave */
+            box-shadow: 0 0 10px rgba(0,0,0,0.4); 
         }
 
         .genero-btn:hover {
-            background-color: #e50914; /* Mudar para vermelho ao passar o mouse */
+            background-color: #e50914; 
             color: white;
         }
+        
     </style>
 </head>
 <body>
-    <header class="navbar"> {# <-- COPIE E COLE ESTE BLOCO DE HTML #}
-        <a href="{{ url_for('index') }}" class="logo">CINEpixel</a>
-        <nav>
-            <ul>
-                <li><a href="/">Página Inicial</a></li>
-                <li><a href="/tudo">Filmes</a></li>
-                <li><a href="/generos">Genêros</a></li>
-                <li><a href="/personalizado">Filtro</a></li>
-                <li><a href="#">Resenhas</a></li>
-            </ul>
-        </nav>
-    </header> {# <-- FIM DO BLOCO #}
-
     <h1>Escolha um Gênero</h1>
 
     <div class="genero-container">
