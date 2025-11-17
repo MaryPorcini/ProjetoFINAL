@@ -18,16 +18,24 @@
             </ul>
         </nav>
     </header>
+<h2 style="margin-top: 20px;">{{ filme.titulo }}</h2>
 
-    <main class="detalhes-container">
+<div class="detalhes-container">
+    
+    <img src="/{{ filme.imagem }}" alt="{{ filme.titulo }}" class="poster-filme">
+
+    <div class="info-filme">
         <h2>{{ filme.titulo }}</h2>
-        <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
-        <p><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
-        <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
-        <p><strong>Data de lançamento:</strong> {{ filme.data_lancamento }}</p>
-        <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
-        <a href="/tudo" class="botao-voltar">← Voltar</a>
-    </main>
+        <p class="ano">{{ filme.ano }}</p>
+
+        <p>{{ filme.sinopse }}</p>
+
+        <p class="avaliacao">⭐ {{ filme.avaliacao }}/10</p>
+
+        <a href="/" class="botao-voltar">⬅ Voltar</a>
+    </div>
+</div>
+
 
     <footer>
         <p>&copy; 2025 CINEpixel</p>

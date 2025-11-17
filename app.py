@@ -3,29 +3,34 @@ import re
 
 app = Flask(__name__)
 
-# Function to load movie data from filmes.json
 def carregar_filmes():
     try:
         with open('filmes.json', 'r', encoding='utf-8') as arquivo:
             data = json.load(arquivo)
-            print("Conteúdo de 'filmes.json' carregado com sucesso.") # Debug print
             return data.get('filmes', [])
-    except FileNotFoundError:
-        print("Erro: O arquivo 'filmes.json' não foi encontrado. Certifique-se de que ele está na mesma pasta que 'app.py'.")
-        return []
-    except json.JSONDecodeError:
-        print("Erro: O arquivo 'filmes.json' está mal formatado. Verifique a sintaxe JSON.")
+    except:
         return []
 
+def criar_slug(texto):
+    return re.sub(r'[^a-z0-9]+', '-', texto.lower()).strip('-')
 
 all_filmes = carregar_filmes()
-print(f"Total de filmes carregados na inicialização: {len(all_filmes)}")
 
+# Adiciona slug automaticamente se não existir
+for f in all_filmes:
+    if 'slug' not in f:
+        f['slug'] = criar_slug(f['titulo'])
 
 @app.route('/')
 def index():
-    filmes = carregar_filmes()
-    return render_template('index.html', filmes=filmes)
+    return render_template('index.html', filmes=all_filmes)
+
+@app.route('/filme/<slug>')
+def detalhes_filme(slug):
+    filme = next((f for f in all_filmes if f['slug'] == slug), None)
+    if filme:
+        return render_template('detalhes.html', filme=filme)
+    return "Filme não encontrado", 404
 
 @app.route('/tudo')
 def tudo():
@@ -67,14 +72,7 @@ def buscar():
     resultados = [f for f in filmes if termo in f['titulo'].lower()]
     return render_template('buscar.html', termo=termo, resultados=resultados)
 
-@app.route('/filme/<slug>')
-def detalhes_filme(slug):
-    filmes = carregar_filmes()
-    filme = next((f for f in filmes if f['slug'] == slug), None)
-    if filme:
-        return render_template('detalhes.html', filme=filme)
-    else:
-        return "Filme não encontrado", 404
+
 
 @app.route('/personalizado')
 def personalizado():
