@@ -42,9 +42,8 @@
                     <h3>
                         <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
                     </h3>
-                    <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                    <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                    <p> ⭐ {{ filme.avaliacao }}</p>
                 </div>
                 {% endif %}
             {% endfor %}
@@ -64,9 +63,8 @@
                     <h3>
                         <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
                     </h3>
-                    <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                    <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                    <p> ⭐ {{ filme.avaliacao }}</p>
                 </div>
                 {% endif %}
             {% endfor %}
@@ -85,9 +83,8 @@
                 <h3>
                     <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
                 </h3>
-                <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
-                <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                    <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                    <p> ⭐ {{ filme.avaliacao }}</p>
             </div>
             {% endfor %}
         </div>
@@ -106,9 +103,8 @@
                     <h3>
                         <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
                     </h3>
-                    <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                     <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                    <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                    <p> ⭐ {{ filme.avaliacao }}</p>
                 </div>
                 {% endif %}
             {% endfor %}

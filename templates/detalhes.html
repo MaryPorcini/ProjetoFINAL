@@ -18,19 +18,20 @@
             </ul>
         </nav>
     </header>
-<h2 style="margin-top: 20px;">{{ filme.titulo }}</h2>
+<h2 style="margin-top: 20px;">Informações gerais</h2>
 
 <div class="detalhes-container">
     
-    <img src="/{{ filme.imagem }}" alt="{{ filme.titulo }}" class="poster-filme">
+    <img class="poster-filme" src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
 
     <div class="info-filme">
         <h2>{{ filme.titulo }}</h2>
-        <p class="ano">{{ filme.ano }}</p>
+        <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+        <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
 
-        <p>{{ filme.sinopse }}</p>
+        <p class="genero"><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
 
-        <p class="avaliacao">⭐ {{ filme.avaliacao }}/10</p>
+        <p class="avaliacao">⭐ {{ filme.avaliacao }}</p>
 
         <a href="/" class="botao-voltar">⬅ Voltar</a>
     </div>

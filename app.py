@@ -34,8 +34,7 @@ def detalhes_filme(slug):
 
 @app.route('/tudo')
 def tudo():
-    filmes = carregar_filmes()
-    return render_template('tudo.html', filmes=filmes)
+    return render_template('tudo.html', filmes=all_filmes)
     
 
 @app.route('/filmes')

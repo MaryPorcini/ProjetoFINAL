@@ -38,10 +38,8 @@
                     <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
                 </a>
                 <h3>{{ filme.titulo }}</h3>
-                <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
                 <p><strong>Data de Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
-                <p>{{ filme.sinopse }}</p>
+                <p> ⭐ {{ filme.avaliacao }}</p>
             </div>
             {% endfor %}
         </div>
