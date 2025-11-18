@@ -1096,3 +1096,21 @@ footer {
     padding: 20px;
     flex-wrap: wrap;
 }
+
+.home-link {
+    /* Estas propriedades garantem que o elemento se comporte como um bloco
+       e que o texto dentro dele seja centralizado */
+    display: block; 
+    text-align: center;
+    
+    /* Demais estilos do botão... */
+    margin-top: 20px; 
+    padding: 10px;
+    width: 100%; /* Use 100% para que ele ocupe toda a largura do contêiner */
+    /* ...outras propriedades de cor/borda... */
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
