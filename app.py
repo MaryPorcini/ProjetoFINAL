@@ -95,10 +95,21 @@ def resultado_personalizado():
             filtrados.append(f)
 
     return render_template('resultado_personalizado.html', filmes=filtrados)
+
 @app.route('/login')
 def login():
     filmes = carregar_filmes()
     return render_template('login.html', filmes=filmes)
+
+@app.route('/pagina_inicial')
+def pagina_inicial():
+    if 'username' in session:
+        username = session['username']
+        # Mude o nome do template aqui também
+        return render_template('pagina_inicial.html', username=username)
+    else:
+        # A rota de login continua a mesma
+        return redirect(url_for('login'))
 
 if __name__ == '__main__':
     app.run(debug=True)
