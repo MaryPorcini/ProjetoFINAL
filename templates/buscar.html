@@ -34,14 +34,14 @@
         {% if resultados %}
             <div class="filmes-container">
                 {% for filme in resultados %}
-                <div class="filme-card">
-                    <img src="{{ filme['imagem'] }}" alt="{{ filme['titulo'] }}">
-                    <h3>{{ filme['titulo'] }}</h3>
-                    <p><strong>Gêneros:</strong> {{ ', '.join(filme['generos']) }}</p>
-                    <p><strong>Data de Lançamento:</strong> {{ filme['data_lancamento'] }}</p>
-                    <p><strong>Avaliação:</strong> ⭐ {{ filme['avaliacao'] }}</p>
-                    <p>{{ filme['sinopse'] }}</p>
-                </div>
+                <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}" style="text-decoration: none;">
+                    <div class="filme-card">
+                        <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
+                        <h3>{{ filme.titulo }}</h3>
+                        <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                        <p> ⭐ {{ filme.avaliacao }}</p>
+                    </div>
+                </a>
                 {% endfor %}
             </div>
         {% else %}

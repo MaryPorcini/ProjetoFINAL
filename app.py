@@ -67,8 +67,8 @@ def filmes_do_genero(nome):
 @app.route('/buscar')
 def buscar():
     termo = request.args.get('q', '').lower()
-    filmes = carregar_filmes()
-    resultados = [f for f in filmes if termo in f['titulo'].lower()]
+    # Usamos all_filmes, pois ela já contém os slugs gerados no início do script
+    resultados = [f for f in all_filmes if termo in f['titulo'].lower()] 
     return render_template('buscar.html', termo=termo, resultados=resultados)
 
 
