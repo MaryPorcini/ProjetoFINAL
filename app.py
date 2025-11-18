@@ -80,7 +80,9 @@ def personalizado():
 
 @app.route('/resultado_personalizado', methods=['POST'])
 def resultado_personalizado():
-    filmes = carregar_filmes()
+    # IMPORTANTE: Usamos all_filmes aqui para garantir que os filmes tenham o 'slug'
+    filmes = all_filmes 
+    
     generos_selecionados = request.form.getlist('generos')
     ano_min = request.form.get('ano_min')
     ano_max = request.form.get('ano_max')
@@ -95,7 +97,7 @@ def resultado_personalizado():
         try:
             ano_lancamento = int(f['data_lancamento'].split('-')[0])
         except:
-            ano_lancamento = 0  # ou continue se preferir ignorar filmes sem data válida
+            ano_lancamento = 0 
 
         ano_ok = True
         if ano_min and ano_lancamento < int(ano_min):

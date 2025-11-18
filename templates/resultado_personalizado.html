@@ -27,20 +27,19 @@
 
         <h2>Filmes recomendados</h2>
 
-
         {% if filmes %}
-            <div class="filmes-grid">
-                {% for filme in filmes %}
-                    <div class="filme-card">
-                        <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
-                            <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
-                        </a>
-                        <h3>{{ filme.titulo }}</h3>
-                        <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
-                        <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
-                        <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
-                    </div>
-                {% endfor %}
+        <div class="filmes-grid">
+            {% for filme in filmes %}
+            <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}" style="text-decoration: none;">
+                <div class="filme-card">
+                    <img src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}" alt="{{ filme.titulo }}">
+                    <h3>{{ filme.titulo }}</h3>
+                    <p><strong>Gêneros:</strong> {{ ', '.join(filme.generos) }}</p>
+                    <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                    <p><strong>Avaliação:</strong> ⭐ {{ filme.avaliacao }}</p>
+                </div>
+            </a>
+        {% endfor %}
             </div>
         {% else %}
             <p>Nenhum filme encontrado com os critérios selecionados.</p>
