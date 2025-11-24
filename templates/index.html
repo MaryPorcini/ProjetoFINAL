@@ -15,7 +15,7 @@
                 <li><a href="/tudo">Filmes</a></li>
                 <li><a href="/generos">Gêneros</a></li>
                 <li><a href="/personalizado">Filtro</a></li>
-                <li><a href="#">Resenhas</a></li>
+                <li><a href="#">Favoritos</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
     <!-- SEÇÃO: Grandes Sucessos -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Grandes Sucessos</h2>
-        <div class="carrossel" id="carrossel-sucessos">
+        <div class="carrossel" id="carrossel-grandes">
             {% for filme in filmes %}
                 {% if filme.avaliacao > 4.5 %}
                 <div class="filme-card">
@@ -53,7 +53,7 @@
     <!-- SEÇÃO: Velozes e Furiosos -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Velozes e Furiosos</h2>
-        <div class="carrossel" id="carrossel-furiosos">
+        <div class="carrossel" id="carrossel-velozes">
             {% for filme in filmes %}
                 {% if 'velozes' in filme.titulo.lower() or 'furiosos' in filme.titulo.lower() %}
                 <div class="filme-card">
@@ -74,7 +74,7 @@
     <!-- SEÇÃO: Filmes para a família -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Filmes para a família</h2>
-        <div class="carrossel" id="carrossel-familia">
+        <div class="carrossel" id="carrossel-desenhos">
             {% for filme in filmes if 'Animação' in filme['generos'] %}
             <div class="filme-card">
                 <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
@@ -93,7 +93,7 @@
     <!-- SEÇÃO: Harry Potter -->
     <section class="carrossel-section">
         <h2 class="titulo-carrossel">Harry Potter</h2>
-        <div class="carrossel" id="carrossel-harry">
+        <div class="carrossel" id="carrossel-potter">
             {% for filme in filmes %}
                 {% if 'harry' in filme.titulo.lower() or 'potter' in filme.titulo.lower() %}
                 <div class="filme-card">
