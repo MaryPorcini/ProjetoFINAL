@@ -18,6 +18,7 @@
             </ul>
         </nav>
     </header>
+
 <h2 style="margin-top: 20px;">Informações gerais</h2>
 
 <div class="detalhes-container">
@@ -33,13 +34,19 @@
 
         <p class="avaliacao">⭐ {{ filme.avaliacao }}</p>
 
-    <a href="javascript:history.back()" class="botao-voltar">⬅ Voltar</a>
+        {% if filme.trailer %}
+        <a href="{{ url_for('assistir_trailer', slug=filme.slug) }}" 
+           class="botao-voltar" >
+            🎬 Assistir Trailer
+        </a>
+        {% endif %}
+
+        <a href="javascript:history.back()" class="botao-voltar">⬅ Voltar</a>
     </div>
 </div>
 
-
-    <footer>
-        <p>&copy; 2025 CINEpixel</p>
-    </footer>
+<footer>
+    <p>&copy; 2025 CINEpixel</p>
+</footer>
 </body>
 </html>

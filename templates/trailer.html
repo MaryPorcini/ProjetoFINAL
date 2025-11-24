@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trailer - {{ filme.titulo }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            min-height: 100vh;
+        }
+
+        iframe {
+            width: 80%;
+            height: 60vh;
+            border-radius: 12px;
+        }
+
+        .botao {
+            margin-top: 20px;
+            background: #e50914;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        .botao:hover {
+            background: #b20610;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎬 Trailer - {{ filme.titulo }}</h1>
+
+    {% if filme.trailer %}
+        <iframe src="{{ filme.trailer }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    {% else %}
+        <p>Trailer não disponível 😢</p>
+    {% endif %}
+
+    <a href="/" class="botao-voltar">⬅ Voltar</a>
+
+</body>
+</html>
