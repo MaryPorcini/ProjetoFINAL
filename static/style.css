@@ -511,3 +511,55 @@ footer {
 .favorito-btn:active {
     transform: scale(1.5);
 }
+
+/* Botão do coração (favoritar) */
+.favorito-btn {
+    background: none;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+    padding: 5px;
+}
+
+/* Efeito ao passar o mouse */
+.favorito-btn:hover {
+    transform: scale(1.25);
+}
+
+/* Clique com animação (pequeno pulso) */
+.favorito-btn:active {
+    transform: scale(0.8);
+}
+
+/* Quando estiver marcado como favorito */
+.favorito-btn.ativo {
+    animation: pop 0.25s ease;
+}
+
+/* Animação do pop */
+@keyframes pop {
+    0% { transform: scale(1); }
+    40% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+/* Coração favorito */
+.heart-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Suave ao passar o mouse */
+.heart-btn:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
+/* Leve pressão no clique */
+.heart-btn:active {
+    transform: scale(0.9);
+    opacity: 0.6;
+}

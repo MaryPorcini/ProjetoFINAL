@@ -42,15 +42,15 @@
         {% endif %}
 
         <a href="javascript:history.back()" class="botao-voltar">⬅ Voltar</a>
-        <form action="{{ url_for('favoritar', slug=filme.slug) }}" method="POST" style="display:inline;">
-            <button type="submit" style="background:none;border:none;font-size:28px;cursor:pointer;">
-                {% if filme.slug in session.get('favoritos', []) %}
-                    ❤️
-                {% else %}
-                    🤍
-                {% endif %}
-            </button>
-        </form>
+<form action="{{ url_for('favoritar', slug=filme.slug) }}" method="POST" style="display:inline;">
+    <button type="submit" class="heart-btn">
+        {% if filme.slug in session.get('favoritos', []) %}
+            ❤️
+        {% else %}
+            🤍
+        {% endif %}
+    </button>
+</form>
     </div>
 </div>
 

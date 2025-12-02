@@ -27,9 +27,9 @@
         {% for filme in filmes %}
         <div class="filme-card">
             <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
-                <img class="poster" src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}">
-                <p>{{ filme.titulo }}</p>
+                <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
             </a>
+            <h3>{{ filme.titulo }}</h3>
         </div>
         {% endfor %}
     {% else %}
