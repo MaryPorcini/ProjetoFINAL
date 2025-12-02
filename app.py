@@ -1,10 +1,11 @@
-from flask import Flask, render_template, json, request, redirect, url_for
+from flask import Flask, render_template, json, request, redirect, url_for, session
 import re
-from googleapiclient.discovery import build  # <--- IMPORTANTE
+from googleapiclient.discovery import build
 
-app = Flask(__name__)
+app = Flask(__name__)  # <-- Primeiro cria o app
+app.secret_key = "CINEpixel-secret"  # <-- Depois define a secret key
 
-YOUTUBE_API_KEY = "AIzaSyCowslHbbRYumq5zksi7nji8RAlDbghPgs"  # <--- COLE SUA API KEY AQUI
+YOUTUBE_API_KEY = "AIzaSyCowslHbbRYumq5zksi7nji8RAlDbghPgs"
 
 
 def carregar_filmes():
@@ -20,7 +21,7 @@ def criar_slug(texto):
     return re.sub(r'[^a-z0-9]+', '-', texto.lower()).strip('-')
 
 
-# Função para buscar trailer no YouTube
+# Buscar trailer no YouTube
 def buscar_trailer(titulo):
     youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
@@ -40,6 +41,7 @@ def buscar_trailer(titulo):
 
 all_filmes = carregar_filmes()
 
+# Criar slug se não tiver
 for f in all_filmes:
     if 'slug' not in f:
         f['slug'] = criar_slug(f['titulo'])
@@ -53,11 +55,11 @@ def index():
 @app.route('/filme/<slug>')
 def detalhes_filme(slug):
     filme = next((f for f in all_filmes if f['slug'] == slug), None)
-    
+
     if filme:
-        filme["trailer"] = buscar_trailer(filme["titulo"])  # <--- AQUI
+        filme["trailer"] = buscar_trailer(filme["titulo"])
         return render_template('detalhes.html', filme=filme)
-    
+
     return "Filme não encontrado", 404
 
 
@@ -84,8 +86,6 @@ def pagina_generos():
 @app.route("/generos/<nome>")
 def filmes_do_genero(nome):
     filmes_genero = [f for f in all_filmes if nome.lower() in [g.lower() for g in f.get("generos", [])]]
-    print(f"Buscando filmes para o gênero: '{nome}'")
-    print(f"Número de filmes encontrados para '{nome}': {len(filmes_genero)}")
 
     return render_template("filmes_generos.html", genero=nome, filmes=filmes_genero)
 
@@ -93,7 +93,7 @@ def filmes_do_genero(nome):
 @app.route('/buscar')
 def buscar():
     termo = request.args.get('q', '').lower()
-    resultados = [f for f in all_filmes if termo in f['titulo'].lower()] 
+    resultados = [f for f in all_filmes if termo in f['titulo'].lower()]
     return render_template('buscar.html', termo=termo, resultados=resultados)
 
 
@@ -105,8 +105,8 @@ def personalizado():
 
 @app.route('/resultado_personalizado', methods=['POST'])
 def resultado_personalizado():
-    filmes = all_filmes 
-    
+    filmes = all_filmes
+
     generos_selecionados = request.form.getlist('generos')
     ano_min = request.form.get('ano_min')
     ano_max = request.form.get('ano_max')
@@ -115,11 +115,11 @@ def resultado_personalizado():
     filtrados = []
     for f in filmes:
         genero_ok = any(g in f['generos'] for g in generos_selecionados) if generos_selecionados else True
-        
+
         try:
             ano_lancamento = int(f['data_lancamento'].split('-')[0])
         except:
-            ano_lancamento = 0 
+            ano_lancamento = 0
 
         ano_ok = True
         if ano_min and ano_lancamento < int(ano_min):
@@ -140,13 +140,36 @@ def resultado_personalizado():
     return render_template('resultado_personalizado.html', filmes=filtrados)
 
 
+# --- Favoritar Sistema ----
+@app.route('/favoritar/<slug>', methods=['POST'])
+def favoritar(slug):
+    favoritos = session.get("favoritos", [])
+
+    if slug in favoritos:
+        favoritos.remove(slug)
+    else:
+        favoritos.append(slug)
+
+    session["favoritos"] = favoritos
+    return redirect(request.referrer)
+
+
+@app.route('/favoritos')
+def pagina_favoritos():
+    favoritos_slugs = session.get("favoritos", [])
+    filmes_favoritos = [f for f in all_filmes if f["slug"] in favoritos_slugs]
+
+    return render_template("favoritos.html", filmes=filmes_favoritos)
+
+
 @app.route('/trailer/<slug>')
 def assistir_trailer(slug):
     filme = next((f for f in all_filmes if f['slug'] == slug), None)
     if filme:
         return render_template('trailer.html', filme=filme)
-    
-    return "Trailer não encontrado", 404  
+
+    return "Trailer não encontrado", 404
+
 
 if __name__ == '__main__':
     app.run(debug=True)

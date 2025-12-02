@@ -14,7 +14,7 @@
                 <li><a href="/tudo">Filmes</a></li>
                 <li><a href="/generos">Gêneros</a></li>
                 <li><a href="/personalizado">Filtro</a></li>
-                <li><a href="#">Favoritos</a></li>
+                <li><a href="/favoritos">Favoritos</a></li>
             </ul>
         </nav>
     </header>
@@ -42,6 +42,15 @@
         {% endif %}
 
         <a href="javascript:history.back()" class="botao-voltar">⬅ Voltar</a>
+        <form action="{{ url_for('favoritar', slug=filme.slug) }}" method="POST" style="display:inline;">
+            <button type="submit" style="background:none;border:none;font-size:28px;cursor:pointer;">
+                {% if filme.slug in session.get('favoritos', []) %}
+                    ❤️
+                {% else %}
+                    🤍
+                {% endif %}
+            </button>
+        </form>
     </div>
 </div>
 

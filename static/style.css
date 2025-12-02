@@ -494,3 +494,20 @@ footer {
         max-width: 400px;
     }
 }
+/* Ícone de favorito (detalhes do filme) */
+.favorito-btn {
+    font-size: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Quando estiver favoritado */
+.favorito-btn.active {
+    color: var(--cor-principal);
+    transform: scale(1.3);
+}
+
+/* Efeito feedback ao clicar */
+.favorito-btn:active {
+    transform: scale(1.5);
+}

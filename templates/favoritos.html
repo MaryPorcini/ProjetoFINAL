@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEpixel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CINEpixel</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/tudo">Filmes</a></li>
+                <li><a href="/generos">Gêneros</a></li>
+                <li><a href="/personalizado">Filtro</a></li>
+                <li><a href="/favoritos">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h2 style="margin-top: 20px;">Filmes Favoritados</h2>
+
+<div class="carrossel">
+    {% if filmes %}
+        {% for filme in filmes %}
+        <div class="filme-card">
+            <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                <img class="poster" src="{{ url_for('static', filename=filme.imagem.replace('static/', '')) }}">
+                <p>{{ filme.titulo }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p style="color:white;">Nenhum filme favoritado ainda</p>
+    {% endif %}
+</div>
+
+<footer>
+    <p>&copy; 2025 CINEpixel</p>
+</footer>
+
+</body>
+</html>

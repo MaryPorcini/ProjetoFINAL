@@ -15,7 +15,7 @@
                 <li><a href="/tudo">Filmes</a></li>
                 <li><a href="/generos">Gêneros</a></li>
                 <li><a href="/personalizado">Filtro</a></li>
-                <li><a href="#">Favoritos</a></li>
+                <li><a href="/favoritos">Favoritos</a></li>
             </ul>
         </nav>
     </header>
@@ -110,6 +110,33 @@
             {% endfor %}
         </div>
     </section>
+
+    <!-- SEÇÃO: Maze Runner + Jogos Vorazes -->
+<section class="carrossel-section">
+    <h2 class="titulo-carrossel">Trilogias de Sucesso</h2>
+    <div class="carrossel" id="carrossel-distorpias">
+        {% for filme in filmes %}
+            {% set titulo_lower = filme.titulo.lower() %}
+            
+            {% if ('maze' in titulo_lower or 'runner' in titulo_lower) 
+                  or 
+                  ('jogos' in titulo_lower or 'vorazes' in titulo_lower or 'hunger' in titulo_lower) %}
+            
+            <div class="filme-card">
+                <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">
+                    <img src="{{ filme.imagem }}" alt="{{ filme.titulo }}">
+                </a>
+                <h3>
+                    <a href="{{ url_for('detalhes_filme', slug=filme.slug) }}">{{ filme.titulo }}</a>
+                </h3>
+                <p><strong>Lançamento:</strong> {{ filme.data_lancamento }}</p>
+                <p>⭐ {{ filme.avaliacao }}</p>
+            </div>
+
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
 
     <footer>
         <p>&copy; 2025 CINEpixel</p>
